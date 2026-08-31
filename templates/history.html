@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prediction History - Enterprise Analytics</title>
+  
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/theme.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/history.css') }}">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <!-- Full Page Cyber Background -->
+  <div class="cyber-background">
+    <div class="grid-layer"></div>
+    <div class="glow-layer"></div>
+    <div class="particles" id="particles-container"></div>
+  </div>
+
+  <div class="app-layout">
+    
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <div class="icon"><i class='bx bx-shield-quarter'></i></div>
+        <div>
+          <h2>TRA</h2>
+          <p>Transaction Risk Analysis</p>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="/dashboard" class="nav-item">
+          <i class='bx bx-grid-alt'></i> <span>Dashboard</span>
+        </a>
+        <a href="/new_transaction" class="nav-item">
+          <i class='bx bx-credit-card-front'></i> <span>New Transaction</span>
+        </a>
+        <a href="/history" class="nav-item active">
+          <i class='bx bx-history'></i> <span>Prediction History</span>
+        </a>
+        <a href="/reports" class="nav-item">
+          <i class='bx bx-bar-chart-alt-2'></i> <span>Reports</span>
+        </a>
+        <a href="/logout" class="nav-item" style="margin-top: auto; color: var(--danger-light);">
+          <i class='bx bx-log-out'></i> <span>Logout</span>
+        </a>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+      
+      <!-- HEADER -->
+      <header class="app-header fade-in">
+        <div class="header-title">
+          <h1>Prediction History</h1>
+          <p>Review all previously analyzed transactions and fraud predictions</p>
+        </div>
+        
+        <div class="header-actions">
+          <div class="datetime-pill">
+            <i class='bx bx-calendar'></i> <span id="liveDate"></span>
+            <i class='bx bx-time-five' style="margin-left:8px;"></i> <span id="liveClock"></span>
+          </div>
+          
+          <div class="user-profile">
+            <div class="user-avatar"><i class='bx bx-user'></i></div>
+            <div class="user-info">
+              <h4>Analyst</h4>
+              <span>Operations</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- KPI GRID -->
+      <div class="dashboard-cards" style="display:grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 30px;">
+        <div class="glass-card slide-up delay-1" data-bg-theme="bg-dashboard-total" style="padding: 20px; display:flex; align-items:center; gap:20px;">
+          <div style="width:50px; height:50px; border-radius:12px; display:flex; justify-content:center; align-items:center; background:var(--primary-light); color:white; font-size:24px; box-shadow:var(--shadow-glow);"><i class='bx bx-data'></i></div>
+          <div>
+            <p style="font-size:12px; color:var(--text-muted);">Total Predictions</p>
+            <h2 id="kpi-total" style="font-size:28px;">0</h2>
+          </div>
+        </div>
+        
+        <div class="glass-card slide-up delay-2" data-bg-theme="bg-dashboard-high" style="padding: 20px; display:flex; align-items:center; gap:20px;">
+          <div style="width:50px; height:50px; border-radius:12px; display:flex; justify-content:center; align-items:center; background:var(--danger); color:white; font-size:24px; box-shadow:0 0 15px rgba(239, 68, 68, 0.4);"><i class='bx bx-shield-x'></i></div>
+          <div>
+            <p style="font-size:12px; color:var(--text-muted);">High Risk</p>
+            <h2 id="kpi-high" style="font-size:28px;">0</h2>
+          </div>
+        </div>
+
+        <div class="glass-card slide-up delay-3" data-bg-theme="bg-dashboard-medium" style="padding: 20px; display:flex; align-items:center; gap:20px;">
+          <div style="width:50px; height:50px; border-radius:12px; display:flex; justify-content:center; align-items:center; background:var(--warning); color:white; font-size:24px; box-shadow:0 0 15px rgba(245, 158, 11, 0.4);"><i class='bx bx-error-circle'></i></div>
+          <div>
+            <p style="font-size:12px; color:var(--text-muted);">Medium Risk</p>
+            <h2 id="kpi-medium" style="font-size:28px;">0</h2>
+          </div>
+        </div>
+
+        <div class="glass-card slide-up delay-4" data-bg-theme="bg-dashboard-low" style="padding: 20px; display:flex; align-items:center; gap:20px;">
+          <div style="width:50px; height:50px; border-radius:12px; display:flex; justify-content:center; align-items:center; background:var(--success); color:white; font-size:24px; box-shadow:0 0 15px rgba(16, 185, 129, 0.4);"><i class='bx bx-check-shield'></i></div>
+          <div>
+            <p style="font-size:12px; color:var(--text-muted);">Low Risk</p>
+            <h2 id="kpi-low" style="font-size:28px;">0</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- TABLE CONTAINER -->
+      <div class="glass-card slide-up delay-4" data-bg-theme="bg-history-table" style="padding: 25px;">
+        
+        <!-- TOOLBAR -->
+        <div class="toolbar">
+          <div class="filters-group">
+            <div class="filter-item">
+              <i class='bx bx-search'></i>
+              <input type="text" id="search-input" placeholder="Search transactions...">
+            </div>
+            <div class="filter-item">
+              <select id="filter-risk">
+                <option value="all">All Risks</option>
+                <option value="High">High Risk</option>
+                <option value="Medium">Medium Risk</option>
+                <option value="Low">Low Risk</option>
+              </select>
+            </div>
+            <div class="filter-item">
+              <input type="date" id="filter-date">
+            </div>
+            <button class="btn btn-outline" id="btn-reset"><i class='bx bx-refresh'></i> Reset</button>
+          </div>
+          
+          <div class="actions-group">
+            <button class="btn btn-outline" onclick="showToast('CSV Export functionality not configured', 'warning')"><i class='bx bx-download'></i> CSV</button>
+            <button class="btn btn-outline" onclick="window.print()"><i class='bx bx-printer'></i> Print</button>
+          </div>
+        </div>
+
+        <!-- TABLE -->
+        <div class="table-responsive">
+          <table id="history-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Location</th>
+                <th>Payment</th>
+                <th>Amount</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Risk Assessment</th>
+              </tr>
+            </thead>
+            <tbody id="table-body">
+              {% for row in records %}
+              <tr class="data-row">
+                <td>#{{ row[0] }}</td>
+                <td class="cell-date">{{ row[7] }}</td>
+                <td>{{ row[8] }}</td>
+                <td>{{ row[5] }}</td>
+                <td>{{ row[4] }}</td>
+                <td style="font-weight:600;">₹{{ row[3] }}</td>
+                <td>{{ row[1] }}</td>
+                <td>{{ row[2] }}</td>
+                <td>
+                  {% if 'High' in row[6]|string %}
+                    <span class="badge badge-high" data-risk="High"><i class='bx bx-x-circle'></i> {{ row[6] }}</span>
+                  {% elif 'Medium' in row[6]|string %}
+                    <span class="badge badge-medium" data-risk="Medium"><i class='bx bx-error-circle'></i> {{ row[6] }}</span>
+                  {% else %}
+                    <span class="badge badge-low" data-risk="Low"><i class='bx bx-check-circle'></i> {{ row[6] }}</span>
+                  {% endif %}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+
+          <div class="empty-state" id="empty-state">
+            <i class='bx bx-folder-open'></i>
+            <p>No transaction records found matching your filters.</p>
+          </div>
+        </div>
+
+        <!-- PAGINATION -->
+        <div class="pagination">
+          <div class="page-info">Showing <span id="page-start">0</span> to <span id="page-end">0</span> of <span id="page-total">0</span> entries</div>
+          <div class="page-controls">
+            <button class="page-btn" id="btn-prev">Previous</button>
+            <div id="page-numbers" style="display:flex; gap:5px;"></div>
+            <button class="page-btn" id="btn-next">Next</button>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <div class="toast-container" id="toastBox"></div>
+
+  <script>
+    // --- Clock Logic ---
+    function updateClock() {
+      const now = new Date();
+      document.getElementById("liveDate").innerHTML = now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+      document.getElementById("liveClock").innerHTML = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+    }
+    setInterval(updateClock, 1000); updateClock();
+
+    // --- Toast Logic ---
+    function showToast(message, type) {
+      const box = document.getElementById('toastBox');
+      const toast = document.createElement('div');
+      toast.classList.add('toast', type);
+      let icon = 'bx-info-circle';
+      if(type === 'success') icon = 'bx-check-circle';
+      if(type === 'warning') icon = 'bx-error-circle';
+      if(type === 'danger') icon = 'bx-x-circle';
+      toast.innerHTML = `<i class='bx ${icon}' style="font-size:24px;"></i> <span>${message}</span>`;
+      box.appendChild(toast);
+      setTimeout(() => { toast.remove(); }, 4000);
+    }
+
+    // --- Background Particles ---
+    window.onload = () => {
+      const container = document.getElementById('particles-container');
+      for (let i = 0; i < 40; i++) {
+        const p = document.createElement('div');
+        p.className = 'particle-dot';
+        p.style.left = Math.random() * 100 + 'vw';
+        p.style.top = Math.random() * 100 + 'vh';
+        p.style.animationDuration = (Math.random() * 20 + 10) + 's';
+        p.style.animationDelay = (Math.random() * 5) + 's';
+        container.appendChild(p);
+      }
+      initTableLogic();
+      showToast('Data synced successfully', 'success');
+    };
+
+    // --- Table Filtering & Pagination Logic ---
+    let allRows = [];
+    let filteredRows = [];
+    let currentPage = 1;
+    const rowsPerPage = 10;
+
+    function initTableLogic() {
+      const rows = document.querySelectorAll('.data-row');
+      allRows = Array.from(rows);
+      filteredRows = [...allRows];
+      
+      calculateKPIs(allRows);
+      renderTable();
+
+      document.getElementById('search-input').addEventListener('input', applyFilters);
+      document.getElementById('filter-risk').addEventListener('change', applyFilters);
+      document.getElementById('filter-date').addEventListener('change', applyFilters);
+      document.getElementById('btn-reset').addEventListener('click', () => {
+        document.getElementById('search-input').value = '';
+        document.getElementById('filter-risk').value = 'all';
+        document.getElementById('filter-date').value = '';
+        applyFilters();
+      });
+
+      document.getElementById('btn-prev').addEventListener('click', () => {
+        if(currentPage > 1) { currentPage--; renderTable(); }
+      });
+      document.getElementById('btn-next').addEventListener('click', () => {
+        if(currentPage < Math.ceil(filteredRows.length / rowsPerPage)) { currentPage++; renderTable(); }
+      });
+    }
+
+    function calculateKPIs(rows) {
+      let total = rows.length;
+      let high = 0, medium = 0, low = 0;
+      rows.forEach(row => {
+        const riskBadge = row.querySelector('.badge');
+        if(riskBadge) {
+          const risk = riskBadge.getAttribute('data-risk');
+          if(risk === 'High') high++;
+          else if(risk === 'Medium') medium++;
+          else low++;
+        }
+      });
+      animateCounter('kpi-total', total);
+      animateCounter('kpi-high', high);
+      animateCounter('kpi-medium', medium);
+      animateCounter('kpi-low', low);
+    }
+
+    function animateCounter(id, target) {
+      const el = document.getElementById(id);
+      let count = 0;
+      const duration = 1000; 
+      const increment = target / (duration / 16); 
+      if(target === 0) { el.innerText = '0'; return; }
+      const timer = setInterval(() => {
+        count += increment;
+        if(count >= target) { clearInterval(timer); el.innerText = target; } 
+        else { el.innerText = Math.floor(count); }
+      }, 16);
+    }
+
+    function applyFilters() {
+      const search = document.getElementById('search-input').value.toLowerCase();
+      const riskFilter = document.getElementById('filter-risk').value;
+      const dateFilter = document.getElementById('filter-date').value;
+
+      filteredRows = allRows.filter(row => {
+        const text = row.innerText.toLowerCase();
+        const riskBadge = row.querySelector('.badge').getAttribute('data-risk');
+        const dateCell = row.querySelector('.cell-date').innerText;
+        const matchesSearch = text.includes(search);
+        const matchesRisk = riskFilter === 'all' || riskBadge === riskFilter;
+        const matchesDate = dateFilter === '' || dateCell.includes(dateFilter);
+        return matchesSearch && matchesRisk && matchesDate;
+      });
+
+      currentPage = 1;
+      calculateKPIs(filteredRows);
+      renderTable();
+    }
+
+    function renderTable() {
+      const emptyState = document.getElementById('empty-state');
+      allRows.forEach(row => row.style.display = 'none');
+
+      if(filteredRows.length === 0) {
+        emptyState.style.display = 'block';
+        document.getElementById('page-start').innerText = 0;
+        document.getElementById('page-end').innerText = 0;
+        document.getElementById('page-total').innerText = 0;
+        document.getElementById('page-numbers').innerHTML = '';
+        return;
+      } else { emptyState.style.display = 'none'; }
+
+      const totalPages = Math.ceil(filteredRows.length / rowsPerPage);
+      const start = (currentPage - 1) * rowsPerPage;
+      const end = start + rowsPerPage;
+
+      const pageRows = filteredRows.slice(start, end);
+      pageRows.forEach(row => row.style.display = 'table-row');
+
+      document.getElementById('page-start').innerText = start + 1;
+      document.getElementById('page-end').innerText = Math.min(end, filteredRows.length);
+      document.getElementById('page-total').innerText = filteredRows.length;
+      document.getElementById('btn-prev').disabled = currentPage === 1;
+      document.getElementById('btn-next').disabled = currentPage === totalPages;
+
+      renderPageNumbers(totalPages);
+    }
+
+    function renderPageNumbers(totalPages) {
+      const container = document.getElementById('page-numbers');
+      container.innerHTML = '';
+      let startPage = Math.max(1, currentPage - 2);
+      let endPage = Math.min(totalPages, startPage + 4);
+      if(endPage - startPage < 4) startPage = Math.max(1, endPage - 4);
+
+      for(let i = startPage; i <= endPage; i++) {
+        const btn = document.createElement('button');
+        btn.className = `page-btn ${i === currentPage ? 'active' : ''}`;
+        btn.innerText = i;
+        btn.onclick = () => { currentPage = i; renderTable(); };
+        container.appendChild(btn);
+      }
+    }
+  </script>
+  <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+</body>
+</html>

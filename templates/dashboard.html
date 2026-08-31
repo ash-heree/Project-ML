@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - AI Banking Analytics</title>
+  
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/theme.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <!-- Full Page Cyber Background -->
+  <div class="cyber-background">
+    <div class="grid-layer"></div>
+    <div class="glow-layer"></div>
+    <div class="particles" id="particles-container"></div>
+  </div>
+
+  <div class="app-layout">
+    
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <div class="icon"><i class='bx bx-shield-quarter'></i></div>
+        <div>
+          <h2>TRA</h2>
+          <p>Transaction Risk Analysis</p>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="/dashboard" class="nav-item active">
+          <i class='bx bx-grid-alt'></i> <span>Dashboard</span>
+        </a>
+        <a href="/new_transaction" class="nav-item">
+          <i class='bx bx-credit-card-front'></i> <span>New Transaction</span>
+        </a>
+        <a href="/history" class="nav-item">
+          <i class='bx bx-history'></i> <span>Prediction History</span>
+        </a>
+        <a href="/reports" class="nav-item">
+          <i class='bx bx-bar-chart-alt-2'></i> <span>Reports</span>
+        </a>
+        <a href="/about" class="nav-item">
+          <i class='bx bx-info-circle'></i> <span>About Project</span>
+        </a>
+        <a href="/logout" class="nav-item" style="margin-top: auto; color: var(--danger-light);">
+          <i class='bx bx-log-out'></i> <span>Logout</span>
+        </a>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+      
+      <!-- HEADER -->
+      <header class="app-header fade-in">
+        <div class="header-title">
+          <h1>Dashboard Overview</h1>
+          <p>AI Powered Fraud Detection & Transaction Monitoring System</p>
+        </div>
+        
+        <div class="header-actions">
+          <div class="datetime-pill">
+            <i class='bx bx-calendar'></i> <span id="liveDate"></span>
+            <i class='bx bx-time-five' style="margin-left:8px;"></i> <span id="liveClock"></span>
+          </div>
+          
+          <div class="user-profile">
+            <div class="user-avatar"><i class='bx bx-user'></i></div>
+            <div class="user-info">
+              <h4>{{ username }}</h4>
+              <span>Administrator</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- PREMIUM KPI CARDS -->
+      <div class="dashboard-cards">
+        
+        <div class="card blue" data-bg-theme="bg-dashboard-total">
+          <div class="card-icon"><i class='bx bx-bar-chart-alt-2' style="color:var(--primary-light);"></i></div>
+          <h3>Total Transactions</h3>
+          <h1 class="counter" data-target="{{ total }}">0</h1>
+          <div class="status-text"><span class="status-dot"></span> Live Database</div>
+        </div>
+
+        <div class="card red" data-bg-theme="bg-dashboard-high">
+          <div class="card-icon"><i class='bx bx-shield-x' style="color:var(--danger-light);"></i></div>
+          <h3>High Risk</h3>
+          <h1 class="counter" data-target="{{ high }}">0</h1>
+          <div class="status-text"><span class="status-dot"></span> Critical Transactions</div>
+        </div>
+
+        <div class="card orange" data-bg-theme="bg-dashboard-medium">
+          <div class="card-icon"><i class='bx bx-error-circle' style="color:var(--warning-light);"></i></div>
+          <h3>Medium Risk</h3>
+          <h1 class="counter" data-target="{{ medium }}">0</h1>
+          <div class="status-text"><span class="status-dot"></span> Needs Review</div>
+        </div>
+
+        <div class="card green" data-bg-theme="bg-dashboard-low">
+          <div class="card-icon"><i class='bx bx-check-shield' style="color:var(--success-light);"></i></div>
+          <h3>Low Risk</h3>
+          <h1 class="counter" data-target="{{ low }}">0</h1>
+          <div class="status-text"><span class="status-dot"></span> Safe Transactions</div>
+        </div>
+
+      </div>
+
+      <!-- RECENT TRANSACTIONS TABLE -->
+      <div class="recent-transactions" data-bg-theme="bg-recent-tx" class="slide-up delay-4">
+        <div class="table-header">
+          <h2><i class='bx bx-receipt'></i> Recent Transactions</h2>
+          <div class="search-box">
+            <i class='bx bx-search'></i>
+            <input type="text" id="searchInput" placeholder="Search Transaction...">
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Amount</th>
+                <th>Location</th>
+                <th>Risk Level</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody id="transactionTable">
+              {% for row in recent_transactions %}
+              <tr>
+                <td>#{{ row[0] }}</td>
+                <td style="font-weight: 600;">₹ {{ row[1] }}</td>
+                <td>{{ row[2] }}</td>
+                <td>
+                  {% if row[3] == "High" %}
+                    <span class="badge badge-high"><i class='bx bx-x-circle'></i> High</span>
+                  {% elif row[3] == "Medium" %}
+                    <span class="badge badge-medium"><i class='bx bx-error-circle'></i> Medium</span>
+                  {% else %}
+                    <span class="badge badge-low"><i class='bx bx-check-circle'></i> Low</span>
+                  {% endif %}
+                </td>
+                <td><i class='bx bx-time' style="color:var(--text-muted); margin-right:4px;"></i> {{ row[4] }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <div class="toast-container" id="toastBox"></div>
+
+  <script>
+    // --- Clock Logic ---
+    function updateClock() {
+      const now = new Date();
+      document.getElementById("liveDate").innerHTML = now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+      document.getElementById("liveClock").innerHTML = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+
+    // --- Search Logic ---
+    const searchInput = document.getElementById("searchInput");
+    searchInput.addEventListener("keyup", function () {
+      let filter = this.value.toLowerCase();
+      let rows = document.querySelectorAll("#transactionTable tr");
+      rows.forEach(function (row) {
+        let text = row.innerText.toLowerCase();
+        row.style.display = text.includes(filter) ? "" : "none";
+      });
+    });
+
+    // --- Counter Animation (1.5 seconds) ---
+    const counters = document.querySelectorAll('.counter');
+    const animationDuration = 1500; // 1.5s
+    const frameInterval = 15; // 15ms per frame
+    const steps = animationDuration / frameInterval;
+
+    setTimeout(() => {
+      counters.forEach(counter => {
+        const target = +counter.getAttribute('data-target');
+        let count = 0;
+        const inc = target / steps;
+        
+        const updateCount = () => {
+          if (count < target) {
+            count += inc;
+            counter.innerText = Math.ceil(count);
+            setTimeout(updateCount, frameInterval);
+          } else {
+            counter.innerText = target;
+          }
+        };
+        updateCount();
+      });
+    }, 600); // Wait for cards to slide in
+
+
+
+    // --- Background Particles ---
+    window.onload = () => {
+      const container = document.getElementById('particles-container');
+      for (let i = 0; i < 40; i++) {
+        const p = document.createElement('div');
+        p.className = 'particle-dot';
+        p.style.left = Math.random() * 100 + 'vw';
+        p.style.top = Math.random() * 100 + 'vh';
+        p.style.animationDuration = (Math.random() * 20 + 10) + 's';
+        p.style.animationDelay = (Math.random() * 5) + 's';
+        container.appendChild(p);
+      }
+      
+      showToast('Live connection established to Prediction Database.', 'success');
+    };
+
+    function showToast(message, type) {
+      const box = document.getElementById('toastBox');
+      const toast = document.createElement('div');
+      toast.classList.add('toast', type);
+      
+      let icon = 'bx-info-circle';
+      if(type === 'success') icon = 'bx-check-circle';
+      if(type === 'warning') icon = 'bx-error-circle';
+      if(type === 'danger') icon = 'bx-x-circle';
+
+      toast.innerHTML = `<i class='bx ${icon}' style="font-size:24px;"></i> <span>${message}</span>`;
+      box.appendChild(toast);
+      
+      setTimeout(() => { toast.remove(); }, 4000);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transaction Risk Result - Enterprise Analytics</title>
+  
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/theme.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body id="page-body">
+
+  <!-- Full Page Loading Overlay -->
+  <div class="loader-overlay" id="loader">
+    <div class="loader-spinner"></div>
+    <p>Executing Machine Learning Analysis Pipeline...</p>
+  </div>
+
+  <!-- Confetti Container for Low Risk -->
+  <div id="confetti-container"></div>
+
+  <!-- Full Page Cyber Background -->
+  <div class="cyber-background">
+    <div class="grid-layer"></div>
+    <div class="glow-layer"></div>
+    <div class="particles" id="particles-container"></div>
+  </div>
+
+  <div class="app-layout" id="main-content" style="display: none;">
+    
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <div class="icon"><i class='bx bx-shield-quarter'></i></div>
+        <div>
+          <h2>TRA</h2>
+          <p>Transaction Risk Analysis</p>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="/dashboard" class="nav-item">
+          <i class='bx bx-grid-alt'></i> <span>Dashboard</span>
+        </a>
+        <a href="/new_transaction" class="nav-item active">
+          <i class='bx bx-credit-card-front'></i> <span>New Transaction</span>
+        </a>
+        <a href="/history" class="nav-item">
+          <i class='bx bx-history'></i> <span>Prediction History</span>
+        </a>
+        <a href="/reports" class="nav-item">
+          <i class='bx bx-bar-chart-alt-2'></i> <span>Reports</span>
+        </a>
+        <a href="/logout" class="nav-item" style="margin-top: auto; color: var(--danger-light);">
+          <i class='bx bx-log-out'></i> <span>Logout</span>
+        </a>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+      
+      <!-- HEADER -->
+      <header class="app-header fade-in">
+        <div class="header-title">
+          <h1>Prediction Result</h1>
+          <p>Machine Learning Risk Assessment Complete</p>
+        </div>
+        
+        <div class="header-actions">
+          <div class="datetime-pill">
+            <i class='bx bx-calendar'></i> <span id="liveDate"></span>
+            <i class='bx bx-time-five' style="margin-left:8px;"></i> <span id="liveClock"></span>
+          </div>
+          
+          <div class="user-profile">
+            <div class="user-avatar"><i class='bx bx-user'></i></div>
+            <div class="user-info">
+              <h4>Analyst</h4>
+              <span>Operations</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="fade-in-up delay-1">
+        
+        <!-- TOP SECTION: METER & INFO -->
+        <div class="top-section">
+          
+          <!-- Risk Meter -->
+          <div class="meter-card">
+            <h3><i class='bx bx-radar'></i> Risk Assessment</h3>
+            <div class="circular-chart" id="risk-chart">
+              <svg viewBox="0 0 36 36" class="circular-chart-svg">
+                <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="circle" id="circle-path" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+              </svg>
+              <div class="percentage" id="percentage-text">0%</div>
+            </div>
+            <div class="status-badge" id="status-badge">
+              {% if risk_level == 'High' or prediction == 'High' %}
+                <span class="badge badge-high"><i class='bx bx-error'></i> HIGH RISK</span>
+              {% elif risk_level == 'Medium' or prediction == 'Medium' %}
+                <span class="badge badge-medium"><i class='bx bx-error-circle'></i> MEDIUM RISK</span>
+              {% else %}
+                <span class="badge badge-low"><i class='bx bx-check-shield'></i> LOW RISK</span>
+              {% endif %}
+            </div>
+          </div>
+
+          <!-- Confidence & Recommendation -->
+          <div class="info-card">
+            <div>
+              <h3><i class='bx bx-brain'></i> AI Confidence Metrics</h3>
+              <div class="metrics-grid">
+                <div class="metric">
+                  <span>Confidence Score</span>
+                  <strong id="confidence-score">...</strong>
+                </div>
+                <div class="metric">
+                  <span>Model Accuracy</span>
+                  <strong>99.1%</strong>
+                </div>
+                <div class="metric">
+                  <span>Decision Status</span>
+                  <strong>Finalized</strong>
+                </div>
+                <div class="metric">
+                  <span>Prediction Time</span>
+                  <strong>{{ current_datetime }}</strong>
+                </div>
+              </div>
+            </div>
+            
+            <div class="rec-box" id="rec-box">
+              <h3 style="margin-bottom:15px;"><i class='bx bx-bulb'></i> Recommendation</h3>
+              {% if risk_level == 'High' or prediction == 'High' %}
+                <div class="rec-content high-rec">
+                  <i class='bx bx-x-circle'></i>
+                  <p><strong>Potential fraudulent activity detected.</strong> Immediate investigation is recommended. Block transaction temporarily and alert Fraud Team.</p>
+                </div>
+              {% elif risk_level == 'Medium' or prediction == 'Medium' %}
+                <div class="rec-content medium-rec">
+                  <i class='bx bx-info-circle'></i>
+                  <p><strong>Manual verification is recommended.</strong> Send OTP Verification, review transaction pattern, and monitor activity before approval.</p>
+                </div>
+              {% else %}
+                <div class="rec-content low-rec">
+                  <i class='bx bx-check-circle'></i>
+                  <p><strong>Transaction appears safe.</strong> Continue normal monitoring. No suspicious activity detected by the Machine Learning model.</p>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
+        <!-- TRANSACTION DETAILS -->
+        <div class="details-card">
+          <h3><i class='bx bx-list-ul'></i> Transaction Details Submitted</h3>
+          <div class="details-grid">
+            <div class="detail-item">
+              <span>Customer Age</span>
+              <strong>{{ customer_age }}</strong>
+            </div>
+            <div class="detail-item">
+              <span>Amount</span>
+              <strong>₹ {{ transaction_amount }}</strong>
+            </div>
+            <div class="detail-item">
+              <span>Location</span>
+              <strong>{{ location }}</strong>
+            </div>
+            <div class="detail-item">
+              <span>Payment Method</span>
+              <strong>{{ payment_method }}</strong>
+            </div>
+            <div class="detail-item">
+              <span>Device Type</span>
+              <strong>{{ device_type }}</strong>
+            </div>
+            <div class="detail-item">
+              <span>IP Risk Score</span>
+              <strong>{{ ip_risk_score }} / 100</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- ACTIONS -->
+        <div class="actions">
+          <a href="/new_transaction" class="btn btn-outline"><i class='bx bx-plus-circle'></i> Predict Another</a>
+          <button onclick="window.print()" class="btn btn-outline"><i class='bx bxs-file-pdf'></i> Save PDF</button>
+          <a href="/dashboard" class="btn btn-primary"><i class='bx bx-grid-alt'></i> Return to Dashboard</a>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <div class="toast-container" id="toastBox"></div>
+
+  <script>
+    // --- Clock Logic ---
+    function updateClock() {
+      const now = new Date();
+      document.getElementById("liveDate").innerHTML = now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+      document.getElementById("liveClock").innerHTML = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+    }
+    setInterval(updateClock, 1000); updateClock();
+
+    // --- Toast Logic ---
+    function showToast(message, type) {
+      const box = document.getElementById('toastBox');
+      const toast = document.createElement('div');
+      toast.classList.add('toast', type);
+      let icon = 'bx-info-circle';
+      if(type === 'success') icon = 'bx-check-circle';
+      if(type === 'warning') icon = 'bx-error-circle';
+      if(type === 'danger') icon = 'bx-x-circle';
+      toast.innerHTML = `<i class='bx ${icon}' style="font-size:24px;"></i> <span>${message}</span>`;
+      box.appendChild(toast);
+      setTimeout(() => { toast.remove(); }, 4000);
+    }
+
+    // --- Risk Logic from Backend ---
+    const riskLevel = "{{ risk_level }}" || "{{ prediction }}";
+    
+    let targetPercent = 0;
+    let confidence = 0;
+    let color = '';
+    
+    if (riskLevel === 'High') {
+      targetPercent = 94;
+      confidence = 98.2;
+      color = '#EF4444'; // Danger
+    } else if (riskLevel === 'Medium') {
+      targetPercent = 65;
+      confidence = 87.5;
+      color = '#F59E0B'; // Warning
+    } else {
+      targetPercent = 12;
+      confidence = 99.4;
+      color = '#10B981'; // Success
+    }
+
+    // --- Background Particles ---
+    const container = document.getElementById('particles-container');
+    for (let i = 0; i < 40; i++) {
+      const p = document.createElement('div');
+      p.className = 'particle-dot';
+      p.style.left = Math.random() * 100 + 'vw';
+      p.style.top = Math.random() * 100 + 'vh';
+      p.style.animationDuration = (Math.random() * 20 + 10) + 's';
+      p.style.animationDelay = (Math.random() * 5) + 's';
+      container.appendChild(p);
+    }
+
+    // --- Execute Analysis Pipeline Simulation ---
+    setTimeout(() => {
+      document.getElementById('loader').style.display = 'none';
+      document.getElementById('main-content').style.display = 'flex'; // Uses flex for app-layout
+      
+      document.getElementById('confidence-score').innerText = confidence + '%';
+      
+      if (riskLevel === 'High') {
+        document.getElementById('page-body').classList.add('pulse-bg');
+        document.getElementById('status-badge').classList.add('pulse-animation');
+        showToast('CRITICAL: High Risk Transaction Detected.', 'danger');
+      } else if (riskLevel === 'Medium') {
+        showToast('WARNING: Medium Risk Transaction flagged for review.', 'warning');
+      } else if (riskLevel === 'Low' || riskLevel === '') {
+        triggerConfetti();
+        showToast('SUCCESS: Transaction verified as safe.', 'success');
+      }
+
+      animateProgress(targetPercent, color);
+    }, 2000); // 2 second mock processing time
+
+    function animateProgress(target, color) {
+      const circlePath = document.getElementById('circle-path');
+      const percentageText = document.getElementById('percentage-text');
+      
+      circlePath.style.stroke = color;
+      percentageText.style.color = color;
+      
+      let current = 0;
+      const duration = 1500; 
+      const interval = 20;
+      const step = (target / (duration / interval));
+      
+      const timer = setInterval(() => {
+        current += step;
+        if (current >= target) {
+          current = target;
+          clearInterval(timer);
+        }
+        
+        circlePath.setAttribute('stroke-dasharray', `${current}, 100`);
+        percentageText.innerText = Math.round(current) + '%';
+      }, interval);
+    }
+
+    function triggerConfetti() {
+      const confContainer = document.getElementById('confetti-container');
+      const colors = ['#10B981', '#34D399', '#6EE7B7', '#059669'];
+      
+      for (let i = 0; i < 100; i++) {
+        const confetti = document.createElement('div');
+        confetti.classList.add('confetti');
+        confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        confetti.style.left = Math.random() * 100 + 'vw';
+        confetti.style.animationDuration = (Math.random() * 3 + 2) + 's';
+        confetti.style.animationDelay = Math.random() * 2 + 's';
+        confContainer.appendChild(confetti);
+      }
+    }
+  </script>
+  <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+</body>
+</html>

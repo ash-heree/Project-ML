@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Project - Transaction Risk Analysis</title>
+  
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/theme.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <!-- Full Page Cyber Background -->
+  <div class="cyber-background">
+    <div class="map-layer"></div>
+    <div class="grid-layer"></div>
+    <div class="glow-layer"></div>
+    <div class="particles" id="particles-container"></div>
+  </div>
+
+  <div class="app-layout">
+    
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <div class="icon"><i class='bx bx-shield-quarter'></i></div>
+        <div>
+          <h2>TRA</h2>
+          <p>Transaction Risk Analysis</p>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="/dashboard" class="nav-item">
+          <i class='bx bx-grid-alt'></i> <span>Dashboard</span>
+        </a>
+        <a href="/new_transaction" class="nav-item">
+          <i class='bx bx-credit-card-front'></i> <span>New Transaction</span>
+        </a>
+        <a href="/history" class="nav-item">
+          <i class='bx bx-history'></i> <span>Prediction History</span>
+        </a>
+        <a href="/reports" class="nav-item">
+          <i class='bx bx-bar-chart-alt-2'></i> <span>Reports</span>
+        </a>
+        <a href="/about" class="nav-item active">
+          <i class='bx bx-info-circle'></i> <span>About Project</span>
+        </a>
+        <a href="/logout" class="nav-item" style="margin-top: auto; color: var(--danger-light);">
+          <i class='bx bx-log-out'></i> <span>Logout</span>
+        </a>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content about-main">
+      
+      <!-- HERO SECTION -->
+      <section class="hero-section fade-in">
+        <i class='bx bx-check-shield hero-shield'></i>
+        <h1 class="hero-title">Transaction Risk Analysis System</h1>
+        <p class="hero-subtitle">An enterprise-grade Artificial Intelligence application engineered to detect, classify, and prevent fraudulent banking transactions in real-time using advanced Machine Learning algorithms.</p>
+        
+        <div class="hero-badges slide-up delay-1">
+          <span class="badge"><i class='bx bx-code-alt'></i> MCA Final Year Project</span>
+          <span class="badge"><i class='bx bx-chip'></i> Machine Learning</span>
+          <span class="badge"><i class='bx bx-data'></i> Predictive Analytics</span>
+          <span class="badge"><i class='bx bx-lock-alt'></i> Cyber Security</span>
+        </div>
+      </section>
+
+      <div class="content-container">
+        
+        <!-- PROJECT OVERVIEW -->
+        <section class="slide-up delay-2">
+          <div class="section-title"><i class='bx bx-bulb'></i> Project Overview</div>
+          <div class="glass-card info-card" data-bg-theme="bg-about-project">
+            <p style="font-size: 15px; color: var(--text-main); line-height: 1.8;">
+              The rapid digitization of financial services has exponentially increased the volume of digital transactions, simultaneously elevating the risk of financial fraud. Traditional rule-based detection systems are no longer sufficient to combat sophisticated cyber threats. 
+              <br><br>
+              This project introduces a robust, scalable, and intelligent <strong>Transaction Risk Analysis (TRA)</strong> system. By leveraging supervised Machine Learning classifiers, the application analyzes complex behavioral patterns, transactional metadata, and geographical anomalies in milliseconds, providing an immediate risk assessment (Low, Medium, High) before a transaction is authorized.
+            </p>
+          </div>
+        </section>
+
+        <!-- TECHNOLOGIES USED -->
+        <section class="slide-up delay-3">
+          <div class="section-title"><i class='bx bx-layer'></i> Technologies Used</div>
+          <div class="grid-4">
+            <div class="tech-item glass-card" data-bg-theme="bg-tech-python">
+              <i class='bx bxl-python' style="color:#3B82F6;"></i>
+              <span>Python 3.10</span>
+            </div>
+            <div class="tech-item glass-card" data-bg-theme="bg-tech-flask">
+              <i class='bx bxl-flask' style="color:#ffffff;"></i>
+              <span>Flask</span>
+            </div>
+            <div class="tech-item glass-card" data-bg-theme="bg-tech-ml">
+              <i class='bx bx-brain' style="color:#F59E0B;"></i>
+              <span>Scikit-Learn</span>
+            </div>
+            <div class="tech-item glass-card" data-bg-theme="bg-tech-ml">
+              <i class='bx bx-network-chart' style="color:#10B981;"></i>
+              <span>XGBoost</span>
+            </div>
+            <div class="tech-item glass-card" data-bg-theme="bg-tech-mysql">
+              <i class='bx bxl-postgresql' style="color:#3B82F6;"></i>
+              <span>MySQL</span>
+            </div>
+            <div class="tech-item glass-card" data-bg-theme="bg-tech-pandas">
+              <i class='bx bx-table' style="color:#CBD5E1;"></i>
+              <span>Pandas</span>
+            </div>
+            <div class="tech-item glass-card" data-bg-theme="bg-tech-matplotlib">
+              <i class='bx bx-line-chart' style="color:#F59E0B;"></i>
+              <span>Matplotlib</span>
+            </div>
+            <div class="tech-item glass-card" data-bg-theme="bg-tech-matplotlib">
+              <i class='bx bx-scatter-chart' style="color:#10B981;"></i>
+              <span>Seaborn</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ARCHITECTURE & WORKFLOW -->
+        <section class="grid-2 slide-up delay-4">
+          
+          <!-- System Architecture -->
+          <div class="glass-card info-card" data-bg-theme="bg-documentation">
+            <h3 style="margin-bottom: 20px;"><i class='bx bx-sitemap'></i> System Architecture</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <h4>1. Presentation Layer (Frontend)</h4>
+                <p>Enterprise UI built with HTML/CSS/JS capturing transaction variables securely via REST API.</p>
+              </div>
+              <div class="timeline-item">
+                <h4>2. Application Layer (Flask)</h4>
+                <p>Receives data, performs input validation, and routes variables to the ML pipeline.</p>
+              </div>
+              <div class="timeline-item">
+                <h4>3. Intelligence Layer (Scikit-Learn)</h4>
+                <p>Pre-processes data via LabelEncoders and executes the serialized Random Forest model to compute probability.</p>
+              </div>
+              <div class="timeline-item" style="margin-bottom:0;">
+                <h4>4. Data Layer (MySQL)</h4>
+                <p>Permanently logs the transaction details, prediction results, and timestamps for reporting and audits.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ML Workflow -->
+          <div class="glass-card info-card" data-bg-theme="bg-documentation">
+            <h3 style="margin-bottom: 20px;"><i class='bx bx-network-chart'></i> ML Model Workflow</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <h4>1. Data Collection</h4>
+                <p>Sourced highly imbalanced synthetic financial datasets representing modern banking.</p>
+              </div>
+              <div class="timeline-item">
+                <h4>2. Feature Engineering</h4>
+                <p>Extracted spatial (distance), temporal (hour/day), and behavioral (failed logins) features.</p>
+              </div>
+              <div class="timeline-item">
+                <h4>3. Model Training</h4>
+                <p>Trained multiple classifiers (Logistic Regression, Decision Trees, Random Forest). Random Forest yielded the highest F1-Score.</p>
+              </div>
+              <div class="timeline-item" style="margin-bottom:0;">
+                <h4>4. Deployment (Pickle)</h4>
+                <p>Exported trained models and scalers using Joblib (.pkl) for rapid, stateless inference in production.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- DATASET & FEATURES -->
+        <section class="grid-2 slide-up delay-4">
+          
+          <!-- Dataset Info -->
+          <div class="glass-card info-card">
+            <h3><i class='bx bx-table'></i> Dataset & Features</h3>
+            <p style="margin-bottom: 15px;">The model evaluates 20+ distinct features to make a deterministic decision. Key metrics include:</p>
+            <ul class="feature-list">
+              <li><i class='bx bx-check'></i> <strong>Transactional:</strong> Amount, Average Amount, Payment Method, Category.</li>
+              <li><i class='bx bx-check'></i> <strong>Geospatial:</strong> Distance from home, Location, International flag.</li>
+              <li><i class='bx bx-check'></i> <strong>Behavioral:</strong> Login attempts, Failed transactions, Account age.</li>
+              <li><i class='bx bx-check'></i> <strong>Cyber:</strong> IP Risk Score, Device Type, New Device usage.</li>
+            </ul>
+          </div>
+
+          <!-- Key Platform Features -->
+          <div class="glass-card info-card">
+            <h3><i class='bx bx-star'></i> Key Platform Features</h3>
+            <ul class="feature-list">
+              <li><i class='bx bx-check'></i> <strong>Real-Time Analysis:</strong> Millisecond latency for risk prediction.</li>
+              <li><i class='bx bx-check'></i> <strong>Enterprise Dashboard:</strong> Live counters and automated charts.</li>
+              <li><i class='bx bx-check'></i> <strong>History Tracking:</strong> Comprehensive audit logs of all predictions.</li>
+              <li><i class='bx bx-check'></i> <strong>Secure Auth:</strong> Protected endpoints with session management.</li>
+              <li><i class='bx bx-check'></i> <strong>Responsive UI:</strong> Glassmorphism styling optimized for all devices.</li>
+            </ul>
+          </div>
+
+        </section>
+
+        <!-- FUTURE ENHANCEMENTS -->
+        <section class="slide-up delay-4">
+          <div class="section-title"><i class='bx bx-rocket'></i> Future Enhancements</div>
+          <div class="grid-3">
+            <div class="glass-card info-card">
+              <h3><i class='bx bx-share-alt'></i> API Integration</h3>
+              <p>Expose the ML inference engine via secure REST endpoints to allow integration with external mobile banking applications and third-party payment gateways.</p>
+            </div>
+            <div class="glass-card info-card">
+              <h3><i class='bx bx-refresh'></i> Model Retraining</h3>
+              <p>Implement an automated pipeline to periodically retrain the model with new transactions stored in the MySQL database to prevent data drift.</p>
+            </div>
+            <div class="glass-card info-card">
+              <h3><i class='bx bx-envelope'></i> Alert System</h3>
+              <p>Integrate SMTP/SMS gateways to instantly notify customers and administrators when a 'High Risk' transaction is detected by the model.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- DEVELOPER INFO -->
+        <section class="slide-up delay-4">
+          <div class="section-title"><i class='bx bx-user-circle'></i> Developer Information</div>
+          <div class="glass-card dev-card">
+            <div class="dev-avatar">
+              <i class='bx bxs-graduation'></i>
+            </div>
+            <div class="dev-info">
+              <h3>Master of Computer Applications (MCA)</h3>
+              <p>Final Year Academic Project</p>
+              <span>This platform was conceptualized, designed, and developed to demonstrate the practical integration of Machine Learning classification algorithms within a modern web application architecture.</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="about-footer slide-up delay-4">
+          <p>&copy; 2026 Transaction Risk Analysis System. Built with <i class='bx bxs-heart heart'></i> for securing digital finance.</p>
+        </footer>
+
+      </div>
+    </main>
+  </div>
+
+  <div class="toast-container" id="toastBox"></div>
+
+  <script>
+    // --- Background Particles ---
+    window.onload = () => {
+      const container = document.getElementById('particles-container');
+      for (let i = 0; i < 40; i++) {
+        const p = document.createElement('div');
+        p.className = 'particle-dot';
+        p.style.left = Math.random() * 100 + 'vw';
+        p.style.top = Math.random() * 100 + 'vh';
+        p.style.animationDuration = (Math.random() * 20 + 10) + 's';
+        p.style.animationDelay = (Math.random() * 5) + 's';
+        container.appendChild(p);
+      }
+      
+      setTimeout(() => {
+        showToast('Documentation loaded successfully', 'success');
+      }, 1000);
+    };
+
+    function showToast(message, type) {
+      const box = document.getElementById('toastBox');
+      const toast = document.createElement('div');
+      toast.classList.add('toast', type);
+      let icon = 'bx-info-circle';
+      if(type === 'success') icon = 'bx-check-circle';
+      toast.innerHTML = `<i class='bx ${icon}' style="font-size:24px;"></i> <span>${message}</span>`;
+      box.appendChild(toast);
+      setTimeout(() => { toast.remove(); }, 4000);
+    }
+  </script>
+  <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+</body>
+</html>

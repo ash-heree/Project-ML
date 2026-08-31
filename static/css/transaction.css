@@ -1,0 +1,80 @@
+/* ==========================================
+   TRANSACTION SPECIFIC STYLES
+========================================== */
+
+/* Section headers (Overrides inside glass cards) */
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border);
+}
+
+.icon-box {
+    width: 55px; height: 55px;
+    background: rgba(59, 130, 246, 0.15);
+    border-radius: 14px;
+    display: flex; justify-content: center; align-items: center;
+    font-size: 28px;
+    color: var(--primary-light);
+    box-shadow: inset 0 0 20px rgba(59, 130, 246, 0.1);
+}
+
+.header-info h2 {
+    font-size: 20px;
+    color: var(--text-main);
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.header-info p {
+    color: var(--text-muted);
+    font-size: 13px;
+}
+
+/* Form Grid */
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 30px;
+}
+
+.submit-wrapper {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.predict-btn {
+    width: 100%;
+    max-width: 450px;
+    padding: 18px;
+    border-radius: var(--radius-md);
+    font-size: 16px;
+}
+
+.spinner {
+    display: none;
+    font-size: 24px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.predict-btn.loading {
+    background: var(--primary-dark);
+    cursor: not-allowed;
+    opacity: 0.9;
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.2);
+}
+
+.predict-btn.loading .btn-arrow { display: none; }
+.predict-btn.loading .spinner { display: inline-block; }
+.predict-btn.loading::before { display: none; }
+
+/* Responsive Form */
+@media (max-width: 1200px) {
+    .form-grid { grid-template-columns: 1fr; }
+}

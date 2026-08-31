@@ -1,0 +1,221 @@
+/* ==========================================
+   RESULT SPECIFIC STYLES
+========================================== */
+
+/* Full Page Loading Overlay */
+.loader-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100vw; height: 100vh;
+    background: rgba(2, 8, 23, 0.95);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    color: white;
+}
+
+.loader-spinner {
+    width: 60px; height: 60px;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    animation: spin 1s infinite linear;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(37, 99, 235, 0.5);
+}
+
+.loader-overlay p {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+}
+
+/* Confetti System */
+#confetti-container {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    pointer-events: none; z-index: 1000; overflow: hidden;
+}
+
+.confetti {
+    position: absolute; top: -10px; width: 10px; height: 10px;
+    background-color: var(--success); opacity: 0;
+    animation: fall linear forwards;
+}
+
+@keyframes fall {
+    0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+    100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+}
+
+/* Result Sections */
+.top-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+/* Circular Meter */
+.meter-card {
+    background: var(--surface);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: var(--shadow-soft);
+}
+
+.meter-card h3 { font-size: 16px; color: var(--text-muted); margin-bottom: 20px; font-weight: 500; }
+
+.circular-chart {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    max-height: 250px;
+    position: relative;
+    filter: drop-shadow(0 0 15px rgba(0,0,0,0.3));
+}
+
+.circle-bg {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.05);
+    stroke-width: 2.5;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    transition: stroke-dasharray 1.5s ease-out, stroke 0.5s ease;
+}
+
+.percentage {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px; font-weight: 700;
+    text-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.status-badge { margin-top: 25px; }
+
+/* Info Card */
+.info-card {
+    background: var(--surface);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-card h3 { font-size: 16px; color: var(--text-muted); margin-bottom: 15px; font-weight: 500; }
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.metric {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: var(--radius-md);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.metric span { font-size: 13px; color: var(--text-muted); }
+.metric strong { font-size: 18px; color: var(--text-main); font-weight: 600; }
+
+.rec-box {
+    margin-top: 15px;
+}
+
+.rec-content {
+    display: flex; gap: 15px; align-items: flex-start;
+    padding: 20px; border-radius: var(--radius-md);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.rec-content i { font-size: 28px; margin-top: 2px; }
+.rec-content p { font-size: 14px; line-height: 1.6; color: var(--text-muted); }
+.rec-content p strong { color: var(--text-main); }
+
+.high-rec { background: var(--danger-bg); border-color: rgba(239, 68, 68, 0.2); }
+.high-rec i { color: var(--danger-light); }
+.medium-rec { background: var(--warning-bg); border-color: rgba(245, 158, 11, 0.2); }
+.medium-rec i { color: var(--warning-light); }
+.low-rec { background: var(--success-bg); border-color: rgba(16, 185, 129, 0.2); }
+.low-rec i { color: var(--success-light); }
+
+/* Details Card */
+.details-card {
+    background: var(--surface);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.details-card h3 { font-size: 16px; color: var(--text-muted); margin-bottom: 20px; font-weight: 500; }
+
+.details-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+}
+
+.detail-item {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 15px; background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: var(--radius-md);
+}
+
+.detail-item span { font-size: 13px; color: var(--text-muted); }
+.detail-item strong { font-size: 14px; font-weight: 600; color: var(--text-main); }
+
+/* Actions */
+.actions {
+    display: flex; justify-content: flex-end; gap: 15px;
+}
+
+/* Animations */
+.pulse-bg { animation: pulseRed 3s infinite; }
+@keyframes pulseRed {
+    0% { background-color: var(--bg-dark); }
+    50% { background-color: #2a0808; }
+    100% { background-color: var(--bg-dark); }
+}
+
+.pulse-animation { animation: badgePulse 1.5s infinite; }
+@keyframes badgePulse {
+    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+    70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(239, 68, 68, 0); }
+    100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .top-section { grid-template-columns: 1fr; }
+    .details-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 768px) {
+    .metrics-grid { grid-template-columns: 1fr; }
+    .details-grid { grid-template-columns: 1fr; }
+    .actions { flex-direction: column; }
+    .actions .btn { width: 100%; justify-content: center; }
+}

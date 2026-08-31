@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Transaction - Enterprise Analytics</title>
+  
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/theme.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/transaction.css') }}">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <!-- Full Page Cyber Background -->
+  <div class="cyber-background">
+    <div class="map-layer"></div>
+    <div class="grid-layer"></div>
+    <div class="glow-layer"></div>
+    <div class="particles" id="particles-container"></div>
+  </div>
+
+  <div class="app-layout">
+    
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <div class="icon"><i class='bx bx-shield-quarter'></i></div>
+        <div>
+          <h2>TRA</h2>
+          <p>Transaction Risk Analysis</p>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="/dashboard" class="nav-item">
+          <i class='bx bx-grid-alt'></i> <span>Dashboard</span>
+        </a>
+        <a href="/new_transaction" class="nav-item active">
+          <i class='bx bx-credit-card-front'></i> <span>New Transaction</span>
+        </a>
+        <a href="/history" class="nav-item">
+          <i class='bx bx-history'></i> <span>Prediction History</span>
+        </a>
+        <a href="/reports" class="nav-item">
+          <i class='bx bx-bar-chart-alt-2'></i> <span>Reports</span>
+        </a>
+        <a href="/logout" class="nav-item" style="margin-top: auto; color: var(--danger-light);">
+          <i class='bx bx-log-out'></i> <span>Logout</span>
+        </a>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+      
+      <!-- HEADER -->
+      <header class="app-header fade-in">
+        <div class="header-title">
+          <h1>New Transaction Entry</h1>
+          <p>Input real-time variables to predict potential fraud risk</p>
+        </div>
+        
+        <div class="header-actions">
+          <div class="datetime-pill">
+            <i class='bx bx-calendar'></i> <span id="liveDate"></span>
+            <i class='bx bx-time-five' style="margin-left:8px;"></i> <span id="liveClock"></span>
+          </div>
+          
+          <div class="user-profile">
+            <div class="user-avatar"><i class='bx bx-user'></i></div>
+            <div class="user-info">
+              <h4>Analyst</h4>
+              <span>Operations</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- FORM CONTENT -->
+      <form action="/predict" method="POST" id="transactionForm" class="fade-in">
+        
+        <!-- SECTION 1: Customer Info -->
+        <div class="glass-card slide-up delay-1" data-bg-theme="bg-form-customer" style="margin-bottom: 30px; padding: 30px;">
+          <div class="section-header">
+            <div class="icon-box"><i class='bx bx-user'></i></div>
+            <div class="header-info">
+              <h2>Customer Information</h2>
+              <p>Basic demographic and account details.</p>
+            </div>
+          </div>
+          <div class="form-grid">
+            <div class="input-group">
+              <label>Customer Age</label>
+              <div class="input-wrapper">
+                <i class='bx bx-calendar-event input-icon'></i>
+                <input type="number" name="customer_age" placeholder="e.g. 28" required />
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Customer Gender</label>
+              <div class="input-wrapper">
+                <i class='bx bx-user-circle input-icon'></i>
+                <select name="customer_gender" required>
+                  <option value="">Select Gender</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Account Balance</label>
+              <div class="input-wrapper">
+                <i class='bx bx-wallet input-icon'></i>
+                <input type="number" step="0.01" name="account_balance" placeholder="Enter balance" required />
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Account Age (Months)</label>
+              <div class="input-wrapper">
+                <i class='bx bx-time-five input-icon'></i>
+                <input type="number" name="account_age_months" placeholder="e.g. 24" required />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 2: Transaction Info -->
+        <div class="glass-card slide-up delay-2" data-bg-theme="bg-form-tx" style="margin-bottom: 30px; padding: 30px;">
+          <div class="section-header">
+            <div class="icon-box"><i class='bx bx-transfer'></i></div>
+            <div class="header-info">
+              <h2>Transaction Information</h2>
+              <p>Details regarding the current transaction attempting to process.</p>
+            </div>
+          </div>
+          <div class="form-grid">
+            <div class="input-group">
+              <label>Transaction Amount</label>
+              <div class="input-wrapper">
+                <i class='bx bx-rupee input-icon'></i>
+                <input type="number" step="0.01" name="transaction_amount" placeholder="Enter amount" required />
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Average Transaction Amount</label>
+              <div class="input-wrapper">
+                <i class='bx bx-line-chart input-icon'></i>
+                <input type="number" step="0.01" name="average_transaction_amount" placeholder="Enter avg amount" required />
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Time Period</label>
+              <div class="input-wrapper">
+                <i class='bx bx-time input-icon'></i>
+                <select name="time_period" required>
+                  <option value="">Select Time</option>
+                  <option>Morning</option>
+                  <option>Afternoon</option>
+                  <option>Evening</option>
+                  <option>Night</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Location</label>
+              <div class="input-wrapper">
+                <i class='bx bx-map input-icon'></i>
+                <select name="location" required>
+                  <option value="">Select City</option>
+                  <option>Chennai</option>
+                  <option>Bangalore</option>
+                  <option>Hyderabad</option>
+                  <option>Mumbai</option>
+                  <option>Delhi</option>
+                  <option>Kolkata</option>
+                  <option>Pune</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Payment Method</label>
+              <div class="input-wrapper">
+                <i class='bx bx-credit-card input-icon'></i>
+                <select name="payment_method" required>
+                  <option value="">Select Method</option>
+                  <option>UPI</option>
+                  <option>Credit Card</option>
+                  <option>Debit Card</option>
+                  <option>Net Banking</option>
+                  <option>Wallet</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Device Type</label>
+              <div class="input-wrapper">
+                <i class='bx bx-mobile-alt input-icon'></i>
+                <select name="device_type" required>
+                  <option value="">Select Device</option>
+                  <option>Mobile</option>
+                  <option>Laptop</option>
+                  <option>Desktop</option>
+                  <option>Tablet</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-group" style="grid-column: 1 / -1;">
+              <label>Merchant Category</label>
+              <div class="input-wrapper">
+                <i class='bx bx-store-alt input-icon'></i>
+                <select name="merchant_category" required>
+                  <option value="">Select Category</option>
+                  <option>Shopping</option>
+                  <option>Electronics</option>
+                  <option>Food</option>
+                  <option>Travel</option>
+                  <option>Healthcare</option>
+                  <option>Entertainment</option>
+                  <option>Bills</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 3: Security Info -->
+        <div class="glass-card slide-up delay-3" data-bg-theme="bg-form-security" style="margin-bottom: 30px; padding: 30px;">
+          <div class="section-header">
+            <div class="icon-box"><i class='bx bx-shield-quarter'></i></div>
+            <div class="header-info">
+              <h2>Security Information</h2>
+              <p>Risk indicators and historical behavioral patterns.</p>
+            </div>
+          </div>
+          <div class="form-grid">
+            <div class="input-group">
+              <label>Daily Transaction Count</label>
+              <div class="input-wrapper">
+                <i class='bx bx-hash input-icon'></i>
+                <input type="number" name="daily_transaction_count" placeholder="e.g. 2" required />
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Weekly Transaction Count</label>
+              <div class="input-wrapper">
+                <i class='bx bx-bar-chart input-icon'></i>
+                <input type="number" name="weekly_transaction_count" placeholder="e.g. 10" required />
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Distance From Home (KM)</label>
+              <div class="input-wrapper">
+                <i class='bx bx-navigation input-icon'></i>
+                <input type="number" step="0.01" name="distance_from_home" placeholder="e.g. 5.5" required />
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Login Attempts</label>
+              <div class="input-wrapper">
+                <i class='bx bx-error input-icon'></i>
+                <input type="number" name="login_attempts" placeholder="e.g. 1" required />
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Failed Transactions (24H)</label>
+              <div class="input-wrapper">
+                <i class='bx bx-x-circle input-icon'></i>
+                <input type="number" name="failed_transactions" placeholder="e.g. 0" required />
+              </div>
+            </div>
+            <div class="input-group">
+              <label>IP Risk Score (1-100)</label>
+              <div class="input-wrapper">
+                <i class='bx bx-target-lock input-icon'></i>
+                <input type="number" min="1" max="100" name="ip_risk_score" placeholder="e.g. 15" required />
+              </div>
+            </div>
+            <div class="input-group">
+              <label>New Device</label>
+              <div class="input-wrapper">
+                <i class='bx bx-laptop input-icon'></i>
+                <select name="new_device" required>
+                  <option value="">Select Option</option>
+                  <option>No</option>
+                  <option>Yes</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-group">
+              <label>International</label>
+              <div class="input-wrapper">
+                <i class='bx bx-globe input-icon'></i>
+                <select name="international_transaction" required>
+                  <option value="">Select Option</option>
+                  <option>No</option>
+                  <option>Yes</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Card Present</label>
+              <div class="input-wrapper">
+                <i class='bx bx-id-card input-icon'></i>
+                <select name="card_present" required>
+                  <option value="">Select Option</option>
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="submit-wrapper slide-up delay-4">
+          <button class="btn btn-primary predict-btn" type="submit" id="submitBtn">
+            <span class="btn-text">Predict Transaction Risk</span>
+            <i class='bx bx-right-arrow-alt btn-arrow'></i>
+            <i class='bx bx-loader-alt spinner'></i>
+          </button>
+        </div>
+
+      </form>
+    </main>
+  </div>
+
+  <div class="toast-container" id="toastBox"></div>
+
+  <script>
+    // Clock
+    function updateClock() {
+      const now = new Date();
+      document.getElementById("liveDate").innerHTML = now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+      document.getElementById("liveClock").innerHTML = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+    }
+    setInterval(updateClock, 1000); updateClock();
+
+    // Background Particles
+    window.onload = () => {
+      const container = document.getElementById('particles-container');
+      for (let i = 0; i < 40; i++) {
+        const p = document.createElement('div');
+        p.className = 'particle-dot';
+        p.style.left = Math.random() * 100 + 'vw';
+        p.style.top = Math.random() * 100 + 'vh';
+        p.style.animationDuration = (Math.random() * 20 + 10) + 's';
+        p.style.animationDelay = (Math.random() * 5) + 's';
+        container.appendChild(p);
+      }
+    };
+
+    // Form Loading
+    const form = document.getElementById('transactionForm');
+    const submitBtn = document.getElementById('submitBtn');
+    
+    form.addEventListener('submit', function() {
+      if(form.checkValidity()) {
+        submitBtn.classList.add('loading');
+        submitBtn.querySelector('.btn-text').textContent = 'Analyzing Risk via AI...';
+        showToast('Initiating Machine Learning prediction pipeline...', 'warning');
+      }
+    });
+
+    function showToast(message, type) {
+      const box = document.getElementById('toastBox');
+      const toast = document.createElement('div');
+      toast.classList.add('toast', type);
+      let icon = 'bx-info-circle';
+      if(type === 'success') icon = 'bx-check-circle';
+      if(type === 'warning') icon = 'bx-loader-alt bx-spin';
+      if(type === 'danger') icon = 'bx-x-circle';
+      toast.innerHTML = `<i class='bx ${icon}' style="font-size:24px;"></i> <span>${message}</span>`;
+      box.appendChild(toast);
+    }
+  </script>
+  <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+</body>
+</html>

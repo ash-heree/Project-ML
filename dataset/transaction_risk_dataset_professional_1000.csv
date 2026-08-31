@@ -1,0 +1,1001 @@
+Transaction_ID,Customer_ID,Customer_Age,Customer_Gender,Account_Balance,Account_Age_Months,Transaction_Amount,Average_Transaction_Amount,Transaction_Date,Transaction_Time,Time_Period,Location,Payment_Method,Device_Type,Merchant_Category,Transaction_Status,Daily_Transaction_Count,Weekly_Transaction_Count,Distance_From_Home_KM,Login_Attempts,Failed_Transactions_Last_24H,New_Device,International_Transaction,Card_Present,IP_Risk_Score,Risk_Level
+TXN000001,CUST8953,62,Male,167873.56,113,58157.1,3982.6,03-02-2024,17:59,Evening,Hyderabad,Credit Card,Mobile,Electronics,Success,12,25,241,3,0,Yes,Yes,No,60,Medium
+TXN000002,CUST5985,31,Male,327877.51,160,78649.17,34167.28,04-05-2024,20:50,Evening,Delhi,Net Banking,POS,Fuel,Success,13,96,214,4,1,No,Yes,No,55,Medium
+TXN000003,CUST5293,54,Male,492883.04,111,751.21,9451.68,08-08-2025,06:34,Morning,Mumbai,Credit Card,POS,Entertainment,Success,19,61,85,1,0,No,No,Yes,45,Low
+TXN000004,CUST1524,54,Female,269423.77,180,49895.33,43847.5,11-11-2025,09:55,Morning,Mumbai,Wallet,POS,Travel,Success,7,95,280,2,4,Yes,Yes,Yes,89,High
+TXN000005,CUST8586,21,Male,142941.9,84,44702.98,4986.14,13-10-2023,02:09,Morning,Bangalore,Debit Card,POS,Fuel,Success,17,41,125,3,3,Yes,Yes,No,44,Medium
+TXN000006,CUST4907,68,Female,238271.73,51,9652.93,27840.69,27-12-2023,00:00,Morning,Coimbatore,Debit Card,ATM,Shopping,Failed,10,45,186,6,4,Yes,No,No,51,Medium
+TXN000007,CUST2973,27,Female,65104.83,7,89426.6,22645.48,31-03-2025,20:03,Evening,Hyderabad,Debit Card,Web,Travel,Success,18,41,153,6,4,Yes,Yes,Yes,29,High
+TXN000008,CUST1812,55,Female,371266.24,113,67622.73,22206.63,07-06-2024,07:56,Morning,Chennai,Debit Card,Web,Shopping,Success,15,80,29,4,3,Yes,No,Yes,27,Medium
+TXN000009,CUST2985,62,Male,488458.43,116,1422.89,17278.63,14-07-2025,21:17,Night,Mumbai,Credit Card,POS,Grocery,Success,1,31,182,5,3,Yes,Yes,No,19,Medium
+TXN000010,CUST8352,26,Male,492889.97,133,21756,47122.98,24-12-2025,03:14,Morning,Coimbatore,Credit Card,Mobile,Shopping,Success,17,17,295,6,5,Yes,Yes,Yes,25,Medium
+TXN000011,CUST3194,62,Male,62632.06,176,66011.02,26772.5,21-09-2023,03:07,Morning,Mumbai,Debit Card,ATM,Fuel,Success,13,84,285,1,4,No,Yes,No,58,Medium
+TXN000012,CUST4283,44,Male,301152.72,127,37963.4,22232.03,12-11-2024,22:02,Night,Hyderabad,Debit Card,Mobile,Fuel,Success,2,29,159,2,3,No,Yes,Yes,40,Medium
+TXN000013,CUST1909,47,Other,154400.85,46,52615.86,33232.62,10-03-2023,12:08,Afternoon,Pune,Net Banking,Mobile,Grocery,Success,2,30,1,3,5,No,No,No,76,Medium
+TXN000014,CUST7044,70,Other,111177.85,153,38050.75,14584.9,28-09-2025,12:53,Afternoon,Kolkata,Credit Card,Web,Electronics,Success,8,54,269,1,1,No,No,No,94,Medium
+TXN000015,CUST7109,57,Female,72531.71,123,4770.77,12508.46,22-12-2025,03:45,Morning,Bangalore,Net Banking,Mobile,Grocery,Success,16,13,277,6,5,No,No,No,2,Low
+TXN000016,CUST7857,66,Male,456246.47,14,6218.15,19054.17,18-07-2025,08:52,Morning,Jaipur,UPI,Mobile,Travel,Success,6,68,64,3,1,Yes,Yes,No,49,Low
+TXN000017,CUST1837,53,Male,414103.83,31,56284.05,30499.04,11-08-2024,16:36,Afternoon,Ahmedabad,Net Banking,ATM,Travel,Success,6,64,217,5,1,Yes,Yes,Yes,87,High
+TXN000018,CUST6277,20,Male,137139.33,163,48148.31,8386.16,02-05-2023,05:22,Morning,Kolkata,Credit Card,Web,Entertainment,Success,19,43,179,1,2,Yes,Yes,Yes,73,Medium
+TXN000019,CUST3385,63,Male,191940.04,136,93985.55,22070.87,26-02-2025,10:14,Morning,Bangalore,Debit Card,Web,Electronics,Success,19,27,64,5,2,No,No,Yes,39,Medium
+TXN000020,CUST9214,56,Other,205872.24,158,10551.82,18029.92,29-04-2025,21:51,Night,Mumbai,Credit Card,Web,Healthcare,Success,6,7,197,4,0,Yes,No,Yes,100,Medium
+TXN000021,CUST6942,29,Male,250498.4,163,36560.57,33586.86,29-10-2025,06:50,Morning,Delhi,Net Banking,ATM,Food,Success,15,46,19,6,4,Yes,No,Yes,90,High
+TXN000022,CUST2342,68,Female,191942.67,58,69607.86,14091.9,13-12-2024,15:02,Afternoon,Hyderabad,Credit Card,Web,Travel,Success,10,35,297,1,2,Yes,No,Yes,47,Medium
+TXN000023,CUST7112,54,Female,374712.96,107,10350.47,33745.09,23-10-2023,11:44,Morning,Coimbatore,Credit Card,POS,Shopping,Success,12,26,120,5,1,No,No,No,4,Low
+TXN000024,CUST1296,64,Male,124396.83,9,76152.37,26666.19,16-12-2023,02:43,Morning,Delhi,Wallet,POS,Food,Success,4,52,195,3,2,Yes,No,No,11,Medium
+TXN000025,CUST2212,44,Male,81354.86,58,38792.21,24687.13,18-11-2024,23:26,Night,Mumbai,UPI,Web,Healthcare,Success,13,60,38,1,0,No,No,No,74,Medium
+TXN000026,CUST4004,40,Other,367983.27,15,88962.37,20568.51,04-08-2024,10:55,Morning,Bangalore,Net Banking,Mobile,Fuel,Success,16,11,199,6,0,No,Yes,Yes,21,Medium
+TXN000027,CUST7704,27,Other,327512,171,15164.91,33604.02,27-12-2023,12:54,Afternoon,Bangalore,Debit Card,POS,Food,Success,15,24,102,5,2,Yes,Yes,Yes,79,Medium
+TXN000028,CUST4338,39,Male,243867.65,32,70327.13,2878.94,25-04-2023,16:58,Afternoon,Hyderabad,Wallet,Web,Electronics,Success,15,15,184,6,4,Yes,Yes,No,82,High
+TXN000029,CUST2217,69,Male,423548.94,31,76758.2,35692.23,11-05-2024,10:18,Morning,Mumbai,Credit Card,POS,Healthcare,Success,2,92,65,2,4,Yes,No,No,7,Medium
+TXN000030,CUST6611,70,Female,291053.97,61,65047.12,16386.61,14-08-2023,15:27,Afternoon,Bangalore,Credit Card,POS,Grocery,Failed,9,85,18,6,0,No,No,Yes,35,Medium
+TXN000031,CUST2836,69,Female,485357.63,91,54761.91,14196.52,12-04-2024,06:51,Morning,Kolkata,Credit Card,POS,Entertainment,Success,11,3,268,1,3,No,No,No,24,Medium
+TXN000032,CUST5127,33,Other,22846.52,180,18112.92,18633,19-04-2024,03:26,Morning,Hyderabad,Net Banking,Mobile,Healthcare,Failed,6,60,4,5,5,Yes,No,No,68,Medium
+TXN000033,CUST5726,63,Male,288642.38,2,73192.88,9489.78,12-10-2023,21:50,Night,Ahmedabad,UPI,Web,Shopping,Success,9,89,252,5,4,Yes,No,Yes,51,High
+TXN000034,CUST6587,62,Male,208165.57,125,6841.64,33842.7,01-10-2025,14:59,Afternoon,Hyderabad,Debit Card,POS,Electronics,Success,4,4,140,6,1,No,Yes,No,53,Medium
+TXN000035,CUST3002,37,Male,308784.09,144,43299.34,28171.08,13-10-2024,11:44,Morning,Coimbatore,Wallet,POS,Electronics,Failed,10,67,60,5,3,No,Yes,Yes,75,High
+TXN000036,CUST5388,38,Female,190590.72,140,54435.63,48235.04,28-08-2025,01:14,Morning,Ahmedabad,UPI,ATM,Grocery,Success,5,55,145,3,4,No,Yes,No,42,Medium
+TXN000037,CUST2913,18,Male,456240.12,58,36761.12,24287.36,05-04-2026,16:41,Afternoon,Pune,Credit Card,Mobile,Shopping,Success,8,8,124,4,2,No,No,Yes,64,Medium
+TXN000038,CUST3234,54,Other,389999.69,127,63168.4,7731.3,12-10-2025,08:56,Morning,Mumbai,Net Banking,POS,Grocery,Success,5,80,271,5,3,No,Yes,Yes,33,Medium
+TXN000039,CUST7875,58,Male,91529.59,106,4737.01,11464.25,27-02-2024,19:10,Evening,Ahmedabad,Wallet,Web,Electronics,Success,12,41,152,1,1,Yes,No,No,90,Medium
+TXN000040,CUST9714,48,Male,211471.98,106,54987.71,31670.55,08-12-2023,20:46,Evening,Ahmedabad,UPI,Mobile,Entertainment,Success,15,43,206,3,2,No,No,Yes,45,Low
+TXN000041,CUST9069,56,Other,289960.86,162,96008.26,11507.18,28-07-2024,00:18,Morning,Jaipur,UPI,ATM,Entertainment,Success,7,85,82,2,4,Yes,No,Yes,3,Medium
+TXN000042,CUST3356,41,Other,293718.97,33,17545.67,11378.95,08-04-2023,11:02,Morning,Bangalore,Net Banking,POS,Shopping,Success,4,62,8,5,2,Yes,No,Yes,46,Low
+TXN000043,CUST8458,62,Female,374112.57,26,85551.62,5185.36,24-12-2024,23:24,Night,Bangalore,Net Banking,ATM,Shopping,Success,11,14,228,5,4,No,No,Yes,68,High
+TXN000044,CUST7492,64,Male,117587.14,31,38766.21,17784.27,30-04-2026,03:44,Morning,Hyderabad,Net Banking,Mobile,Food,Success,11,95,212,6,0,Yes,Yes,No,6,Medium
+TXN000045,CUST9862,58,Other,127595.99,74,18138.84,18024.37,08-05-2024,01:50,Morning,Mumbai,Wallet,Web,Food,Success,13,2,180,5,0,No,Yes,Yes,91,Medium
+TXN000046,CUST2801,61,Other,132196.59,164,26190.03,19751.82,20-05-2024,04:12,Morning,Mumbai,Net Banking,ATM,Entertainment,Success,20,51,260,1,5,Yes,No,No,71,Medium
+TXN000047,CUST1033,38,Female,135042.23,156,29234.56,11670.32,08-11-2025,15:03,Afternoon,Hyderabad,Net Banking,Mobile,Entertainment,Success,19,1,179,4,0,Yes,No,Yes,100,Medium
+TXN000048,CUST8616,61,Other,471856.31,36,66706.06,6459.09,09-02-2026,13:42,Afternoon,Kolkata,Wallet,POS,Healthcare,Success,10,20,237,2,2,No,Yes,No,42,Medium
+TXN000049,CUST6714,33,Female,386629.97,48,412.12,8172.04,11-09-2025,03:55,Morning,Mumbai,Net Banking,Web,Electronics,Failed,4,89,22,1,0,Yes,Yes,No,68,Medium
+TXN000050,CUST2072,69,Male,73270.49,144,25672.05,17173.68,07-05-2024,03:55,Morning,Chennai,Net Banking,Web,Grocery,Success,17,70,142,2,4,No,No,No,32,Low
+TXN000051,CUST4588,46,Female,251531.38,136,51282.28,47246.27,04-07-2025,16:32,Afternoon,Kolkata,Wallet,ATM,Entertainment,Success,16,87,125,1,2,Yes,Yes,Yes,90,High
+TXN000052,CUST6309,51,Female,384204.05,95,57531.98,46710.65,26-04-2024,22:49,Night,Mumbai,Net Banking,Web,Shopping,Success,9,90,295,4,0,Yes,No,Yes,62,High
+TXN000053,CUST2187,30,Other,364298.83,127,40482.75,36115.04,11-04-2023,02:47,Morning,Coimbatore,UPI,ATM,Shopping,Success,17,67,251,3,0,No,Yes,Yes,20,Low
+TXN000054,CUST3747,29,Other,58674.12,7,71181.79,2999.73,18-11-2024,02:59,Morning,Ahmedabad,Credit Card,Web,Shopping,Success,19,60,141,4,0,No,No,No,69,Medium
+TXN000055,CUST7674,41,Female,479896.41,39,66411.2,8358.26,13-05-2024,17:26,Evening,Coimbatore,Wallet,POS,Healthcare,Success,16,86,179,3,3,No,Yes,Yes,2,Medium
+TXN000056,CUST5297,48,Other,435570.94,158,54221.05,5426.64,29-08-2023,22:22,Night,Chennai,Net Banking,POS,Electronics,Success,10,15,47,1,4,Yes,No,Yes,56,High
+TXN000057,CUST1418,52,Other,143356.62,34,38934.54,12458.79,07-04-2023,11:06,Morning,Ahmedabad,Credit Card,POS,Healthcare,Success,19,34,97,1,1,Yes,No,No,71,Medium
+TXN000058,CUST2545,53,Male,466060.25,93,19902.33,44980.4,25-04-2025,02:35,Morning,Jaipur,Wallet,Mobile,Travel,Success,13,80,239,5,0,Yes,No,No,93,Medium
+TXN000059,CUST8618,39,Male,144277.59,90,69829.79,22843.18,06-03-2025,08:01,Morning,Ahmedabad,Net Banking,ATM,Shopping,Success,6,96,207,4,1,Yes,Yes,No,87,High
+TXN000060,CUST7687,35,Male,84708.56,1,77428.77,19376.26,23-08-2023,15:21,Afternoon,Pune,UPI,POS,Healthcare,Success,8,88,61,1,4,Yes,No,No,59,Medium
+TXN000061,CUST7906,51,Female,150846.13,76,24584.87,39817.72,24-10-2023,19:05,Evening,Delhi,Credit Card,ATM,Food,Success,6,89,184,6,3,No,No,Yes,92,Medium
+TXN000062,CUST2215,58,Male,308959.11,48,57679.73,45924.39,21-06-2024,18:38,Evening,Chennai,Net Banking,ATM,Fuel,Success,14,24,218,5,5,No,Yes,Yes,42,Medium
+TXN000063,CUST9282,61,Other,300468.9,177,68659.57,32398.97,01-05-2024,18:24,Evening,Chennai,Debit Card,POS,Shopping,Success,15,61,96,2,5,No,No,Yes,2,Medium
+TXN000064,CUST7558,49,Male,284050.88,26,50483.28,22683.68,18-01-2025,13:43,Afternoon,Hyderabad,Debit Card,ATM,Food,Success,19,6,200,3,0,No,No,Yes,38,Low
+TXN000065,CUST1882,27,Female,107696.9,126,58411.62,12360.78,21-11-2025,07:06,Morning,Bangalore,Debit Card,POS,Electronics,Success,13,93,210,2,4,No,Yes,No,89,High
+TXN000066,CUST3113,29,Other,91953.18,19,58900.15,3759.01,18-06-2025,14:01,Afternoon,Mumbai,UPI,ATM,Grocery,Success,18,52,68,6,5,No,No,Yes,33,Medium
+TXN000067,CUST7625,67,Other,174262.21,100,65833.41,15194.44,14-12-2025,00:16,Morning,Ahmedabad,Credit Card,POS,Grocery,Success,2,30,266,2,2,No,Yes,Yes,59,Medium
+TXN000068,CUST3541,64,Female,145602.07,61,80622.37,26334.81,12-10-2025,20:58,Evening,Mumbai,Net Banking,Mobile,Fuel,Success,19,48,182,5,5,Yes,No,No,31,Medium
+TXN000069,CUST8176,19,Male,496038.98,67,79647.78,5553.36,24-01-2024,09:27,Morning,Kolkata,Credit Card,POS,Electronics,Success,13,11,204,3,1,No,Yes,Yes,84,Medium
+TXN000070,CUST3517,46,Other,415158.82,72,82173.97,3196.97,04-04-2024,06:17,Morning,Mumbai,Net Banking,ATM,Shopping,Success,16,92,144,2,1,No,Yes,Yes,5,Medium
+TXN000071,CUST3585,52,Male,387620.27,167,37572.36,33738.81,31-05-2025,22:35,Night,Ahmedabad,UPI,Web,Healthcare,Success,8,13,64,6,0,Yes,Yes,Yes,20,Medium
+TXN000072,CUST9721,30,Other,361412.89,108,83495.44,27499.49,17-04-2024,15:57,Afternoon,Ahmedabad,Net Banking,ATM,Grocery,Success,1,28,89,4,2,No,Yes,No,57,Medium
+TXN000073,CUST8256,53,Female,479185.66,145,67864.9,40217.25,29-10-2025,15:09,Afternoon,Mumbai,Credit Card,Mobile,Grocery,Success,18,55,205,4,0,Yes,Yes,Yes,46,Medium
+TXN000074,CUST6624,37,Female,23244.59,113,68909.77,40067.66,19-01-2026,14:16,Afternoon,Kolkata,Debit Card,POS,Grocery,Success,18,26,185,1,1,No,No,No,18,Low
+TXN000075,CUST6675,36,Female,279379,68,88614.5,1313.04,16-10-2023,00:17,Morning,Mumbai,Wallet,ATM,Food,Success,13,31,46,5,2,Yes,Yes,Yes,12,Medium
+TXN000076,CUST5242,56,Other,55598.49,170,34102.53,48917.83,09-06-2023,23:49,Night,Hyderabad,UPI,Web,Food,Success,4,18,109,6,1,Yes,Yes,Yes,37,Medium
+TXN000077,CUST2301,59,Female,21163.57,56,87851.32,17536.53,26-05-2025,17:11,Evening,Coimbatore,Credit Card,Mobile,Food,Success,14,44,78,4,0,No,No,Yes,27,Medium
+TXN000078,CUST4372,49,Male,353341.42,174,87646.79,19563.52,21-05-2024,08:54,Morning,Jaipur,Credit Card,Web,Fuel,Success,3,22,54,3,1,Yes,Yes,Yes,2,Medium
+TXN000079,CUST6930,68,Male,200659.52,109,65039.46,7998.82,30-10-2024,21:47,Night,Chennai,Wallet,Mobile,Grocery,Success,11,37,212,4,4,No,No,Yes,98,High
+TXN000080,CUST5672,27,Male,148987.08,37,64345.48,19096.79,18-04-2023,22:44,Night,Jaipur,Debit Card,Mobile,Entertainment,Success,5,86,123,1,2,Yes,No,Yes,56,Medium
+TXN000081,CUST3988,64,Female,263468.35,116,97787.92,46280.14,12-08-2025,09:43,Morning,Delhi,Wallet,Mobile,Healthcare,Success,15,50,219,3,2,Yes,Yes,Yes,57,Medium
+TXN000082,CUST6018,35,Other,415047.08,100,51570.8,7695.07,19-04-2024,04:46,Morning,Delhi,Net Banking,ATM,Grocery,Failed,8,61,224,5,4,Yes,No,No,23,Medium
+TXN000083,CUST6445,19,Male,130911.87,20,26086.02,30642.82,18-01-2026,01:31,Morning,Chennai,Credit Card,Web,Grocery,Success,18,52,281,4,0,Yes,Yes,No,72,Medium
+TXN000084,CUST8508,35,Male,370602.71,55,29943,3313.23,19-05-2025,19:24,Evening,Hyderabad,Credit Card,POS,Grocery,Failed,13,58,265,1,0,No,Yes,Yes,51,Medium
+TXN000085,CUST9744,40,Other,88009.28,139,26069.55,24041,27-12-2023,21:06,Night,Delhi,Credit Card,POS,Grocery,Failed,10,56,273,2,2,No,Yes,No,97,Medium
+TXN000086,CUST4367,39,Other,203586.37,42,31976.25,11710.38,15-06-2023,01:04,Morning,Pune,UPI,Web,Shopping,Success,13,65,213,1,3,No,Yes,No,16,Medium
+TXN000087,CUST7662,20,Female,207422.75,95,56011.99,32021.47,30-05-2025,01:40,Morning,Coimbatore,Net Banking,POS,Travel,Success,4,61,220,3,4,Yes,Yes,No,27,Medium
+TXN000088,CUST4188,27,Male,404012.76,8,94550.47,35332.47,13-10-2025,22:24,Night,Hyderabad,Credit Card,ATM,Shopping,Success,14,5,278,2,1,No,No,Yes,39,Medium
+TXN000089,CUST2184,45,Other,21398.02,89,96891.78,19237.83,01-06-2023,08:53,Morning,Mumbai,Debit Card,Mobile,Healthcare,Success,10,80,136,2,0,Yes,Yes,No,87,High
+TXN000090,CUST9021,43,Other,177255.48,78,33760.25,39755.23,28-07-2025,16:44,Afternoon,Kolkata,Wallet,Web,Fuel,Success,8,93,57,3,4,Yes,Yes,Yes,25,Medium
+TXN000091,CUST1445,56,Female,75578.14,137,11981.91,5877.9,05-07-2023,18:54,Evening,Jaipur,Net Banking,Web,Entertainment,Success,9,93,155,6,4,Yes,Yes,Yes,38,Medium
+TXN000092,CUST8925,44,Male,183683.89,5,63404.27,18540.59,23-02-2023,16:37,Afternoon,Kolkata,Wallet,Mobile,Healthcare,Success,13,24,285,6,5,No,No,Yes,58,Medium
+TXN000093,CUST6760,67,Female,31736.32,21,61571.24,46855.36,13-02-2024,07:31,Morning,Hyderabad,Debit Card,Mobile,Fuel,Success,1,13,95,1,4,Yes,Yes,Yes,64,High
+TXN000094,CUST5847,64,Other,144903.72,72,65374.92,7235.29,19-02-2025,01:51,Morning,Jaipur,Debit Card,Web,Grocery,Success,9,64,16,6,0,Yes,Yes,Yes,20,Medium
+TXN000095,CUST4233,33,Female,14971.68,176,29292.2,6777.34,09-11-2024,13:15,Afternoon,Coimbatore,Credit Card,Web,Grocery,Success,3,43,9,6,2,No,Yes,No,82,Medium
+TXN000096,CUST1315,52,Male,315247.69,60,44686.38,20854.13,12-09-2024,00:03,Morning,Jaipur,UPI,Mobile,Healthcare,Success,13,96,52,6,4,Yes,Yes,No,14,Medium
+TXN000097,CUST3957,62,Other,379163.84,124,29387.7,2874.07,02-03-2025,16:25,Afternoon,Hyderabad,Net Banking,POS,Healthcare,Success,1,34,255,3,3,Yes,No,No,84,Medium
+TXN000098,CUST4808,58,Other,216252.72,88,2726.65,30579.76,27-07-2024,05:34,Morning,Bangalore,Credit Card,ATM,Food,Failed,5,8,24,2,5,Yes,No,Yes,54,Medium
+TXN000099,CUST6889,59,Male,483437.38,142,97368.47,46081.57,10-02-2025,07:27,Morning,Hyderabad,Debit Card,Mobile,Grocery,Success,2,13,190,2,2,No,Yes,No,33,Medium
+TXN000100,CUST3409,23,Male,102227.86,89,93026.74,45562.14,27-03-2023,03:09,Morning,Chennai,Wallet,Web,Shopping,Success,1,48,191,3,4,No,Yes,No,35,Medium
+TXN000101,CUST9071,46,Female,366511.79,61,26403.17,42462.08,12-04-2025,16:07,Afternoon,Pune,Credit Card,Web,Grocery,Success,17,74,290,6,2,No,Yes,No,58,Medium
+TXN000102,CUST9247,26,Other,9265.11,23,58059.86,14092.49,08-12-2024,23:51,Night,Mumbai,Net Banking,POS,Electronics,Success,18,4,157,4,3,Yes,No,Yes,68,High
+TXN000103,CUST8227,55,Male,35653.59,66,32580.05,38438.94,03-04-2024,21:31,Night,Bangalore,Wallet,Web,Fuel,Success,3,44,227,5,3,No,Yes,Yes,99,High
+TXN000104,CUST5767,49,Female,288612.9,107,37550.12,47894.74,17-07-2024,01:12,Morning,Coimbatore,Debit Card,Web,Fuel,Success,12,79,92,3,1,No,Yes,No,37,Low
+TXN000105,CUST7449,70,Female,344488.9,34,9924.1,30539.11,31-01-2023,19:31,Evening,Chennai,Debit Card,ATM,Grocery,Success,16,69,107,2,2,Yes,No,Yes,42,Low
+TXN000106,CUST9772,65,Male,440968.5,70,30016.46,30580.54,02-04-2025,14:10,Afternoon,Mumbai,Net Banking,Web,Shopping,Success,17,43,169,6,4,No,No,Yes,20,Medium
+TXN000107,CUST6458,42,Other,426190.48,108,90972.77,8900.31,18-06-2024,22:26,Night,Mumbai,Wallet,Mobile,Entertainment,Success,19,74,258,1,4,Yes,Yes,No,88,High
+TXN000108,CUST8411,39,Other,492589.7,89,84835.68,32270.05,01-10-2025,08:59,Morning,Ahmedabad,Net Banking,Web,Fuel,Success,6,95,65,6,1,Yes,Yes,No,94,High
+TXN000109,CUST1566,50,Other,433244.97,36,55201.48,7680.79,02-11-2023,22:52,Night,Ahmedabad,Credit Card,ATM,Food,Success,3,57,50,2,2,No,Yes,No,14,Medium
+TXN000110,CUST4048,58,Other,11192.86,139,17151.99,15716.58,10-07-2024,09:47,Morning,Kolkata,UPI,Web,Electronics,Success,7,38,164,4,0,Yes,No,No,61,Medium
+TXN000111,CUST7247,51,Female,440807.64,38,12178.21,8837.15,20-03-2025,12:47,Afternoon,Pune,Credit Card,Mobile,Healthcare,Success,15,8,68,6,4,Yes,Yes,No,70,Medium
+TXN000112,CUST6104,57,Male,481498.79,125,72141.74,26222.26,18-06-2025,02:01,Morning,Ahmedabad,UPI,Web,Electronics,Success,10,70,112,5,3,No,No,No,94,High
+TXN000113,CUST8719,41,Male,108106.48,5,54700.42,26657.01,21-04-2026,14:38,Afternoon,Delhi,Net Banking,POS,Grocery,Success,15,73,166,5,4,No,No,No,11,Medium
+TXN000114,CUST7238,33,Male,355777.81,135,92922.95,19035.46,17-04-2025,10:58,Morning,Coimbatore,Wallet,ATM,Shopping,Success,18,13,149,4,1,No,No,No,62,Medium
+TXN000115,CUST7001,22,Female,359363.49,128,66777.25,7161.28,27-09-2024,20:41,Evening,Chennai,Credit Card,POS,Travel,Success,18,75,291,3,4,Yes,No,Yes,13,Medium
+TXN000116,CUST8278,45,Male,432046.12,139,2891.18,7452.39,03-06-2024,18:15,Evening,Hyderabad,Net Banking,ATM,Fuel,Success,17,51,283,1,1,Yes,No,Yes,51,Low
+TXN000117,CUST9764,61,Male,164426.05,47,94392.73,7358.81,01-11-2023,13:39,Afternoon,Jaipur,Debit Card,POS,Grocery,Success,2,31,137,5,3,Yes,Yes,No,17,High
+TXN000118,CUST2075,39,Other,75227.45,157,82197.75,46151.63,09-05-2025,18:05,Evening,Ahmedabad,Net Banking,Web,Electronics,Success,3,32,77,1,4,Yes,No,Yes,16,Medium
+TXN000119,CUST9986,63,Other,167952.26,171,47816.27,25806.37,03-12-2023,07:41,Morning,Kolkata,UPI,Mobile,Healthcare,Success,20,22,44,2,2,Yes,No,Yes,65,Medium
+TXN000120,CUST9667,29,Male,118968.73,131,90991.4,6476.13,13-10-2025,16:22,Afternoon,Hyderabad,Wallet,ATM,Grocery,Failed,5,18,217,5,2,No,No,Yes,20,Medium
+TXN000121,CUST6123,37,Female,17301.54,150,25941.99,12895.28,08-11-2024,22:23,Night,Hyderabad,Net Banking,ATM,Food,Success,10,3,154,4,5,Yes,Yes,No,79,High
+TXN000122,CUST7545,48,Male,279712.85,9,76232.4,12799.96,20-12-2023,02:48,Morning,Chennai,Credit Card,ATM,Grocery,Success,3,47,270,6,4,No,Yes,No,54,High
+TXN000123,CUST3264,66,Female,172076.84,9,44253.3,14837.87,24-06-2025,00:38,Morning,Jaipur,Credit Card,ATM,Electronics,Success,10,35,42,5,5,Yes,Yes,No,96,High
+TXN000124,CUST4460,25,Male,420796.96,122,87333.92,25450.6,21-10-2023,14:16,Afternoon,Ahmedabad,Debit Card,Web,Travel,Success,8,58,250,6,4,No,No,Yes,93,High
+TXN000125,CUST2016,55,Male,253084.87,174,29096.13,38349.21,25-09-2024,04:23,Morning,Kolkata,Credit Card,Web,Food,Success,13,13,247,4,4,No,No,Yes,88,Medium
+TXN000126,CUST3003,48,Male,25451.44,31,63368.85,39808.21,13-04-2025,18:00,Evening,Bangalore,Net Banking,ATM,Electronics,Success,2,32,229,5,3,No,No,Yes,93,High
+TXN000127,CUST9656,43,Other,376197.75,131,44247.71,41648.03,03-03-2023,13:00,Afternoon,Kolkata,Credit Card,Mobile,Electronics,Success,2,95,113,3,3,Yes,No,No,96,Medium
+TXN000128,CUST4733,29,Other,348092.51,92,3601.23,8143.15,14-04-2025,11:44,Morning,Kolkata,Credit Card,Mobile,Healthcare,Success,13,97,153,4,3,No,Yes,Yes,96,Medium
+TXN000129,CUST8640,69,Male,83235.85,20,57015.21,5607.92,30-10-2024,01:04,Morning,Hyderabad,Net Banking,POS,Grocery,Success,6,50,24,6,0,Yes,No,Yes,5,Medium
+TXN000130,CUST8391,49,Other,290396.72,23,99464.43,5651.81,15-02-2023,08:50,Morning,Delhi,UPI,Web,Electronics,Success,15,55,195,4,1,No,Yes,No,84,High
+TXN000131,CUST1686,25,Other,136540.94,72,66838.65,11794.88,28-05-2024,05:04,Morning,Kolkata,UPI,Web,Electronics,Failed,5,94,227,6,5,Yes,No,No,66,High
+TXN000132,CUST5840,40,Other,353218.75,90,43759.09,10725.52,01-04-2024,12:05,Afternoon,Delhi,UPI,POS,Travel,Success,20,43,118,4,2,No,No,No,82,Medium
+TXN000133,CUST7791,61,Male,172306.8,152,7979.19,42169.08,23-02-2025,10:37,Morning,Pune,Credit Card,POS,Travel,Success,17,34,168,4,0,No,No,Yes,13,Low
+TXN000134,CUST1311,18,Other,281492.41,124,91988.31,36820.59,10-06-2023,05:44,Morning,Delhi,Debit Card,Mobile,Fuel,Success,16,57,43,3,3,No,No,Yes,91,Medium
+TXN000135,CUST3158,19,Male,423424.36,40,23577.59,20278.52,10-07-2023,02:32,Morning,Bangalore,Net Banking,Mobile,Travel,Success,4,19,103,5,0,No,Yes,Yes,96,Medium
+TXN000136,CUST3870,44,Other,451873.73,130,49683.85,19548.11,01-02-2023,00:01,Morning,Pune,Debit Card,Web,Food,Success,8,20,73,6,2,No,No,Yes,16,Low
+TXN000137,CUST1324,39,Other,481381.97,57,45904.41,47075.14,25-02-2026,10:25,Morning,Hyderabad,Debit Card,POS,Food,Success,16,92,142,6,5,Yes,No,Yes,80,High
+TXN000138,CUST1326,32,Female,88958.36,154,15204.32,20408.24,25-09-2023,23:21,Night,Coimbatore,Debit Card,Mobile,Electronics,Success,1,84,117,1,1,No,Yes,Yes,21,Low
+TXN000139,CUST2902,56,Female,97136.51,159,5389.76,31861.97,13-02-2024,09:33,Morning,Chennai,Credit Card,Mobile,Food,Success,2,51,114,5,1,Yes,No,Yes,46,Low
+TXN000140,CUST7355,18,Female,213844.24,137,88243.59,37212.02,04-07-2025,09:50,Morning,Pune,Wallet,Web,Entertainment,Success,16,90,239,4,1,Yes,No,No,85,High
+TXN000141,CUST7275,34,Female,274192.04,31,8761.69,35131.46,04-07-2025,21:08,Night,Pune,UPI,POS,Travel,Success,15,43,10,3,1,Yes,No,No,78,Medium
+TXN000142,CUST8589,46,Female,306740.62,158,62451.48,5076.67,01-06-2025,11:52,Morning,Bangalore,Debit Card,POS,Healthcare,Success,19,75,182,3,3,Yes,No,No,25,Medium
+TXN000143,CUST2880,47,Other,349513.9,82,99624.77,10081.45,31-12-2025,23:09,Night,Coimbatore,Credit Card,Mobile,Fuel,Success,20,4,221,1,4,Yes,No,No,49,Medium
+TXN000144,CUST2491,41,Other,422142.25,147,33207.85,46838.79,12-03-2025,18:48,Evening,Hyderabad,Wallet,POS,Fuel,Success,15,77,124,4,4,Yes,No,No,20,Medium
+TXN000145,CUST9017,30,Female,139580.55,78,69041.01,46408.03,21-11-2023,01:02,Morning,Jaipur,UPI,Mobile,Travel,Success,12,74,169,5,0,Yes,No,No,59,Medium
+TXN000146,CUST2469,66,Other,184234.85,157,17180.63,12608.84,28-01-2023,04:39,Morning,Jaipur,Wallet,ATM,Electronics,Success,11,36,79,6,0,No,Yes,No,35,Low
+TXN000147,CUST7343,29,Male,25422.45,143,27839.67,41454.28,07-02-2025,11:01,Morning,Pune,Credit Card,POS,Healthcare,Success,20,88,190,1,4,Yes,Yes,Yes,80,High
+TXN000148,CUST4393,61,Female,456152.98,36,95807.05,10129.33,25-07-2025,06:36,Morning,Mumbai,Net Banking,Web,Electronics,Success,10,93,256,4,5,Yes,No,No,28,Medium
+TXN000149,CUST6416,31,Female,22786.65,105,68797.59,1951.04,22-11-2023,04:09,Morning,Chennai,Net Banking,Web,Electronics,Success,19,36,63,4,3,No,Yes,No,70,High
+TXN000150,CUST4653,64,Female,96668.15,102,54063.62,18595.3,22-04-2026,00:10,Morning,Mumbai,Net Banking,ATM,Entertainment,Success,3,37,153,3,0,Yes,Yes,No,34,Medium
+TXN000151,CUST2240,69,Female,200045.35,76,42849.4,44444.78,21-01-2023,22:20,Night,Hyderabad,Net Banking,Mobile,Healthcare,Success,7,87,219,6,3,No,Yes,No,67,High
+TXN000152,CUST3006,58,Other,428637.71,116,66963.39,44184.32,18-07-2025,00:07,Morning,Chennai,Debit Card,POS,Entertainment,Failed,11,37,60,6,3,Yes,Yes,No,48,High
+TXN000153,CUST5835,42,Female,93764.7,35,52467.15,22659.26,11-07-2023,20:18,Evening,Coimbatore,Credit Card,ATM,Entertainment,Success,5,73,208,2,2,No,No,Yes,78,Medium
+TXN000154,CUST6439,21,Female,321239.76,91,77928.04,49851.39,04-05-2023,02:39,Morning,Pune,UPI,POS,Travel,Success,5,76,296,4,2,Yes,Yes,No,74,High
+TXN000155,CUST7119,66,Other,79456.39,116,86289.49,42063.31,11-11-2024,19:52,Evening,Kolkata,Wallet,ATM,Entertainment,Failed,10,72,261,5,4,Yes,Yes,No,60,High
+TXN000156,CUST5995,49,Male,408619.47,175,56877.06,14261.32,11-11-2024,11:19,Morning,Chennai,UPI,Web,Shopping,Success,7,18,266,3,0,No,Yes,Yes,47,Medium
+TXN000157,CUST7580,42,Other,424294.53,83,97976.72,29019.35,13-08-2024,11:05,Morning,Jaipur,Credit Card,ATM,Healthcare,Success,15,67,201,3,5,No,Yes,No,72,Medium
+TXN000158,CUST7828,22,Male,74798.53,180,2830.54,6681.91,27-08-2024,17:41,Evening,Pune,Net Banking,Web,Entertainment,Success,9,48,10,5,5,No,Yes,No,30,Medium
+TXN000159,CUST8408,49,Male,473638.52,98,66510.28,23939.97,19-08-2023,05:09,Morning,Mumbai,Net Banking,Mobile,Shopping,Success,10,3,41,5,5,No,Yes,Yes,15,Medium
+TXN000160,CUST6613,55,Female,134289.73,109,1700.99,7843.07,12-06-2025,21:50,Night,Delhi,Net Banking,POS,Grocery,Success,20,64,209,1,0,Yes,Yes,No,82,Medium
+TXN000161,CUST6499,61,Female,319896.41,92,29236.78,736.48,27-06-2024,07:31,Morning,Delhi,Debit Card,POS,Entertainment,Success,11,78,201,1,5,Yes,Yes,No,19,Medium
+TXN000162,CUST3960,34,Other,152924,60,58108.81,25596.86,20-09-2023,05:41,Morning,Delhi,UPI,POS,Travel,Success,1,13,211,1,2,Yes,No,No,30,Medium
+TXN000163,CUST6692,19,Male,178730.63,121,6866.58,35915.37,24-03-2025,13:02,Afternoon,Bangalore,Wallet,Mobile,Healthcare,Success,4,100,280,2,0,Yes,No,Yes,4,Low
+TXN000164,CUST2068,23,Male,22215.96,108,78281.62,4008.67,06-03-2024,08:17,Morning,Ahmedabad,Wallet,Mobile,Healthcare,Success,5,50,64,2,4,Yes,Yes,No,7,Medium
+TXN000165,CUST2749,28,Female,97976.37,127,40185.79,40508.03,22-04-2025,20:58,Evening,Hyderabad,Credit Card,Web,Entertainment,Success,18,73,280,3,4,No,No,Yes,70,Medium
+TXN000166,CUST6021,18,Female,353140.13,74,80666.47,37869.89,03-03-2026,12:13,Afternoon,Mumbai,Credit Card,Web,Grocery,Success,19,68,173,2,3,Yes,No,Yes,87,High
+TXN000167,CUST9804,40,Other,375222.77,116,79604.03,6750.48,27-04-2023,13:45,Afternoon,Coimbatore,UPI,Web,Healthcare,Success,11,96,252,2,0,Yes,No,Yes,68,Medium
+TXN000168,CUST6541,68,Female,457476.68,101,32364.13,48051.51,27-01-2025,02:32,Morning,Kolkata,Net Banking,Mobile,Electronics,Success,2,50,119,1,5,Yes,Yes,Yes,76,High
+TXN000169,CUST4199,70,Male,310800.98,150,73486.2,22723.98,26-01-2023,17:48,Evening,Pune,UPI,ATM,Healthcare,Success,2,35,226,3,5,Yes,Yes,No,53,High
+TXN000170,CUST5355,25,Male,493580.23,106,11561.53,27770.72,26-09-2024,01:37,Morning,Chennai,Debit Card,POS,Healthcare,Success,7,36,263,5,3,No,No,Yes,9,Low
+TXN000171,CUST6832,42,Other,9214.65,53,180.79,46058.51,25-08-2023,07:13,Morning,Mumbai,UPI,ATM,Grocery,Success,7,8,217,4,0,No,Yes,No,69,Medium
+TXN000172,CUST6969,61,Male,207414.23,38,52416.76,3715.91,12-03-2023,07:06,Morning,Chennai,Debit Card,Mobile,Healthcare,Success,11,15,207,2,3,No,Yes,Yes,55,Medium
+TXN000173,CUST3205,45,Male,78094.75,45,49358.03,48530.18,23-02-2024,20:15,Evening,Coimbatore,UPI,Web,Food,Success,3,89,206,2,5,No,No,Yes,5,Low
+TXN000174,CUST5065,47,Male,243446.2,174,3778.5,29746.42,16-02-2025,09:09,Morning,Pune,Wallet,ATM,Entertainment,Success,16,93,269,3,5,No,No,No,61,Low
+TXN000175,CUST9730,34,Female,41736.69,123,63597.49,10085.51,27-04-2024,05:24,Morning,Kolkata,Credit Card,Web,Travel,Success,19,93,93,2,1,Yes,Yes,No,95,High
+TXN000176,CUST7084,61,Male,53790.95,43,89324.6,34320.06,11-12-2023,18:47,Evening,Hyderabad,Credit Card,ATM,Fuel,Success,5,41,52,1,1,Yes,No,Yes,49,Medium
+TXN000177,CUST2188,33,Female,61619.72,63,37552.91,41959.84,01-04-2025,05:45,Morning,Jaipur,Credit Card,Web,Healthcare,Success,19,94,102,5,4,Yes,No,No,55,Medium
+TXN000178,CUST1760,70,Other,199755.41,32,87032.89,28872.29,18-06-2025,16:29,Afternoon,Ahmedabad,Credit Card,Web,Grocery,Success,20,29,182,6,2,Yes,No,No,32,Medium
+TXN000179,CUST6006,49,Other,42559.24,38,39836.66,10507.11,17-09-2023,18:14,Evening,Pune,Debit Card,ATM,Fuel,Success,17,38,35,6,4,Yes,No,No,73,Medium
+TXN000180,CUST2738,57,Male,76745.07,100,65530.52,2697.91,03-02-2024,04:34,Morning,Ahmedabad,Wallet,Web,Electronics,Success,9,51,275,5,1,Yes,No,Yes,96,High
+TXN000181,CUST5068,45,Male,328098.22,97,52595.34,2932.39,28-02-2026,14:57,Afternoon,Bangalore,Debit Card,Mobile,Entertainment,Success,3,72,51,2,3,Yes,No,Yes,92,High
+TXN000182,CUST4849,29,Female,364281.63,41,35340.9,38295.05,24-09-2024,17:06,Evening,Delhi,Debit Card,Web,Entertainment,Success,12,46,128,1,5,Yes,Yes,Yes,57,Medium
+TXN000183,CUST8825,35,Male,326279.34,38,65504.53,36047.26,22-05-2025,14:05,Afternoon,Ahmedabad,Net Banking,POS,Healthcare,Success,15,26,208,2,3,No,No,No,86,Medium
+TXN000184,CUST8075,41,Male,417183.21,30,16241.8,24505.33,13-01-2025,22:49,Night,Chennai,Debit Card,POS,Healthcare,Success,15,47,142,5,0,Yes,No,No,84,Medium
+TXN000185,CUST7778,53,Female,56592.89,11,33056.59,20704.6,05-06-2024,01:30,Morning,Pune,Debit Card,Mobile,Shopping,Success,17,73,288,5,3,Yes,No,Yes,61,Medium
+TXN000186,CUST7560,43,Other,422822.09,141,86878.08,18411.12,08-02-2024,18:39,Evening,Jaipur,Debit Card,ATM,Electronics,Success,2,86,71,4,5,Yes,No,Yes,48,Medium
+TXN000187,CUST7506,21,Female,271955.27,89,16407.81,34538.78,24-02-2025,13:19,Afternoon,Coimbatore,UPI,ATM,Electronics,Success,6,34,159,4,4,Yes,Yes,No,24,Medium
+TXN000188,CUST3166,58,Female,234033.69,106,71017.95,4761.94,26-10-2023,19:33,Evening,Coimbatore,Net Banking,Mobile,Food,Success,13,4,210,5,2,No,Yes,No,96,High
+TXN000189,CUST3970,58,Female,155436.72,59,22535.2,49594.83,15-01-2023,11:54,Morning,Mumbai,Credit Card,POS,Shopping,Success,16,26,138,2,4,No,No,No,46,Low
+TXN000190,CUST2329,40,Male,177418.27,105,39662.37,29184.22,19-05-2025,12:41,Afternoon,Mumbai,Wallet,Web,Fuel,Success,15,83,261,4,4,No,No,No,84,Medium
+TXN000191,CUST9585,27,Female,230733.48,133,11465.65,44090.87,13-07-2025,04:31,Morning,Ahmedabad,Net Banking,POS,Entertainment,Success,9,61,12,4,2,No,No,No,86,Medium
+TXN000192,CUST7939,39,Other,419295.02,129,33367.21,38151.74,08-12-2023,09:34,Morning,Ahmedabad,UPI,Web,Travel,Success,3,5,187,2,3,Yes,Yes,Yes,74,Medium
+TXN000193,CUST8336,63,Female,311035.12,76,35317.84,3238.41,12-02-2026,20:17,Evening,Bangalore,UPI,ATM,Grocery,Success,20,66,102,4,5,No,No,Yes,91,Medium
+TXN000194,CUST1203,43,Female,14401.92,132,68041.85,13360.12,10-10-2024,23:05,Night,Kolkata,Wallet,POS,Travel,Success,20,38,231,3,4,No,Yes,No,67,High
+TXN000195,CUST3337,25,Male,187926.63,55,29446.25,23570.99,18-01-2025,08:00,Morning,Coimbatore,Net Banking,ATM,Food,Success,13,98,292,5,0,No,No,Yes,81,Medium
+TXN000196,CUST5777,56,Female,346697.26,68,29677.92,30891.5,29-08-2023,15:38,Afternoon,Pune,Wallet,Web,Shopping,Success,11,1,255,4,1,No,No,Yes,91,Medium
+TXN000197,CUST4910,61,Other,58988.61,49,59939.43,918.82,13-12-2024,05:31,Morning,Kolkata,UPI,POS,Shopping,Success,9,95,120,2,5,No,Yes,Yes,44,Medium
+TXN000198,CUST6926,50,Other,293546.74,40,39430.92,49520.92,17-01-2026,08:15,Morning,Coimbatore,Credit Card,Mobile,Grocery,Failed,19,19,273,2,2,Yes,Yes,Yes,14,Medium
+TXN000199,CUST5698,45,Female,387914.34,114,63352.46,18548.33,10-03-2024,11:17,Morning,Hyderabad,Wallet,POS,Fuel,Success,19,24,192,3,1,Yes,No,No,12,Medium
+TXN000200,CUST6375,70,Other,321511.33,84,46337.89,47168.48,14-05-2024,15:20,Afternoon,Bangalore,Credit Card,Web,Electronics,Success,13,52,52,4,0,No,No,No,42,Low
+TXN000201,CUST4611,59,Other,7423,1,67593.78,20165.63,29-02-2024,13:33,Afternoon,Jaipur,Credit Card,ATM,Food,Success,4,39,42,1,3,No,Yes,No,36,Medium
+TXN000202,CUST1162,57,Other,458900.25,172,53572.73,45531.93,27-04-2026,06:52,Morning,Chennai,Net Banking,ATM,Shopping,Success,18,74,166,2,0,Yes,No,No,47,Medium
+TXN000203,CUST7397,23,Male,392053.13,136,94880,32951.09,08-11-2024,10:26,Morning,Bangalore,Wallet,ATM,Shopping,Success,2,23,263,4,4,No,Yes,No,44,Medium
+TXN000204,CUST4604,23,Female,324489.25,134,75308.84,21479.98,21-03-2025,18:51,Evening,Bangalore,Net Banking,POS,Fuel,Success,13,10,250,3,2,No,Yes,No,3,Medium
+TXN000205,CUST3597,56,Male,148562.93,102,17876.54,38197.25,03-11-2025,18:20,Evening,Kolkata,UPI,POS,Food,Success,8,34,287,2,1,Yes,No,Yes,69,Low
+TXN000206,CUST6000,59,Other,150038.48,51,9591.73,7388.95,22-01-2024,18:28,Evening,Jaipur,Net Banking,POS,Travel,Success,2,11,117,6,3,No,No,Yes,82,Medium
+TXN000207,CUST6405,24,Other,156052.54,119,99136.16,36817.99,08-07-2025,06:38,Morning,Jaipur,Credit Card,Mobile,Entertainment,Success,10,60,245,1,5,No,Yes,Yes,21,Medium
+TXN000208,CUST5787,31,Male,331120.41,97,96140.95,18166.42,03-06-2025,22:31,Night,Coimbatore,Net Banking,Web,Healthcare,Success,16,77,7,5,3,No,Yes,No,86,High
+TXN000209,CUST7394,63,Male,7368.9,11,53627.2,7719.15,26-01-2024,08:57,Morning,Kolkata,Net Banking,POS,Travel,Success,12,37,210,1,2,Yes,No,No,88,Medium
+TXN000210,CUST6307,46,Other,482278.26,93,85446.86,36206.06,07-10-2025,02:06,Morning,Hyderabad,Credit Card,ATM,Fuel,Success,16,91,232,1,3,No,No,Yes,16,Medium
+TXN000211,CUST4081,53,Other,272830.31,59,17485.35,20478.79,09-05-2023,11:24,Morning,Kolkata,Credit Card,Mobile,Food,Success,3,79,149,1,5,No,No,No,33,Low
+TXN000212,CUST8253,58,Female,77374.54,39,44604.24,16503.84,01-01-2026,03:39,Morning,Kolkata,Credit Card,ATM,Travel,Success,17,90,279,3,0,Yes,No,Yes,64,Medium
+TXN000213,CUST3525,63,Male,338998.32,28,31308.73,43359.02,04-12-2024,06:57,Morning,Jaipur,UPI,Web,Travel,Success,20,74,32,4,4,No,No,Yes,99,Medium
+TXN000214,CUST9504,53,Male,284855.1,7,45097.18,5510.19,28-07-2025,16:57,Afternoon,Bangalore,UPI,POS,Shopping,Success,17,86,129,5,0,No,Yes,No,61,Medium
+TXN000215,CUST6302,48,Male,464289.88,130,31491.6,2169.44,27-09-2025,00:57,Morning,Bangalore,Wallet,Web,Fuel,Failed,6,67,29,4,0,No,Yes,Yes,92,Medium
+TXN000216,CUST6427,68,Male,63451.2,98,821.84,5658.7,19-03-2023,21:25,Night,Pune,UPI,Mobile,Food,Success,6,95,43,2,4,No,Yes,No,46,Medium
+TXN000217,CUST4693,61,Female,178687.25,101,7902.29,22858.06,20-02-2023,08:54,Morning,Mumbai,Net Banking,Web,Shopping,Success,3,15,271,4,0,Yes,No,No,33,Low
+TXN000218,CUST9609,65,Other,128688.12,3,46362.93,31672.85,18-09-2024,06:44,Morning,Bangalore,Wallet,ATM,Travel,Success,8,77,70,3,2,No,Yes,Yes,92,Medium
+TXN000219,CUST8447,20,Other,437875.53,158,17684.08,10141.69,26-07-2023,08:26,Morning,Pune,Net Banking,ATM,Electronics,Success,17,81,54,4,1,No,Yes,Yes,98,Medium
+TXN000220,CUST6802,69,Female,155676.63,135,70693.44,14428.24,26-03-2024,03:24,Morning,Hyderabad,Wallet,ATM,Entertainment,Success,11,65,8,6,3,Yes,Yes,Yes,84,High
+TXN000221,CUST3581,48,Female,102151.03,136,69041.79,43804.53,25-02-2024,05:59,Morning,Bangalore,UPI,ATM,Fuel,Success,19,62,57,4,3,No,No,Yes,62,Medium
+TXN000222,CUST3299,46,Other,491174.28,143,60404.07,6239.49,16-06-2023,05:57,Morning,Jaipur,Wallet,POS,Healthcare,Success,1,11,188,2,3,No,Yes,No,65,Medium
+TXN000223,CUST8520,61,Other,389866.91,146,23980.13,10868.98,10-10-2024,05:07,Morning,Hyderabad,Credit Card,Mobile,Shopping,Success,1,20,68,2,3,Yes,No,No,20,Medium
+TXN000224,CUST7505,39,Male,74929.23,78,94212.66,41526.89,28-08-2024,11:03,Morning,Kolkata,Debit Card,Mobile,Fuel,Success,10,30,87,3,2,No,Yes,No,36,Medium
+TXN000225,CUST7577,69,Male,450558.92,96,81030.26,7137.57,18-07-2023,02:22,Morning,Delhi,UPI,Mobile,Fuel,Success,19,73,213,1,5,No,Yes,Yes,75,High
+TXN000226,CUST2462,19,Male,328077.74,39,61571.27,29373.33,11-05-2025,17:54,Evening,Coimbatore,Wallet,POS,Healthcare,Success,19,61,267,3,2,Yes,Yes,Yes,9,Medium
+TXN000227,CUST3772,22,Other,347375.79,4,1625.63,43198.53,31-03-2024,02:59,Morning,Delhi,Wallet,Mobile,Travel,Success,17,65,224,4,1,Yes,No,No,46,Low
+TXN000228,CUST9842,32,Other,421066.08,87,77668.04,33870.99,20-01-2024,10:47,Morning,Ahmedabad,Debit Card,Mobile,Travel,Failed,17,47,188,3,5,Yes,Yes,Yes,17,Medium
+TXN000229,CUST3841,53,Other,225081.54,146,58280.16,29380.59,18-01-2024,16:04,Afternoon,Delhi,Debit Card,ATM,Food,Success,16,19,128,4,4,Yes,No,Yes,6,Medium
+TXN000230,CUST6940,37,Other,298881.39,173,24628.43,43347.54,09-04-2026,09:19,Morning,Jaipur,Debit Card,Web,Entertainment,Success,12,4,247,2,4,No,Yes,No,17,Medium
+TXN000231,CUST3592,31,Female,182053.21,83,56245.38,11636.77,04-09-2024,07:40,Morning,Jaipur,Credit Card,ATM,Travel,Success,15,6,131,6,4,No,No,Yes,48,Medium
+TXN000232,CUST7203,43,Female,415517.49,22,71867.04,17682.43,28-02-2026,10:43,Morning,Ahmedabad,Credit Card,Web,Fuel,Success,16,85,96,1,1,Yes,No,Yes,49,Medium
+TXN000233,CUST4790,34,Male,430198.1,38,31672.83,14607.74,25-04-2026,23:57,Night,Bangalore,Net Banking,POS,Healthcare,Success,18,53,133,2,3,Yes,No,Yes,60,Medium
+TXN000234,CUST6793,37,Other,394594.32,161,36290.42,3281.83,21-07-2024,23:52,Night,Mumbai,Debit Card,POS,Shopping,Success,7,81,26,3,2,Yes,No,No,18,Medium
+TXN000235,CUST2699,24,Female,342261.08,112,75090.66,9816.9,25-01-2023,06:05,Morning,Delhi,Wallet,ATM,Fuel,Success,7,36,51,5,2,No,Yes,Yes,49,Medium
+TXN000236,CUST4192,42,Female,383532.77,174,42448.76,37842.84,07-04-2023,21:52,Night,Jaipur,UPI,Web,Electronics,Success,13,44,5,4,0,Yes,Yes,No,30,Medium
+TXN000237,CUST2496,51,Female,181561.94,78,88628.75,32904.65,15-07-2023,11:09,Morning,Pune,Wallet,Web,Food,Success,11,80,92,6,3,Yes,Yes,Yes,21,High
+TXN000238,CUST5957,20,Male,278713.77,23,4873.61,34881.96,22-09-2023,11:33,Morning,Bangalore,Debit Card,ATM,Grocery,Failed,15,26,174,1,4,Yes,No,No,6,Low
+TXN000239,CUST8882,57,Female,109436.75,151,48175.8,43623.74,18-01-2025,05:47,Morning,Hyderabad,UPI,POS,Entertainment,Success,3,44,161,4,1,Yes,No,Yes,27,Medium
+TXN000240,CUST9578,37,Male,269296.48,128,83632.55,15168.2,14-04-2024,02:15,Morning,Chennai,Wallet,ATM,Healthcare,Success,9,15,233,5,0,No,Yes,No,73,Medium
+TXN000241,CUST5063,18,Female,470420.04,38,5850.7,28982.98,18-03-2024,19:58,Evening,Pune,Net Banking,POS,Entertainment,Success,18,70,261,6,5,No,Yes,No,14,Medium
+TXN000242,CUST2584,65,Male,336882.79,138,34723.7,13171.2,03-02-2025,04:41,Morning,Bangalore,Credit Card,POS,Entertainment,Failed,5,58,14,6,4,No,No,No,100,Medium
+TXN000243,CUST1226,56,Male,296090.18,31,83421.47,24683.9,14-09-2025,16:48,Afternoon,Mumbai,Credit Card,ATM,Grocery,Success,16,1,38,4,4,No,Yes,Yes,29,Medium
+TXN000244,CUST9421,29,Other,401595.22,113,99280.68,29263.77,03-03-2025,11:51,Morning,Hyderabad,Net Banking,Mobile,Fuel,Failed,13,95,159,4,4,Yes,Yes,No,47,High
+TXN000245,CUST2716,39,Female,323117.58,21,56708.77,20176.8,18-02-2025,23:48,Night,Delhi,Debit Card,Web,Shopping,Success,7,28,169,2,4,No,No,Yes,80,High
+TXN000246,CUST6445,38,Other,74472.59,27,85503.46,4086.64,12-10-2024,03:23,Morning,Chennai,UPI,Web,Travel,Success,19,42,63,5,4,No,No,Yes,59,Medium
+TXN000247,CUST6852,53,Male,211281.17,15,11050.33,20242.41,02-04-2023,16:48,Afternoon,Bangalore,Credit Card,Web,Travel,Success,4,26,176,2,4,No,No,Yes,64,Low
+TXN000248,CUST6319,19,Male,192869.53,64,21169.29,3855.03,14-04-2025,17:39,Evening,Coimbatore,Credit Card,ATM,Food,Success,18,66,242,5,5,Yes,Yes,No,15,Medium
+TXN000249,CUST4892,45,Female,366680.9,22,26115.25,4599.84,02-06-2025,17:50,Evening,Ahmedabad,Debit Card,ATM,Electronics,Success,8,78,39,1,0,No,Yes,No,42,Low
+TXN000250,CUST1374,56,Female,285976.02,30,23673.41,8647.62,24-06-2025,20:54,Evening,Coimbatore,Debit Card,POS,Electronics,Success,4,45,280,2,1,No,Yes,No,11,Low
+TXN000251,CUST6571,20,Male,158883.79,55,74424.63,14341.64,17-05-2025,01:09,Morning,Delhi,Credit Card,POS,Travel,Success,6,88,135,1,3,Yes,Yes,No,36,Medium
+TXN000252,CUST9788,18,Other,153015.71,3,87947.81,37506.67,23-07-2024,14:04,Afternoon,Ahmedabad,Credit Card,ATM,Healthcare,Failed,1,39,251,2,5,Yes,Yes,No,17,Medium
+TXN000253,CUST5326,60,Female,481138.23,75,85159.41,32158.69,24-01-2026,00:11,Morning,Chennai,UPI,ATM,Travel,Success,12,99,281,4,2,No,Yes,No,43,Medium
+TXN000254,CUST5886,31,Male,475435.12,175,89393.12,4588.42,09-03-2023,04:50,Morning,Delhi,Wallet,Web,Food,Success,4,70,203,4,1,No,No,Yes,95,Medium
+TXN000255,CUST8978,27,Other,353020.67,1,22534.22,49472.97,05-02-2026,10:23,Morning,Chennai,UPI,POS,Healthcare,Success,1,92,166,3,3,Yes,No,No,34,Medium
+TXN000256,CUST4489,27,Other,190676,179,20800.73,9009.78,20-02-2023,07:43,Morning,Delhi,Credit Card,Web,Healthcare,Success,1,61,286,4,3,No,Yes,Yes,22,Medium
+TXN000257,CUST8223,36,Male,452026.9,76,2667.81,33388.1,09-07-2024,11:26,Morning,Hyderabad,Credit Card,Web,Food,Success,4,98,264,1,1,No,Yes,No,8,Low
+TXN000258,CUST9674,33,Female,372185.04,102,26422.15,10522.09,04-01-2023,00:15,Morning,Delhi,Net Banking,ATM,Healthcare,Success,16,31,239,3,0,Yes,No,No,89,Medium
+TXN000259,CUST7114,34,Male,295542.82,13,90646.99,45928.08,22-03-2025,06:08,Morning,Hyderabad,Credit Card,POS,Travel,Success,12,72,166,1,2,No,No,No,78,Medium
+TXN000260,CUST2157,36,Male,465414.58,151,1641.9,26613.42,07-03-2026,08:17,Morning,Mumbai,UPI,ATM,Travel,Success,13,11,24,5,4,Yes,Yes,No,19,Medium
+TXN000261,CUST1538,36,Male,440680.25,57,34226.04,48552.73,02-05-2023,06:39,Morning,Hyderabad,Wallet,POS,Entertainment,Success,16,51,291,3,4,No,Yes,No,13,Medium
+TXN000262,CUST2604,27,Male,476096.5,143,37771.18,3405.09,04-08-2025,08:45,Morning,Delhi,Debit Card,Web,Electronics,Success,14,87,41,4,5,No,No,Yes,43,Medium
+TXN000263,CUST5387,52,Male,418135.26,155,21354.84,16612.98,04-06-2023,03:05,Morning,Bangalore,Credit Card,POS,Shopping,Success,9,73,213,1,1,No,Yes,No,73,Medium
+TXN000264,CUST3213,49,Female,19133.92,122,38571.63,19259.5,18-03-2024,22:19,Night,Pune,Debit Card,POS,Travel,Success,14,55,278,2,0,No,No,Yes,8,Low
+TXN000265,CUST3249,21,Female,234108.48,53,87703.63,24678.97,25-12-2023,19:20,Evening,Hyderabad,Net Banking,ATM,Food,Success,3,4,168,2,3,No,Yes,No,98,High
+TXN000266,CUST1070,24,Female,65620.23,27,93116.15,19901.55,15-12-2025,03:08,Morning,Ahmedabad,Debit Card,POS,Fuel,Success,11,88,227,2,2,Yes,No,Yes,33,Medium
+TXN000267,CUST3689,64,Other,282519.01,59,40240.2,49325.28,29-04-2026,07:27,Morning,Delhi,Net Banking,POS,Electronics,Success,2,72,283,1,1,Yes,No,Yes,64,Medium
+TXN000268,CUST5064,38,Male,403442.86,85,17166.73,28179.04,08-06-2023,16:00,Afternoon,Chennai,Credit Card,Mobile,Healthcare,Success,2,33,36,4,3,Yes,Yes,No,77,High
+TXN000269,CUST5159,61,Female,74249.46,128,1459.59,21304.44,21-01-2023,17:50,Evening,Coimbatore,Wallet,ATM,Healthcare,Success,17,58,238,5,2,Yes,No,Yes,37,Low
+TXN000270,CUST6457,38,Male,484550.47,134,5982.56,24172.48,04-07-2024,03:14,Morning,Kolkata,Credit Card,ATM,Travel,Success,14,20,271,2,3,No,Yes,Yes,12,Low
+TXN000271,CUST9398,32,Other,314167.15,110,81134.76,31967.3,19-10-2023,02:23,Morning,Coimbatore,Credit Card,ATM,Food,Success,7,74,211,5,1,No,Yes,No,52,Medium
+TXN000272,CUST1384,63,Other,350524.34,166,55107.53,18288.46,01-09-2025,03:36,Morning,Mumbai,Credit Card,ATM,Electronics,Success,11,51,146,3,5,Yes,Yes,Yes,15,Medium
+TXN000273,CUST4474,60,Female,365959.58,98,21541.9,5400.63,26-12-2023,02:59,Morning,Delhi,UPI,POS,Travel,Success,2,96,97,3,1,Yes,Yes,No,15,Medium
+TXN000274,CUST3006,60,Male,208609.78,77,26364.13,28132.68,26-07-2023,10:11,Morning,Hyderabad,Debit Card,Mobile,Travel,Success,9,16,282,3,5,Yes,No,Yes,36,Medium
+TXN000275,CUST4831,60,Other,201282.13,47,73353.69,31115.32,21-01-2026,03:24,Morning,Chennai,Net Banking,Mobile,Healthcare,Success,6,44,127,6,4,No,No,Yes,77,High
+TXN000276,CUST5609,30,Other,213523.77,121,98068.06,47627.82,28-04-2024,00:42,Morning,Coimbatore,Debit Card,Web,Entertainment,Success,5,48,131,3,0,No,Yes,Yes,11,Medium
+TXN000277,CUST7810,63,Other,333314.96,140,90653.58,41038.6,28-09-2025,09:01,Morning,Ahmedabad,Debit Card,Web,Travel,Success,19,61,96,2,3,No,No,Yes,61,Medium
+TXN000278,CUST8277,40,Female,286624.83,62,2219.49,12590.05,02-07-2025,16:33,Afternoon,Pune,Wallet,POS,Shopping,Success,1,90,140,4,2,Yes,No,Yes,54,Medium
+TXN000279,CUST3998,22,Male,334221,119,34367.48,49314.54,24-04-2026,23:05,Night,Mumbai,Net Banking,Web,Food,Success,4,83,278,5,0,No,Yes,Yes,36,Medium
+TXN000280,CUST8920,54,Other,192646.86,85,1849.93,10512.91,11-11-2024,14:28,Afternoon,Ahmedabad,Wallet,Web,Food,Failed,12,1,283,5,0,Yes,Yes,No,20,Medium
+TXN000281,CUST3858,46,Other,59627.22,126,1105.47,11469.89,17-06-2023,18:25,Evening,Chennai,UPI,POS,Food,Success,11,29,190,1,3,No,Yes,Yes,28,Low
+TXN000282,CUST8260,57,Male,166666.62,108,10675.21,1814.98,05-03-2023,13:29,Afternoon,Bangalore,Credit Card,Mobile,Healthcare,Success,20,85,223,4,0,Yes,No,No,86,Medium
+TXN000283,CUST6229,48,Female,41765.52,31,74130.74,21003.4,10-11-2025,09:18,Morning,Coimbatore,Net Banking,Mobile,Healthcare,Success,1,14,150,6,4,Yes,No,Yes,28,Medium
+TXN000284,CUST7847,40,Female,337978.34,51,99107.56,44849.06,10-05-2025,00:45,Morning,Ahmedabad,UPI,ATM,Travel,Success,3,7,149,6,1,Yes,Yes,Yes,90,High
+TXN000285,CUST3673,18,Female,305894.78,169,44059.65,37784.3,29-07-2023,20:46,Evening,Pune,Debit Card,POS,Electronics,Success,11,28,296,1,5,Yes,Yes,Yes,66,Medium
+TXN000286,CUST6201,54,Male,185939.81,15,5920.33,27048.48,26-02-2025,12:50,Afternoon,Pune,Net Banking,Web,Shopping,Success,10,89,114,3,4,No,No,No,67,Low
+TXN000287,CUST3065,31,Other,100565.76,19,12784.79,36517.58,22-05-2023,09:06,Morning,Bangalore,Credit Card,POS,Electronics,Success,10,26,258,3,2,Yes,No,Yes,85,Medium
+TXN000288,CUST4277,70,Female,190832.87,40,34093.55,20964.55,18-01-2024,16:59,Afternoon,Mumbai,UPI,Mobile,Grocery,Success,10,84,131,3,4,No,Yes,No,77,Medium
+TXN000289,CUST5703,36,Male,400753.68,63,10211,22324.63,23-01-2025,23:59,Night,Jaipur,Net Banking,ATM,Healthcare,Success,13,9,288,5,5,No,Yes,Yes,89,High
+TXN000290,CUST1625,57,Male,81471.71,85,43411.65,25231.28,02-09-2024,16:35,Afternoon,Chennai,Net Banking,POS,Grocery,Success,13,15,92,4,3,No,No,No,25,Medium
+TXN000291,CUST8572,45,Female,298310.26,127,89023.05,25726.96,27-10-2023,08:52,Morning,Hyderabad,Net Banking,Mobile,Fuel,Success,12,36,117,2,5,Yes,Yes,No,60,High
+TXN000292,CUST3426,44,Male,110584.26,105,46488.78,29783.99,09-07-2024,12:07,Afternoon,Kolkata,Wallet,POS,Fuel,Success,16,23,101,3,5,Yes,No,Yes,79,Medium
+TXN000293,CUST1802,60,Female,486407.1,163,63379.8,6227.1,05-03-2025,04:11,Morning,Kolkata,Debit Card,ATM,Travel,Success,17,89,259,4,3,Yes,Yes,Yes,12,High
+TXN000294,CUST8202,60,Other,14354.74,88,67366.08,38406.2,04-03-2024,12:34,Afternoon,Jaipur,Net Banking,Mobile,Food,Success,8,28,42,4,5,Yes,Yes,No,66,High
+TXN000295,CUST8978,42,Other,495227.29,145,17448.91,44312.78,12-08-2025,17:13,Evening,Chennai,Wallet,ATM,Entertainment,Success,5,27,284,3,5,Yes,No,No,21,Low
+TXN000296,CUST5323,70,Female,290356.63,169,69164.13,39888.8,14-05-2024,00:49,Morning,Chennai,Wallet,POS,Shopping,Failed,6,69,118,4,5,No,No,No,29,Medium
+TXN000297,CUST5491,43,Male,325090.92,117,73135.12,24477.7,29-09-2024,13:46,Afternoon,Hyderabad,Debit Card,Web,Food,Success,16,69,96,6,5,Yes,No,Yes,28,Medium
+TXN000298,CUST1851,38,Male,430252.37,18,76884.6,21888.66,02-03-2025,05:12,Morning,Coimbatore,Debit Card,Web,Shopping,Success,15,91,194,4,0,Yes,Yes,No,64,High
+TXN000299,CUST1125,25,Other,91784.5,6,37813.49,4736.86,21-05-2024,21:01,Night,Chennai,UPI,Mobile,Food,Success,4,8,265,2,2,No,No,No,23,Low
+TXN000300,CUST6825,58,Male,419340.12,173,1353.79,47638.01,29-05-2023,22:27,Night,Delhi,Wallet,Mobile,Electronics,Failed,9,98,141,2,3,Yes,Yes,No,73,Medium
+TXN000301,CUST6382,30,Female,258081.45,111,7228.24,41217.7,04-03-2026,22:39,Night,Jaipur,Net Banking,ATM,Travel,Success,19,40,16,5,3,Yes,No,Yes,17,Medium
+TXN000302,CUST8358,21,Female,424052.37,77,23157.5,17953.07,24-05-2025,21:32,Night,Chennai,Net Banking,POS,Travel,Success,20,98,269,2,4,No,Yes,Yes,39,Medium
+TXN000303,CUST3031,35,Male,234442.56,153,42052.65,32974.81,27-04-2023,04:43,Morning,Coimbatore,Net Banking,POS,Fuel,Success,19,36,44,1,0,Yes,No,Yes,32,Low
+TXN000304,CUST1293,51,Male,210387.06,166,73108.33,9500.96,14-06-2025,05:02,Morning,Ahmedabad,Wallet,Web,Healthcare,Success,2,59,83,1,1,No,No,No,16,Low
+TXN000305,CUST5884,68,Other,196561.9,169,84357.17,6169.79,10-06-2025,19:42,Evening,Jaipur,Wallet,Mobile,Shopping,Success,13,22,74,1,5,Yes,No,Yes,94,High
+TXN000306,CUST9747,55,Female,18424.34,88,72483.08,8016.64,08-08-2025,06:26,Morning,Pune,Wallet,Web,Travel,Success,16,27,193,5,4,No,No,Yes,15,Medium
+TXN000307,CUST1133,52,Female,268433.48,148,81468.74,1001.64,19-01-2026,13:51,Afternoon,Chennai,Credit Card,POS,Grocery,Success,10,80,102,2,0,No,No,No,51,Medium
+TXN000308,CUST5479,53,Other,25665.27,47,30678.48,29426.42,12-08-2023,15:53,Afternoon,Chennai,Wallet,Mobile,Electronics,Success,10,95,10,6,0,Yes,No,No,10,Medium
+TXN000309,CUST4819,46,Female,26389.97,81,40302.64,36820.63,09-08-2025,09:45,Morning,Jaipur,Net Banking,ATM,Grocery,Success,8,87,277,5,5,No,Yes,No,92,High
+TXN000310,CUST4215,35,Other,48239.63,22,5489.7,48930.66,30-03-2025,11:42,Morning,Delhi,Credit Card,Web,Entertainment,Success,6,92,75,2,1,No,Yes,No,37,Low
+TXN000311,CUST7341,58,Female,29351.32,11,18916.46,7421.09,03-01-2024,09:26,Morning,Hyderabad,Net Banking,ATM,Fuel,Failed,9,90,175,4,3,No,No,Yes,26,Low
+TXN000312,CUST5782,67,Female,498702.3,171,63666.95,7348.93,17-07-2025,06:52,Morning,Hyderabad,Credit Card,Web,Travel,Success,10,71,198,2,5,Yes,No,Yes,55,Medium
+TXN000313,CUST5772,35,Male,83580.9,171,84510.38,45749.04,26-05-2024,18:19,Evening,Kolkata,Debit Card,ATM,Shopping,Success,8,80,120,3,5,Yes,Yes,No,99,High
+TXN000314,CUST2723,57,Female,111683.3,75,11850.41,41625.1,21-12-2023,03:35,Morning,Bangalore,Credit Card,Mobile,Grocery,Success,12,4,68,4,1,No,Yes,No,51,Medium
+TXN000315,CUST3520,68,Other,438342.95,8,91427,3904.94,24-01-2025,16:44,Afternoon,Delhi,Credit Card,Web,Healthcare,Success,15,45,190,3,1,No,No,No,60,Medium
+TXN000316,CUST8049,32,Male,79431.85,91,78941.31,7070.41,21-02-2024,21:04,Night,Jaipur,Debit Card,Web,Entertainment,Success,11,59,50,2,4,Yes,Yes,No,19,High
+TXN000317,CUST3721,20,Other,348885.35,28,99504.2,6856.06,28-02-2024,12:46,Afternoon,Coimbatore,Credit Card,Web,Food,Success,3,87,190,1,2,No,No,Yes,49,Low
+TXN000318,CUST7134,23,Other,71074.17,169,61786.28,18187.87,16-04-2026,17:06,Evening,Jaipur,UPI,POS,Travel,Failed,5,1,2,1,0,No,Yes,No,96,Medium
+TXN000319,CUST6291,52,Other,367549.75,96,26724.63,46789.65,01-01-2023,07:31,Morning,Kolkata,Wallet,Mobile,Electronics,Success,6,97,147,4,2,Yes,Yes,No,9,Medium
+TXN000320,CUST2768,61,Female,481828.99,21,24970.76,49818.32,11-03-2024,17:07,Evening,Hyderabad,Net Banking,Web,Healthcare,Success,16,23,174,4,4,Yes,Yes,Yes,37,Medium
+TXN000321,CUST5605,27,Other,53888.7,86,58255.63,17833.43,11-02-2025,22:35,Night,Hyderabad,Net Banking,Mobile,Healthcare,Success,15,81,278,6,2,Yes,Yes,Yes,30,High
+TXN000322,CUST4268,62,Female,60235.19,159,62860.77,29411.7,05-07-2023,08:47,Morning,Hyderabad,Net Banking,POS,Healthcare,Success,19,74,200,1,2,No,Yes,No,21,Medium
+TXN000323,CUST2905,69,Male,89114.36,63,79648.64,18175.01,25-01-2025,06:39,Morning,Coimbatore,Net Banking,Mobile,Grocery,Success,15,96,268,2,2,Yes,Yes,No,6,Medium
+TXN000324,CUST7506,18,Female,93452.11,138,70385.67,10044.04,01-02-2026,12:11,Afternoon,Coimbatore,UPI,Mobile,Entertainment,Success,9,8,99,4,5,No,Yes,No,98,High
+TXN000325,CUST1495,65,Male,257489.57,155,22542.78,28014.8,21-03-2025,14:45,Afternoon,Pune,UPI,ATM,Fuel,Success,11,99,233,6,2,Yes,No,Yes,11,Medium
+TXN000326,CUST4477,30,Male,115582.43,69,89643.65,29943.35,23-02-2023,15:30,Afternoon,Kolkata,Credit Card,POS,Entertainment,Success,9,71,78,6,1,Yes,Yes,No,33,Medium
+TXN000327,CUST3033,68,Female,468212.31,27,32218.64,16117.98,11-07-2023,17:22,Evening,Coimbatore,Wallet,Mobile,Food,Success,15,43,61,1,0,No,No,No,9,Low
+TXN000328,CUST1160,25,Male,104273.31,24,82058.75,5982.63,26-12-2023,23:15,Night,Ahmedabad,Net Banking,POS,Fuel,Success,7,37,267,2,1,No,No,Yes,55,Medium
+TXN000329,CUST1841,22,Other,304694.6,4,47246.47,12334.19,23-11-2023,16:31,Afternoon,Ahmedabad,Net Banking,Web,Travel,Success,18,19,80,6,0,Yes,No,No,18,Medium
+TXN000330,CUST3015,39,Male,152964.72,161,72862.28,29228.42,03-10-2024,10:42,Morning,Coimbatore,UPI,POS,Entertainment,Success,18,10,11,1,1,Yes,Yes,Yes,3,Medium
+TXN000331,CUST9455,39,Female,338657.41,107,45989.71,25443.34,25-09-2024,12:23,Afternoon,Pune,UPI,POS,Entertainment,Success,6,76,4,3,5,Yes,No,No,56,Medium
+TXN000332,CUST8877,47,Female,330547.86,95,58522.72,24995.64,11-06-2025,20:10,Evening,Kolkata,UPI,Web,Grocery,Success,19,31,275,1,3,Yes,No,No,77,High
+TXN000333,CUST7680,61,Male,58924.15,146,49104.95,35513.35,20-09-2024,11:45,Morning,Coimbatore,Net Banking,Mobile,Food,Success,16,15,84,3,0,No,Yes,Yes,69,Medium
+TXN000334,CUST8165,59,Other,182296.29,109,86139.94,11799.54,08-01-2024,17:11,Evening,Hyderabad,Net Banking,Mobile,Travel,Success,9,27,184,3,5,No,No,No,69,Medium
+TXN000335,CUST3674,41,Male,349220.06,158,32301.57,19175.29,06-12-2025,16:21,Afternoon,Kolkata,Net Banking,Mobile,Shopping,Success,20,50,141,5,1,Yes,Yes,No,85,High
+TXN000336,CUST5883,36,Female,249573.65,128,60425.55,32948.29,30-05-2023,12:07,Afternoon,Jaipur,UPI,Mobile,Grocery,Success,1,74,125,1,3,No,No,Yes,66,Medium
+TXN000337,CUST7466,34,Other,369665.98,172,21010.93,27625.1,04-11-2023,01:24,Morning,Coimbatore,Debit Card,Web,Healthcare,Success,9,84,123,4,5,No,No,Yes,29,Medium
+TXN000338,CUST6963,22,Male,68407.4,91,40385.02,25576.14,10-04-2024,01:24,Morning,Delhi,Credit Card,Web,Electronics,Success,8,79,195,4,2,No,Yes,Yes,92,Medium
+TXN000339,CUST8566,70,Female,90929.28,107,3044.42,29504.97,22-09-2024,09:46,Morning,Mumbai,Debit Card,POS,Shopping,Success,15,25,142,2,3,No,No,Yes,40,Low
+TXN000340,CUST7939,52,Female,102029.26,147,96675.89,42453.56,02-11-2024,15:06,Afternoon,Coimbatore,Net Banking,POS,Shopping,Failed,7,62,187,6,1,No,No,No,66,Medium
+TXN000341,CUST2114,51,Male,40893.83,136,93461.52,43627.29,01-04-2023,17:38,Evening,Bangalore,UPI,Web,Travel,Success,6,59,142,1,1,No,Yes,Yes,89,Medium
+TXN000342,CUST6833,70,Male,145770.82,131,81616.74,14234.51,09-02-2023,07:33,Morning,Coimbatore,Credit Card,POS,Healthcare,Success,3,57,95,6,4,Yes,No,No,28,Medium
+TXN000343,CUST1525,19,Male,319279.97,166,27615.17,15754.08,10-04-2023,01:59,Morning,Delhi,UPI,POS,Food,Success,3,32,123,4,0,Yes,No,Yes,58,Medium
+TXN000344,CUST1918,24,Female,362829.44,19,15818.46,22814.77,19-11-2023,21:59,Night,Mumbai,UPI,Web,Healthcare,Success,19,35,122,3,1,Yes,Yes,No,16,Medium
+TXN000345,CUST3145,22,Male,276285.37,15,5426.78,12194.19,16-03-2025,22:31,Night,Kolkata,UPI,Web,Food,Success,4,8,58,3,3,Yes,No,Yes,51,Medium
+TXN000346,CUST1343,20,Female,43085.58,8,30739.94,43693.65,18-10-2025,22:43,Night,Ahmedabad,Wallet,POS,Electronics,Success,10,29,179,6,5,Yes,Yes,Yes,79,High
+TXN000347,CUST5712,52,Female,283091.52,171,87581.5,14110.2,25-04-2026,22:11,Night,Chennai,Debit Card,Mobile,Shopping,Success,6,30,209,1,4,Yes,No,No,76,High
+TXN000348,CUST3545,54,Other,272936.34,67,50137.12,14454.69,03-12-2025,05:51,Morning,Coimbatore,UPI,Web,Healthcare,Success,7,84,78,2,4,No,Yes,Yes,93,High
+TXN000349,CUST1752,69,Male,204416.8,109,83047.26,38151.66,05-04-2025,01:30,Morning,Delhi,UPI,Mobile,Travel,Success,14,84,179,5,3,No,Yes,Yes,50,High
+TXN000350,CUST8165,44,Male,373190.11,178,7499.81,11057.01,12-06-2024,16:02,Afternoon,Ahmedabad,Wallet,Mobile,Travel,Success,2,50,63,2,2,No,Yes,No,54,Low
+TXN000351,CUST6818,41,Other,246131.6,113,21344.06,9518.49,20-04-2023,19:02,Evening,Pune,Net Banking,ATM,Shopping,Success,19,51,117,6,4,Yes,No,Yes,19,Medium
+TXN000352,CUST6312,31,Female,156658.94,137,49998.5,5670.26,15-09-2024,23:45,Night,Kolkata,Wallet,Mobile,Healthcare,Success,12,39,68,5,5,No,No,Yes,47,Medium
+TXN000353,CUST6500,36,Other,217360.87,57,11154.48,11689.64,03-03-2023,09:42,Morning,Jaipur,Wallet,Mobile,Electronics,Success,11,36,279,4,3,No,Yes,Yes,3,Medium
+TXN000354,CUST7720,45,Female,425137.64,26,84362.92,10005.22,24-02-2026,01:54,Morning,Hyderabad,Net Banking,Web,Electronics,Success,15,47,127,6,2,Yes,No,Yes,13,Medium
+TXN000355,CUST4901,48,Other,191091.32,108,10992.9,46463.62,17-06-2023,15:28,Afternoon,Kolkata,Debit Card,ATM,Entertainment,Success,5,79,226,6,0,No,No,No,33,Low
+TXN000356,CUST9380,30,Other,36654.89,126,14957.42,45697.9,07-08-2023,23:18,Night,Ahmedabad,Wallet,Web,Grocery,Success,15,32,150,5,3,No,No,Yes,23,Medium
+TXN000357,CUST4882,62,Male,100582.67,45,62250.6,21968.2,23-06-2025,00:52,Morning,Chennai,Net Banking,Web,Fuel,Success,10,46,133,4,1,No,Yes,Yes,94,High
+TXN000358,CUST2786,34,Other,401606.2,155,94363.15,24775.54,24-10-2023,08:51,Morning,Hyderabad,Wallet,POS,Entertainment,Success,11,47,271,4,5,Yes,No,Yes,98,High
+TXN000359,CUST7257,35,Male,254685.56,6,66177.13,26156.37,11-12-2025,01:24,Morning,Jaipur,Wallet,ATM,Grocery,Success,14,37,243,4,1,No,Yes,Yes,6,Medium
+TXN000360,CUST3578,66,Other,412931.59,91,83751.27,21872.59,08-02-2023,14:50,Afternoon,Chennai,UPI,Mobile,Fuel,Success,19,12,71,5,0,Yes,No,Yes,33,Medium
+TXN000361,CUST4378,32,Other,96797.35,99,76483.05,49730.38,24-05-2025,14:39,Afternoon,Hyderabad,Credit Card,Mobile,Healthcare,Success,7,57,136,4,4,Yes,No,Yes,11,Medium
+TXN000362,CUST5842,23,Other,265096.49,176,37321.72,23438.3,30-08-2025,20:32,Evening,Ahmedabad,UPI,POS,Shopping,Success,18,84,210,6,5,Yes,Yes,Yes,58,High
+TXN000363,CUST9137,65,Male,292741.36,147,38570.7,37833.97,30-10-2023,20:07,Evening,Bangalore,Net Banking,Web,Grocery,Success,18,73,214,6,0,No,Yes,No,49,Medium
+TXN000364,CUST1787,27,Male,168694.1,155,36246.5,20364.31,28-01-2025,04:37,Morning,Pune,Debit Card,Web,Travel,Success,5,92,5,3,1,No,No,No,77,Medium
+TXN000365,CUST1494,42,Male,37144.21,63,25282.88,35345.46,06-05-2025,17:51,Evening,Delhi,UPI,POS,Food,Success,1,69,261,4,2,No,Yes,No,9,Medium
+TXN000366,CUST8789,22,Other,150327.62,171,78712.99,5347.78,09-05-2024,17:30,Evening,Coimbatore,UPI,Mobile,Electronics,Success,10,89,195,3,3,No,Yes,No,9,Medium
+TXN000367,CUST8432,56,Male,48479.4,74,17396.97,10430.57,28-02-2025,04:58,Morning,Hyderabad,Debit Card,POS,Healthcare,Success,20,61,107,6,1,Yes,No,No,46,Low
+TXN000368,CUST8584,28,Male,69022.46,76,45559.87,35059.52,02-08-2025,00:29,Morning,Ahmedabad,Debit Card,ATM,Fuel,Success,9,99,6,2,0,No,Yes,Yes,80,Medium
+TXN000369,CUST7271,19,Male,43271.91,163,87024.43,15064.27,04-04-2024,17:59,Evening,Kolkata,Net Banking,Mobile,Electronics,Success,10,74,262,2,1,No,Yes,No,53,Medium
+TXN000370,CUST8252,26,Female,188576.35,107,43633.39,48152.91,19-11-2023,03:42,Morning,Kolkata,Credit Card,POS,Fuel,Success,2,68,278,4,3,Yes,Yes,Yes,46,Medium
+TXN000371,CUST9523,26,Other,19870.74,43,8316.03,24732.48,03-01-2023,11:51,Morning,Pune,Debit Card,Mobile,Electronics,Success,2,71,152,4,1,Yes,No,Yes,81,Medium
+TXN000372,CUST6304,47,Other,337459.57,12,69534.11,4834.82,13-01-2023,18:23,Evening,Pune,Credit Card,Web,Entertainment,Success,14,87,69,6,3,Yes,No,No,81,High
+TXN000373,CUST6547,59,Male,46927.05,74,36134.56,45261.69,29-04-2026,09:17,Morning,Kolkata,Wallet,Mobile,Shopping,Success,1,81,228,3,5,Yes,No,No,13,Medium
+TXN000374,CUST9276,51,Female,387370.2,80,76413.11,32309.13,08-12-2025,03:45,Morning,Bangalore,Net Banking,ATM,Travel,Success,2,47,223,2,4,No,No,Yes,74,Medium
+TXN000375,CUST3947,34,Other,195412.47,110,53970.2,3318.06,20-03-2025,13:11,Afternoon,Kolkata,Credit Card,POS,Food,Success,5,42,209,1,2,No,No,No,7,Low
+TXN000376,CUST7172,25,Male,29911.27,32,93002.04,33353.42,07-05-2025,13:25,Afternoon,Ahmedabad,Wallet,Web,Entertainment,Success,18,74,47,2,0,Yes,Yes,Yes,67,Medium
+TXN000377,CUST2583,61,Male,74324.7,115,69675.4,24055.21,06-02-2026,20:16,Evening,Jaipur,Wallet,Mobile,Grocery,Success,5,79,143,4,1,Yes,Yes,Yes,59,High
+TXN000378,CUST1127,19,Other,47215.78,9,77708.22,31891.44,09-07-2023,01:12,Morning,Chennai,Credit Card,Mobile,Grocery,Success,14,7,129,3,1,Yes,Yes,No,47,Medium
+TXN000379,CUST1498,28,Male,150603.22,1,67979.05,14704.67,17-02-2023,18:38,Evening,Coimbatore,Net Banking,Mobile,Healthcare,Success,9,10,100,6,0,No,No,No,44,Medium
+TXN000380,CUST3642,65,Male,441979.45,51,91778.19,10124.47,22-02-2026,21:08,Night,Pune,Credit Card,ATM,Food,Success,18,22,210,2,0,No,Yes,No,68,Medium
+TXN000381,CUST6218,28,Female,270869.8,9,20781.58,12268.88,23-08-2025,18:03,Evening,Kolkata,Wallet,Mobile,Travel,Success,11,10,299,2,1,No,Yes,No,66,Medium
+TXN000382,CUST1719,66,Female,432977.7,73,56056.85,36331.17,07-06-2025,19:34,Evening,Ahmedabad,Net Banking,ATM,Grocery,Success,15,18,18,1,1,No,Yes,No,56,Medium
+TXN000383,CUST9289,26,Other,254866.33,44,55917.27,15254.92,09-04-2025,11:24,Morning,Kolkata,Net Banking,POS,Food,Success,7,65,128,4,0,Yes,Yes,No,8,Medium
+TXN000384,CUST5318,67,Other,468071.87,130,38962.57,7428.1,20-09-2025,12:21,Afternoon,Pune,Debit Card,ATM,Healthcare,Failed,18,27,214,5,4,Yes,No,Yes,39,Medium
+TXN000385,CUST7840,54,Female,439846.24,37,8071.92,5573.34,19-12-2025,03:26,Morning,Chennai,UPI,POS,Travel,Success,6,11,21,2,2,Yes,Yes,Yes,83,Medium
+TXN000386,CUST2504,51,Other,171455.89,40,77246.65,41089.87,18-01-2023,04:21,Morning,Hyderabad,Wallet,ATM,Travel,Success,13,24,11,1,1,No,No,Yes,6,Low
+TXN000387,CUST9171,38,Other,499332.18,117,68331.53,17477.88,21-05-2024,07:13,Morning,Pune,UPI,ATM,Entertainment,Success,8,53,139,1,4,No,Yes,Yes,31,Medium
+TXN000388,CUST7003,18,Other,196372.32,80,89016.74,42841.3,05-12-2025,18:51,Evening,Kolkata,Debit Card,Mobile,Healthcare,Success,20,78,148,3,1,No,No,No,94,Medium
+TXN000389,CUST7155,40,Male,384291.91,101,84309.36,26451.03,15-12-2025,11:51,Morning,Ahmedabad,Credit Card,POS,Healthcare,Success,3,39,274,2,4,Yes,Yes,Yes,19,Medium
+TXN000390,CUST6355,42,Male,118766.57,61,60629.4,14338.01,21-04-2025,04:38,Morning,Ahmedabad,Wallet,ATM,Electronics,Success,9,48,135,5,3,Yes,Yes,Yes,73,High
+TXN000391,CUST3076,46,Female,59200.24,139,61216.96,11710.54,23-04-2024,18:10,Evening,Coimbatore,Wallet,POS,Healthcare,Success,17,77,86,5,5,Yes,No,No,95,High
+TXN000392,CUST2551,46,Female,126037.78,165,16083.11,7924.48,03-08-2024,14:10,Afternoon,Hyderabad,UPI,POS,Travel,Success,7,68,224,6,0,Yes,No,No,70,Medium
+TXN000393,CUST9418,65,Female,101811.19,50,12409.76,19306.52,20-05-2023,19:13,Evening,Coimbatore,Credit Card,Web,Travel,Success,18,32,200,5,5,No,Yes,Yes,17,Medium
+TXN000394,CUST5579,38,Other,282925.62,39,42175.64,1787.21,04-08-2023,06:51,Morning,Jaipur,Debit Card,Web,Food,Success,5,52,173,2,3,No,Yes,Yes,75,Medium
+TXN000395,CUST8690,65,Other,402635.75,17,3100.88,25378.99,19-03-2026,02:58,Morning,Chennai,UPI,Mobile,Entertainment,Success,2,16,43,4,4,Yes,Yes,No,53,Medium
+TXN000396,CUST5764,52,Female,392730.49,117,42715.57,21606.04,04-09-2025,11:39,Morning,Bangalore,Wallet,ATM,Entertainment,Success,10,96,254,3,5,No,No,Yes,87,Medium
+TXN000397,CUST3151,49,Female,275872.02,136,79424.04,25111.2,31-07-2023,17:13,Evening,Hyderabad,Wallet,Mobile,Travel,Success,20,3,142,1,2,No,Yes,No,2,Medium
+TXN000398,CUST1660,63,Male,345363.28,47,43011.85,23308.66,22-09-2023,05:18,Morning,Delhi,Wallet,Web,Healthcare,Success,11,85,227,2,2,Yes,Yes,Yes,45,Medium
+TXN000399,CUST8041,48,Male,390868.77,13,51256.74,31319.04,15-02-2025,12:51,Afternoon,Pune,Wallet,ATM,Fuel,Failed,16,53,274,1,3,No,No,No,70,Medium
+TXN000400,CUST7915,22,Female,116813.6,174,47197.91,34795.61,31-08-2025,11:23,Morning,Kolkata,UPI,Web,Shopping,Success,18,14,290,2,5,Yes,Yes,Yes,26,Medium
+TXN000401,CUST8727,59,Female,167211.97,133,26508.02,34816.16,02-01-2024,16:12,Afternoon,Pune,UPI,Mobile,Grocery,Success,18,47,53,5,4,Yes,Yes,No,71,High
+TXN000402,CUST3736,35,Male,68867.14,121,25269.66,49952.53,21-07-2024,06:57,Morning,Jaipur,Net Banking,Web,Healthcare,Success,19,45,224,2,5,Yes,No,Yes,79,Medium
+TXN000403,CUST8894,44,Female,310504.76,82,18104.94,39375.81,13-01-2023,13:49,Afternoon,Coimbatore,UPI,ATM,Healthcare,Success,18,66,217,1,5,Yes,No,Yes,82,Medium
+TXN000404,CUST9889,32,Other,122708.74,8,56407.16,4680.21,26-12-2025,01:44,Morning,Mumbai,Debit Card,Web,Grocery,Success,3,6,269,3,3,Yes,Yes,No,82,High
+TXN000405,CUST8450,41,Other,491712.34,62,23252.82,48915.89,05-02-2025,16:01,Afternoon,Jaipur,UPI,POS,Entertainment,Success,5,4,181,2,0,Yes,No,No,42,Low
+TXN000406,CUST2187,22,Female,112093.8,171,73175.06,14923.82,20-12-2023,13:28,Afternoon,Hyderabad,Wallet,ATM,Entertainment,Success,17,50,192,3,0,No,Yes,Yes,18,Medium
+TXN000407,CUST9845,57,Male,19883.55,72,34576.83,33645.09,28-08-2025,08:41,Morning,Hyderabad,Wallet,POS,Shopping,Success,8,8,61,6,5,Yes,Yes,No,73,High
+TXN000408,CUST3474,39,Female,96783.51,118,27941.83,46816.24,08-11-2023,11:32,Morning,Jaipur,Net Banking,POS,Food,Success,14,1,186,5,3,No,No,Yes,37,Medium
+TXN000409,CUST1538,20,Female,347065.72,125,6678.7,5583.57,03-12-2024,10:52,Morning,Pune,Debit Card,Web,Fuel,Success,13,48,152,5,4,No,No,Yes,87,Medium
+TXN000410,CUST7783,69,Other,38636.99,1,86152.73,20269.96,13-09-2025,05:07,Morning,Mumbai,Debit Card,Web,Fuel,Success,9,40,124,2,0,Yes,Yes,Yes,18,Medium
+TXN000411,CUST1513,41,Other,8749.68,123,63669.91,8784.65,05-01-2023,19:15,Evening,Bangalore,Net Banking,Mobile,Fuel,Success,20,22,250,5,2,No,No,Yes,68,Medium
+TXN000412,CUST8886,56,Female,339923.45,68,21602.32,41298.27,25-12-2024,02:57,Morning,Pune,Wallet,Web,Fuel,Success,10,90,40,2,2,No,Yes,No,63,Medium
+TXN000413,CUST6191,20,Male,415397.71,133,11207.38,28079.86,08-07-2024,22:20,Night,Coimbatore,Net Banking,Web,Grocery,Success,1,75,221,1,4,Yes,No,Yes,71,Medium
+TXN000414,CUST9521,45,Female,257696.33,123,63212.98,23888.12,27-06-2023,03:48,Morning,Bangalore,Credit Card,Web,Food,Success,8,8,287,5,1,Yes,Yes,Yes,26,Medium
+TXN000415,CUST5525,68,Female,365887.66,61,56493.55,40444.45,28-01-2026,20:49,Evening,Jaipur,Net Banking,POS,Healthcare,Failed,6,92,151,3,1,No,No,No,37,Low
+TXN000416,CUST7367,57,Other,75275.68,41,27386.48,33418.78,03-12-2023,07:01,Morning,Bangalore,Debit Card,ATM,Fuel,Success,6,70,113,3,2,No,Yes,No,71,Medium
+TXN000417,CUST7245,56,Male,190503.93,146,78451.25,39351.5,07-03-2024,15:03,Afternoon,Chennai,Wallet,Web,Entertainment,Success,13,11,8,5,2,Yes,No,Yes,7,Medium
+TXN000418,CUST1342,68,Female,328754.9,5,73470.06,18721.93,17-09-2024,05:07,Morning,Bangalore,Debit Card,Web,Electronics,Success,12,13,30,5,1,Yes,No,Yes,22,Medium
+TXN000419,CUST6448,59,Male,234780.06,3,66562.53,27598.92,23-08-2024,17:49,Evening,Chennai,Credit Card,ATM,Shopping,Success,8,7,81,1,3,No,No,Yes,78,Medium
+TXN000420,CUST3326,53,Male,160065.64,63,57328.83,47781.81,04-11-2024,04:32,Morning,Coimbatore,Credit Card,POS,Shopping,Success,7,73,230,5,4,Yes,No,Yes,14,Medium
+TXN000421,CUST6844,66,Other,117101.44,7,25147.7,12626.45,05-09-2023,03:04,Morning,Ahmedabad,Credit Card,POS,Entertainment,Success,12,52,120,2,0,Yes,No,No,47,Low
+TXN000422,CUST4484,62,Male,234371.14,138,86332.27,41598.96,25-04-2025,11:17,Morning,Kolkata,Net Banking,Mobile,Electronics,Success,19,65,241,1,0,Yes,Yes,Yes,55,Medium
+TXN000423,CUST5158,39,Female,351799.03,46,15900.53,45981.01,12-02-2023,10:38,Morning,Coimbatore,Debit Card,POS,Fuel,Success,2,85,205,4,4,No,No,Yes,61,Medium
+TXN000424,CUST4600,40,Male,235223.63,18,18554.67,45015.52,05-09-2024,13:40,Afternoon,Hyderabad,Net Banking,Web,Electronics,Success,6,41,257,3,0,Yes,No,No,43,Low
+TXN000425,CUST6624,44,Female,458966.54,41,10075.23,48659.67,16-10-2025,11:18,Morning,Coimbatore,Debit Card,ATM,Travel,Failed,13,35,291,4,3,No,No,Yes,9,Low
+TXN000426,CUST8199,45,Female,350770,174,821.05,20726.54,06-05-2023,12:48,Afternoon,Delhi,UPI,Web,Grocery,Success,19,93,62,2,2,Yes,Yes,No,2,Low
+TXN000427,CUST1103,26,Male,456179.63,89,93636.71,28740.35,08-09-2025,10:47,Morning,Mumbai,Debit Card,Mobile,Healthcare,Success,3,36,233,1,4,Yes,Yes,No,57,High
+TXN000428,CUST2490,59,Female,312193.19,121,60517.22,37398.21,12-04-2024,03:58,Morning,Pune,Net Banking,POS,Food,Success,13,98,295,4,3,No,No,No,18,Medium
+TXN000429,CUST7128,55,Other,71328.66,91,89951.71,29555.85,01-10-2024,06:24,Morning,Chennai,Debit Card,POS,Electronics,Success,14,47,12,6,2,Yes,Yes,Yes,94,High
+TXN000430,CUST4706,27,Female,226728.13,137,36231.03,36022.44,20-01-2025,21:59,Night,Hyderabad,Wallet,Mobile,Entertainment,Success,13,85,260,2,5,Yes,Yes,Yes,30,Medium
+TXN000431,CUST3362,29,Male,450792.56,162,74244.03,15657.18,12-04-2025,02:54,Morning,Kolkata,Debit Card,POS,Food,Success,18,36,72,3,2,Yes,No,Yes,33,Medium
+TXN000432,CUST3362,47,Other,233958.36,19,3637.53,10277.6,24-12-2025,07:47,Morning,Hyderabad,Debit Card,Web,Shopping,Success,11,89,5,1,4,No,No,No,69,Low
+TXN000433,CUST8972,44,Male,45375.19,69,42430.72,48610.24,08-01-2024,13:04,Afternoon,Coimbatore,Wallet,ATM,Food,Success,8,75,161,4,0,No,No,No,92,Medium
+TXN000434,CUST8807,54,Other,211516.93,152,82031.6,23132.79,08-12-2023,18:34,Evening,Kolkata,UPI,Web,Food,Success,19,15,168,3,3,Yes,No,Yes,35,Medium
+TXN000435,CUST9545,63,Female,90327.06,46,17451.89,19598,07-03-2024,18:52,Evening,Pune,Wallet,Mobile,Food,Success,19,86,86,6,1,Yes,No,No,70,Medium
+TXN000436,CUST7288,69,Other,5429.65,152,51687.29,11368.87,13-12-2024,00:28,Morning,Delhi,UPI,ATM,Entertainment,Success,13,21,255,4,3,No,No,Yes,83,High
+TXN000437,CUST9363,55,Other,212894.95,105,38603.39,13476.87,02-06-2025,08:48,Morning,Kolkata,Debit Card,Web,Travel,Success,3,78,139,2,4,No,Yes,Yes,50,Medium
+TXN000438,CUST4596,27,Female,250670.77,39,10192.38,1981.5,19-12-2023,17:02,Evening,Bangalore,Debit Card,Web,Food,Success,18,23,88,5,2,Yes,No,Yes,74,Medium
+TXN000439,CUST5751,57,Male,279071.21,51,84244.43,3404.2,10-12-2024,21:46,Night,Delhi,Debit Card,POS,Food,Failed,5,83,205,3,2,Yes,Yes,Yes,47,Medium
+TXN000440,CUST3326,21,Other,150131.76,135,13263.51,800.85,05-09-2025,20:20,Evening,Ahmedabad,UPI,Web,Fuel,Success,16,64,155,3,4,No,Yes,No,1,Low
+TXN000441,CUST9688,44,Male,202886.72,109,22766.73,46118.96,04-02-2025,02:45,Morning,Delhi,UPI,Web,Shopping,Success,4,70,251,2,3,No,No,Yes,63,Medium
+TXN000442,CUST3900,30,Male,450505.59,133,99818.89,38115.1,19-06-2023,04:42,Morning,Hyderabad,Credit Card,ATM,Shopping,Success,16,26,93,4,5,Yes,No,Yes,58,High
+TXN000443,CUST2760,21,Female,366293.19,122,83555.51,24514.99,12-06-2023,11:19,Morning,Ahmedabad,UPI,ATM,Grocery,Failed,16,33,133,4,0,Yes,No,Yes,56,Medium
+TXN000444,CUST3330,28,Male,299207.74,106,15235.96,7617.56,05-08-2025,04:11,Morning,Jaipur,Net Banking,Web,Healthcare,Success,3,47,299,3,3,No,Yes,Yes,24,Low
+TXN000445,CUST6323,18,Male,333620.69,131,60471.61,14481.16,03-06-2025,15:07,Afternoon,Coimbatore,Credit Card,Mobile,Healthcare,Success,9,14,25,1,4,No,Yes,No,88,High
+TXN000446,CUST6826,54,Other,212471.35,165,9113.64,14637.95,19-12-2023,00:19,Morning,Ahmedabad,Debit Card,Mobile,Electronics,Success,8,60,5,5,5,Yes,Yes,No,5,Medium
+TXN000447,CUST3093,20,Male,40588.08,47,36813.28,43136.54,16-11-2023,12:34,Afternoon,Delhi,Credit Card,Web,Travel,Failed,8,5,231,4,0,No,Yes,Yes,3,Medium
+TXN000448,CUST1237,62,Female,481201.85,180,78415.13,13337.9,10-06-2024,11:25,Morning,Bangalore,Debit Card,ATM,Fuel,Success,9,47,87,5,3,Yes,No,No,95,High
+TXN000449,CUST3998,59,Male,419817.3,48,9827.04,13566.52,28-04-2023,22:42,Night,Chennai,Credit Card,Mobile,Electronics,Success,10,94,123,6,1,No,Yes,No,65,Medium
+TXN000450,CUST3324,42,Other,392041.62,23,41512.99,8523.24,10-07-2024,20:16,Evening,Ahmedabad,UPI,POS,Healthcare,Success,4,77,238,1,1,No,Yes,Yes,65,Medium
+TXN000451,CUST2268,61,Other,326436.44,47,35683.58,39313.39,02-02-2025,22:54,Night,Hyderabad,Net Banking,POS,Fuel,Success,8,56,19,6,1,Yes,No,No,55,Medium
+TXN000452,CUST6389,18,Male,411427.16,4,87245.8,47548.19,01-05-2025,05:44,Morning,Pune,Wallet,Web,Fuel,Success,5,43,295,4,1,Yes,Yes,No,28,Medium
+TXN000453,CUST5913,47,Female,379604.89,156,86043.6,11082.36,09-11-2024,19:42,Evening,Ahmedabad,Credit Card,Mobile,Shopping,Success,8,64,299,6,0,No,No,Yes,64,Medium
+TXN000454,CUST3269,42,Other,315176.44,176,95659.75,24087.56,12-02-2024,07:50,Morning,Kolkata,Wallet,Web,Fuel,Success,17,46,139,6,3,No,No,Yes,91,High
+TXN000455,CUST9850,26,Female,327135.54,70,40778.97,44420.42,06-04-2025,04:26,Morning,Mumbai,Debit Card,POS,Entertainment,Success,12,51,288,4,2,No,No,No,71,Medium
+TXN000456,CUST8756,21,Female,78805.19,121,20097.67,768.84,02-02-2024,03:45,Morning,Mumbai,Credit Card,Mobile,Shopping,Success,17,21,63,3,5,No,No,No,68,Medium
+TXN000457,CUST7124,67,Female,483744.2,144,27125.91,14199.76,26-05-2024,03:07,Morning,Delhi,Net Banking,Web,Travel,Success,16,12,248,2,4,No,No,Yes,45,Low
+TXN000458,CUST3575,56,Female,298973.02,103,59729.68,1496.73,13-08-2023,20:14,Evening,Delhi,Wallet,Web,Shopping,Success,5,74,229,1,5,Yes,Yes,Yes,99,High
+TXN000459,CUST2554,58,Other,255365.33,61,90750.41,3893.89,23-05-2023,10:22,Morning,Kolkata,UPI,POS,Shopping,Success,13,66,239,1,5,Yes,No,Yes,63,Medium
+TXN000460,CUST2057,57,Female,48840.16,177,31609.82,10827.61,01-09-2025,17:23,Evening,Hyderabad,Net Banking,Web,Healthcare,Success,3,97,243,4,0,Yes,No,Yes,86,Medium
+TXN000461,CUST7182,18,Female,383085.27,163,29735.32,19149.51,04-12-2023,16:04,Afternoon,Coimbatore,Net Banking,Web,Electronics,Success,11,64,15,3,5,No,No,No,17,Low
+TXN000462,CUST3468,55,Other,386434.14,6,38777.58,40387.94,29-11-2024,13:58,Afternoon,Chennai,Debit Card,POS,Fuel,Success,9,24,70,3,0,Yes,Yes,Yes,34,Medium
+TXN000463,CUST6866,38,Other,300549.23,140,46553.2,10858.1,06-02-2023,00:38,Morning,Chennai,Wallet,Web,Entertainment,Success,15,75,85,6,0,Yes,No,Yes,30,Medium
+TXN000464,CUST3170,28,Female,318383.27,161,85855.29,23467.22,15-02-2026,18:51,Evening,Mumbai,Credit Card,ATM,Travel,Success,10,99,166,3,0,No,Yes,Yes,38,Medium
+TXN000465,CUST4251,53,Female,337640.14,180,32114.1,23641.25,14-11-2024,22:59,Night,Bangalore,Wallet,POS,Shopping,Success,17,94,256,1,4,Yes,Yes,Yes,59,High
+TXN000466,CUST3452,54,Female,315604.8,129,45992.13,15900.97,07-03-2023,17:34,Evening,Mumbai,Credit Card,Web,Healthcare,Success,9,74,153,1,0,Yes,Yes,Yes,13,Medium
+TXN000467,CUST1491,69,Female,100553.18,63,72904.83,34170.12,17-02-2025,03:25,Morning,Jaipur,Credit Card,ATM,Electronics,Failed,5,90,30,5,4,No,No,No,89,High
+TXN000468,CUST7200,43,Male,215969.27,89,77193.4,29129.12,30-07-2023,23:49,Night,Ahmedabad,Wallet,Web,Healthcare,Success,13,2,117,6,2,Yes,No,No,3,Medium
+TXN000469,CUST7845,19,Male,229669.23,121,85423.89,21258.24,09-02-2023,01:29,Morning,Delhi,Net Banking,Web,Shopping,Success,8,95,97,5,2,Yes,Yes,Yes,89,High
+TXN000470,CUST2917,45,Female,72694.05,58,80529.11,19404.25,17-10-2025,08:33,Morning,Ahmedabad,Credit Card,ATM,Food,Success,5,83,119,3,4,No,Yes,No,90,High
+TXN000471,CUST5211,41,Male,202905.04,119,31516,35176,06-04-2024,09:23,Morning,Kolkata,Debit Card,Web,Travel,Success,6,10,134,3,0,Yes,Yes,No,17,Medium
+TXN000472,CUST8720,30,Female,42649.16,50,79572.19,35025.65,20-02-2024,07:52,Morning,Delhi,Debit Card,ATM,Entertainment,Success,19,98,13,3,5,Yes,No,Yes,45,Medium
+TXN000473,CUST6318,27,Other,55290.44,17,69099.56,31286.68,19-08-2024,14:22,Afternoon,Pune,Net Banking,Web,Healthcare,Success,7,47,296,4,2,No,Yes,Yes,58,Medium
+TXN000474,CUST7105,25,Male,405479.85,18,74509.04,40897.15,02-04-2023,06:58,Morning,Coimbatore,Debit Card,ATM,Fuel,Success,16,76,268,3,1,No,No,No,79,Medium
+TXN000475,CUST1252,60,Female,495618.35,36,981.93,23383.65,02-12-2023,12:24,Afternoon,Jaipur,Credit Card,Mobile,Fuel,Success,7,63,282,5,2,No,No,No,99,Medium
+TXN000476,CUST3098,53,Other,252020.32,81,65359.14,9916.96,23-07-2025,01:18,Morning,Delhi,Credit Card,POS,Entertainment,Success,15,78,171,2,5,No,Yes,Yes,72,Medium
+TXN000477,CUST4122,42,Female,36907.44,29,37388.06,45215.71,03-05-2025,07:58,Morning,Bangalore,Net Banking,Mobile,Entertainment,Success,9,27,152,1,2,Yes,No,Yes,31,Low
+TXN000478,CUST2242,37,Male,110941.59,23,94004.25,19871.91,14-01-2025,03:29,Morning,Coimbatore,UPI,Web,Fuel,Success,12,13,167,5,1,No,Yes,Yes,23,Medium
+TXN000479,CUST7188,39,Female,117503.97,70,90971.95,6646.72,25-04-2024,17:41,Evening,Chennai,UPI,POS,Shopping,Success,1,79,68,6,1,Yes,No,No,61,Medium
+TXN000480,CUST8670,31,Male,277971.07,115,95121.9,8118.73,02-04-2025,07:35,Morning,Jaipur,Net Banking,Mobile,Healthcare,Success,5,69,247,6,3,Yes,No,Yes,28,Medium
+TXN000481,CUST6180,32,Other,365431.46,49,44872.18,2768.39,24-02-2025,13:19,Afternoon,Hyderabad,Wallet,Mobile,Food,Success,7,51,220,5,2,Yes,No,Yes,74,Medium
+TXN000482,CUST4884,56,Other,450182.31,162,68381.66,14470.78,09-05-2025,18:36,Evening,Bangalore,Debit Card,ATM,Entertainment,Success,6,12,25,4,4,No,No,Yes,43,Medium
+TXN000483,CUST1744,49,Male,234151.21,43,70254.42,7247.43,15-07-2023,18:54,Evening,Hyderabad,Wallet,POS,Food,Success,2,93,90,4,4,Yes,Yes,No,91,High
+TXN000484,CUST1931,67,Other,462737.45,153,92593.52,19160.87,07-02-2025,20:20,Evening,Hyderabad,UPI,Mobile,Entertainment,Success,12,34,271,2,0,No,No,No,11,Low
+TXN000485,CUST8312,51,Female,274097.55,179,20905.04,11754.1,17-05-2025,00:52,Morning,Hyderabad,Wallet,Mobile,Healthcare,Success,7,4,38,2,0,Yes,No,No,4,Low
+TXN000486,CUST2867,46,Male,484294.64,50,22633.42,49321.8,25-01-2023,04:33,Morning,Delhi,Debit Card,Web,Healthcare,Success,12,100,172,1,0,No,Yes,Yes,29,Low
+TXN000487,CUST9366,37,Other,453390.92,110,13494.35,11216.65,18-04-2023,19:59,Evening,Chennai,Wallet,Mobile,Shopping,Success,13,60,172,5,1,No,No,Yes,61,Low
+TXN000488,CUST7806,54,Male,89488.18,81,74691.89,4960.4,06-12-2025,14:05,Afternoon,Chennai,Net Banking,ATM,Travel,Success,10,78,288,6,5,No,No,Yes,67,Medium
+TXN000489,CUST5876,55,Male,123067.2,50,33527.7,33661.22,15-09-2025,23:03,Night,Hyderabad,UPI,ATM,Shopping,Success,12,31,253,2,0,No,No,No,25,Low
+TXN000490,CUST4790,45,Female,186548.19,8,97491.53,29107.62,01-01-2024,05:21,Morning,Bangalore,Credit Card,Web,Entertainment,Success,3,71,192,2,1,No,No,Yes,36,Low
+TXN000491,CUST3533,43,Female,49911.16,116,53066.08,36946.6,31-08-2023,17:51,Evening,Pune,Debit Card,POS,Food,Success,16,41,194,1,3,Yes,Yes,Yes,50,High
+TXN000492,CUST7575,34,Male,488639.63,174,69630.9,31338.45,18-02-2025,15:25,Afternoon,Ahmedabad,Debit Card,Mobile,Food,Success,6,19,108,3,2,No,No,No,19,Low
+TXN000493,CUST9231,26,Male,234574.53,54,11387.67,37756.58,20-01-2023,22:21,Night,Jaipur,Net Banking,Web,Food,Success,5,95,160,1,5,No,No,Yes,26,Low
+TXN000494,CUST4792,32,Male,282527.47,89,9462.23,30935.96,30-10-2023,05:49,Morning,Chennai,Net Banking,Web,Shopping,Success,14,40,229,2,4,Yes,No,Yes,27,Low
+TXN000495,CUST7053,67,Male,421149.03,117,72063.82,47563.83,22-04-2024,20:06,Evening,Mumbai,UPI,ATM,Food,Success,17,50,32,3,5,Yes,No,Yes,22,Medium
+TXN000496,CUST3608,67,Other,324258.05,130,88190.44,45964.5,11-07-2023,03:29,Morning,Bangalore,UPI,Mobile,Grocery,Success,3,81,124,6,4,Yes,No,Yes,50,High
+TXN000497,CUST8781,69,Male,380362.2,172,81561.7,35579.02,14-11-2024,16:24,Afternoon,Mumbai,Wallet,ATM,Food,Success,10,92,112,5,5,No,No,No,54,Medium
+TXN000498,CUST7872,66,Female,474135.13,44,42458,10558.07,03-07-2025,14:58,Afternoon,Coimbatore,UPI,POS,Shopping,Success,17,10,92,3,4,Yes,Yes,No,27,Medium
+TXN000499,CUST7735,61,Female,212699.07,159,8328.41,30094.32,27-03-2024,21:03,Night,Bangalore,Debit Card,POS,Entertainment,Success,19,49,102,3,3,Yes,Yes,Yes,42,Medium
+TXN000500,CUST4144,19,Female,141788.44,129,25302.12,6423.78,11-12-2025,18:02,Evening,Ahmedabad,Credit Card,ATM,Electronics,Success,11,48,215,2,3,Yes,Yes,Yes,23,Medium
+TXN000501,CUST7639,57,Other,62732.75,84,62272.33,3744.76,16-04-2025,01:37,Morning,Mumbai,Debit Card,Mobile,Shopping,Success,4,66,120,6,0,No,No,Yes,28,Medium
+TXN000502,CUST9240,52,Other,378053.14,91,7820.7,11846.35,18-04-2024,16:29,Afternoon,Ahmedabad,Debit Card,Web,Grocery,Success,8,17,218,2,1,No,No,No,8,Low
+TXN000503,CUST4304,58,Other,300021.9,127,74572.15,42206.42,10-02-2025,02:59,Morning,Jaipur,Credit Card,Mobile,Healthcare,Success,1,92,127,3,0,No,Yes,Yes,47,Medium
+TXN000504,CUST9731,27,Other,44477.85,8,84259.38,26879.21,04-03-2023,10:15,Morning,Ahmedabad,Credit Card,Mobile,Healthcare,Success,17,9,294,4,5,No,Yes,No,5,Medium
+TXN000505,CUST7749,49,Female,103199.26,84,68306.23,33536.37,21-07-2024,05:07,Morning,Jaipur,UPI,Web,Entertainment,Success,2,49,276,1,0,No,No,Yes,68,Medium
+TXN000506,CUST4888,32,Other,247995.03,169,93497.57,26876.11,28-08-2024,16:35,Afternoon,Coimbatore,Debit Card,ATM,Food,Success,18,69,46,5,2,Yes,Yes,No,47,Medium
+TXN000507,CUST5151,29,Other,318179.68,88,52349.7,16163.54,29-05-2024,11:00,Morning,Chennai,Wallet,ATM,Electronics,Success,19,48,117,6,3,Yes,No,Yes,98,High
+TXN000508,CUST3146,70,Other,380152.35,124,65091.58,1621.25,07-03-2026,17:49,Evening,Chennai,Wallet,POS,Entertainment,Success,4,16,168,3,4,No,Yes,Yes,66,Medium
+TXN000509,CUST2293,47,Female,43675.85,180,33800.03,39156.37,08-03-2023,00:09,Morning,Jaipur,UPI,POS,Travel,Success,17,47,84,1,0,No,Yes,Yes,6,Low
+TXN000510,CUST9310,64,Other,202350.98,86,44855.16,42122.65,06-07-2025,13:53,Afternoon,Kolkata,Net Banking,POS,Fuel,Success,14,78,15,2,0,No,Yes,No,32,Low
+TXN000511,CUST2656,55,Female,84578.51,37,55568.14,30459.28,01-07-2023,01:23,Morning,Bangalore,Net Banking,Mobile,Grocery,Success,17,83,22,5,1,Yes,Yes,No,58,High
+TXN000512,CUST9142,40,Female,62143.26,156,93211.68,47343.41,19-09-2023,00:11,Morning,Ahmedabad,Debit Card,Mobile,Healthcare,Success,14,67,229,3,5,Yes,No,No,66,Medium
+TXN000513,CUST2697,67,Other,361399.03,41,67882.31,36025.27,21-12-2023,00:34,Morning,Pune,Net Banking,Mobile,Grocery,Success,14,54,51,3,1,Yes,No,No,47,Medium
+TXN000514,CUST3860,57,Female,457283.19,60,27016.05,35048.47,06-08-2025,04:19,Morning,Hyderabad,Debit Card,Web,Entertainment,Success,8,18,280,3,3,No,No,No,49,Low
+TXN000515,CUST6314,66,Male,382163.38,74,67862.55,31696.34,06-10-2023,09:36,Morning,Jaipur,Wallet,POS,Shopping,Success,3,23,123,3,4,Yes,Yes,No,96,High
+TXN000516,CUST4076,27,Other,37715,68,49218.48,8409.49,02-01-2026,03:05,Morning,Jaipur,Net Banking,POS,Food,Success,18,7,292,5,5,No,No,No,44,Medium
+TXN000517,CUST2220,19,Other,423286,142,43231.89,616.26,11-10-2025,10:45,Morning,Chennai,Net Banking,POS,Fuel,Success,13,25,23,6,3,Yes,Yes,No,98,High
+TXN000518,CUST7092,54,Female,209916.07,94,642.17,6086.82,20-06-2025,19:04,Evening,Bangalore,UPI,Web,Healthcare,Success,2,94,226,4,0,No,Yes,No,8,Low
+TXN000519,CUST8831,37,Other,245008.32,9,41908.19,18453.43,06-07-2025,22:48,Night,Coimbatore,Wallet,POS,Shopping,Failed,3,74,94,2,0,No,Yes,No,66,Medium
+TXN000520,CUST5307,46,Other,428082.52,174,52343.25,25711.43,12-07-2024,18:31,Evening,Delhi,Wallet,ATM,Entertainment,Success,4,76,163,1,1,No,No,Yes,8,Low
+TXN000521,CUST3624,43,Other,31714.26,58,8847.95,47330.42,20-07-2024,01:31,Morning,Ahmedabad,Wallet,ATM,Shopping,Success,19,27,147,5,2,No,No,No,27,Low
+TXN000522,CUST8198,50,Female,20971.98,91,72814.05,30803.34,28-06-2023,09:02,Morning,Hyderabad,UPI,ATM,Grocery,Success,13,69,214,6,2,Yes,Yes,No,37,Medium
+TXN000523,CUST4201,34,Male,452217.45,103,16750.67,14267.56,12-12-2025,17:00,Evening,Mumbai,Wallet,ATM,Fuel,Success,16,92,267,4,4,Yes,Yes,No,68,Medium
+TXN000524,CUST9933,51,Other,160513.84,178,79870.5,32131.62,19-03-2024,02:29,Morning,Jaipur,UPI,POS,Healthcare,Success,7,27,205,6,1,Yes,No,Yes,78,High
+TXN000525,CUST2177,66,Other,262920.29,153,66485.44,28763.08,09-12-2025,13:29,Afternoon,Mumbai,Debit Card,Web,Electronics,Success,14,40,55,1,5,No,Yes,Yes,3,Medium
+TXN000526,CUST9945,49,Other,44274.73,152,32683.74,17728.94,20-04-2023,12:59,Afternoon,Chennai,UPI,Mobile,Grocery,Success,15,30,18,6,4,Yes,Yes,Yes,38,Medium
+TXN000527,CUST1948,33,Other,487652.89,35,23271.69,36812.72,17-01-2025,20:19,Evening,Ahmedabad,Net Banking,POS,Travel,Success,4,99,234,3,1,No,Yes,Yes,14,Low
+TXN000528,CUST1442,67,Other,304775.44,149,55702.97,23672.89,18-12-2023,19:45,Evening,Ahmedabad,Net Banking,Web,Fuel,Success,11,37,149,5,4,Yes,Yes,Yes,31,High
+TXN000529,CUST1594,64,Other,43678.01,10,70560.59,41300.19,18-05-2025,17:46,Evening,Mumbai,Debit Card,Mobile,Fuel,Success,17,100,285,5,4,No,No,No,34,Medium
+TXN000530,CUST2307,41,Female,307473.41,96,20534.89,22086.3,21-06-2025,20:38,Evening,Hyderabad,Debit Card,Mobile,Entertainment,Success,16,61,205,6,5,No,Yes,No,28,Medium
+TXN000531,CUST7711,27,Male,191854.65,12,4881.8,40158.49,28-04-2025,17:50,Evening,Hyderabad,Net Banking,POS,Electronics,Failed,8,35,122,3,3,Yes,Yes,Yes,66,Medium
+TXN000532,CUST8464,46,Male,142581.65,82,54735.67,910.74,16-03-2023,09:25,Morning,Kolkata,UPI,POS,Shopping,Success,12,73,287,3,5,No,No,Yes,43,Medium
+TXN000533,CUST9159,27,Female,265296.45,45,45993.9,31994.91,27-11-2023,02:50,Morning,Ahmedabad,UPI,Web,Healthcare,Success,5,69,229,5,2,No,Yes,Yes,40,Medium
+TXN000534,CUST5223,18,Female,18643.37,11,82314.25,23103.41,15-08-2025,07:02,Morning,Mumbai,Wallet,Mobile,Fuel,Success,2,52,132,3,5,No,No,No,28,Medium
+TXN000535,CUST4218,46,Other,32290.69,173,12690.34,33592.37,07-12-2024,12:08,Afternoon,Chennai,Debit Card,Mobile,Travel,Success,18,59,58,6,2,Yes,No,No,13,Low
+TXN000536,CUST1139,66,Female,368901.81,116,51663.99,48014.07,30-01-2024,16:46,Afternoon,Coimbatore,Credit Card,POS,Food,Success,7,29,244,4,5,Yes,No,No,72,High
+TXN000537,CUST2016,55,Other,287747.51,81,4126.98,27635.34,04-02-2023,17:50,Evening,Ahmedabad,Debit Card,Mobile,Shopping,Success,7,18,283,4,5,No,Yes,No,40,Medium
+TXN000538,CUST1712,51,Female,417064.5,19,86731.13,29918.09,10-11-2024,18:34,Evening,Hyderabad,Net Banking,Mobile,Food,Success,1,88,227,5,3,Yes,Yes,No,45,High
+TXN000539,CUST9753,19,Male,300740.55,116,24205.33,24854.49,23-10-2025,15:40,Afternoon,Coimbatore,Debit Card,Web,Electronics,Success,1,86,285,1,4,No,No,Yes,28,Low
+TXN000540,CUST9667,27,Female,267228.96,41,40311.25,33773.8,24-04-2024,15:57,Afternoon,Bangalore,UPI,POS,Shopping,Success,17,65,94,3,5,No,No,Yes,69,Medium
+TXN000541,CUST5587,30,Other,460185.97,104,84889.95,49998.01,15-03-2024,06:53,Morning,Kolkata,Credit Card,POS,Healthcare,Success,9,65,102,4,0,No,No,No,21,Medium
+TXN000542,CUST5783,48,Other,190965.38,18,40364.99,19565.54,09-03-2023,14:37,Afternoon,Hyderabad,Net Banking,Mobile,Grocery,Success,10,56,256,6,1,No,No,No,17,Low
+TXN000543,CUST4492,24,Other,384987.06,56,53276.45,31831.58,02-12-2025,10:15,Morning,Coimbatore,Net Banking,Web,Entertainment,Success,8,92,285,2,5,Yes,Yes,No,69,High
+TXN000544,CUST5497,52,Other,230462.1,52,31006.1,39279.93,25-06-2023,01:44,Morning,Chennai,Credit Card,ATM,Entertainment,Success,9,29,37,6,4,No,No,Yes,13,Medium
+TXN000545,CUST2646,32,Other,472698.64,136,73206.03,26924.23,20-08-2025,21:55,Night,Jaipur,Debit Card,Mobile,Food,Success,1,69,227,4,1,Yes,No,No,5,Medium
+TXN000546,CUST2479,69,Male,175390.25,90,75093.4,19616.3,19-04-2024,15:33,Afternoon,Bangalore,Debit Card,Mobile,Electronics,Success,6,57,108,3,5,Yes,Yes,Yes,96,High
+TXN000547,CUST1723,22,Female,162082.33,2,92157.17,25170.32,10-06-2023,13:01,Afternoon,Pune,Debit Card,Mobile,Healthcare,Success,6,43,128,6,0,No,Yes,No,80,High
+TXN000548,CUST3031,60,Female,5179.99,35,10705.37,11563.24,03-03-2023,22:40,Night,Ahmedabad,Debit Card,ATM,Entertainment,Success,15,2,273,4,3,No,No,Yes,45,Medium
+TXN000549,CUST8456,48,Other,441138.49,133,70913.43,3037.94,29-03-2024,07:38,Morning,Kolkata,Net Banking,POS,Food,Success,14,38,209,6,3,Yes,No,Yes,24,Medium
+TXN000550,CUST8250,34,Other,45073.88,67,83283,5704.53,11-10-2024,01:28,Morning,Hyderabad,Wallet,Mobile,Electronics,Success,2,32,258,5,2,No,Yes,No,16,Medium
+TXN000551,CUST9393,58,Female,62148.16,159,79227.53,9054.88,04-04-2025,04:06,Morning,Ahmedabad,Credit Card,Web,Entertainment,Success,12,62,72,3,4,Yes,Yes,Yes,64,High
+TXN000552,CUST4939,49,Female,262917.26,46,43959.45,16114.92,20-12-2025,14:28,Afternoon,Chennai,UPI,Web,Food,Success,6,100,35,5,5,Yes,Yes,No,49,Medium
+TXN000553,CUST2060,68,Female,43679.57,117,34826.42,1741.28,21-06-2023,17:23,Evening,Coimbatore,Wallet,Mobile,Shopping,Success,2,57,119,1,5,Yes,Yes,Yes,53,Medium
+TXN000554,CUST9914,40,Male,268277.06,97,1973.92,9995.57,09-12-2024,05:56,Morning,Chennai,Credit Card,POS,Entertainment,Success,1,12,185,1,4,Yes,No,Yes,56,Medium
+TXN000555,CUST7947,32,Female,125008.41,100,74752.18,47787.98,31-03-2023,18:14,Evening,Jaipur,Net Banking,POS,Electronics,Success,11,24,127,5,0,Yes,Yes,No,82,High
+TXN000556,CUST3101,58,Other,225705.37,55,89611.17,5851.51,16-06-2024,14:21,Afternoon,Chennai,Debit Card,Web,Healthcare,Success,17,80,208,4,4,Yes,No,No,33,Medium
+TXN000557,CUST2898,65,Female,74848.6,89,57819.97,16760.35,06-08-2024,15:51,Afternoon,Mumbai,UPI,Web,Grocery,Failed,3,45,146,1,0,No,No,Yes,92,Medium
+TXN000558,CUST6718,32,Male,348451.08,18,69237.61,20655.85,11-06-2023,02:35,Morning,Bangalore,Debit Card,ATM,Travel,Success,5,83,281,6,3,Yes,Yes,No,25,High
+TXN000559,CUST1066,43,Other,74955.44,111,48356.01,19664.31,27-02-2024,09:33,Morning,Kolkata,UPI,Web,Fuel,Success,17,45,52,4,1,Yes,Yes,Yes,31,Medium
+TXN000560,CUST9580,47,Male,344636.06,28,15060.88,24813.46,20-01-2024,00:49,Morning,Chennai,UPI,Web,Fuel,Success,2,92,59,4,2,No,Yes,Yes,48,Low
+TXN000561,CUST5481,28,Other,115046.94,65,53162.71,27034.72,13-09-2024,17:24,Evening,Delhi,Debit Card,ATM,Travel,Success,12,21,203,1,5,Yes,Yes,No,44,Medium
+TXN000562,CUST7128,60,Male,334124.25,158,89051.14,43315.58,02-01-2024,23:57,Night,Jaipur,Net Banking,ATM,Travel,Success,13,72,79,2,0,Yes,Yes,No,51,High
+TXN000563,CUST2381,27,Other,488883.56,164,25562.4,18877.47,29-05-2024,15:28,Afternoon,Mumbai,Debit Card,Web,Grocery,Success,1,73,119,6,2,Yes,No,No,9,Medium
+TXN000564,CUST1957,47,Other,419252.37,20,96529.16,49238.97,08-02-2026,05:37,Morning,Jaipur,Wallet,Mobile,Food,Success,16,14,114,2,0,No,Yes,No,40,Medium
+TXN000565,CUST1616,57,Other,258857.26,150,19244.68,45493.68,06-09-2025,22:26,Night,Hyderabad,Net Banking,ATM,Entertainment,Success,5,6,104,5,2,Yes,No,No,51,Medium
+TXN000566,CUST8315,19,Male,318607.63,21,48872.22,40105.28,04-11-2023,18:17,Evening,Coimbatore,Wallet,POS,Travel,Success,16,80,257,4,0,No,No,No,68,Medium
+TXN000567,CUST6023,63,Other,39525.54,137,37249.37,1599.93,26-08-2024,11:05,Morning,Chennai,Credit Card,Web,Travel,Failed,9,12,2,5,5,Yes,Yes,No,2,Medium
+TXN000568,CUST2132,66,Male,384811.73,103,62112.63,22679.86,14-05-2025,20:47,Evening,Jaipur,Wallet,ATM,Healthcare,Success,16,50,106,2,4,Yes,Yes,No,24,Medium
+TXN000569,CUST1815,41,Female,379748.06,39,78585.18,36572.26,27-11-2024,20:52,Evening,Mumbai,UPI,POS,Healthcare,Success,10,84,281,5,5,No,Yes,Yes,79,High
+TXN000570,CUST1307,51,Other,488074.33,96,41087.55,42102.54,09-04-2025,09:08,Morning,Hyderabad,Debit Card,POS,Shopping,Success,7,97,185,2,1,No,Yes,No,51,Medium
+TXN000571,CUST5963,20,Male,249529.67,107,56783.32,2326.47,27-04-2026,22:04,Night,Mumbai,UPI,POS,Travel,Success,13,22,126,2,3,Yes,No,No,77,High
+TXN000572,CUST8345,52,Female,279635.4,23,95762.94,14860.22,02-12-2025,20:06,Evening,Chennai,UPI,Mobile,Food,Success,12,55,275,2,2,No,Yes,Yes,11,Medium
+TXN000573,CUST8435,70,Male,243413.08,76,66536.41,18045.23,22-05-2024,02:58,Morning,Bangalore,UPI,Web,Fuel,Success,13,83,249,2,3,No,Yes,No,10,Medium
+TXN000574,CUST7614,63,Female,130295.2,53,79236.24,13513.94,20-02-2023,12:33,Afternoon,Hyderabad,Debit Card,Mobile,Food,Success,14,93,14,3,4,Yes,Yes,Yes,65,High
+TXN000575,CUST9583,46,Other,68417.07,80,30182.94,33566.34,21-10-2023,16:20,Afternoon,Bangalore,Debit Card,Web,Fuel,Success,9,21,80,2,4,No,Yes,Yes,27,Medium
+TXN000576,CUST6018,65,Other,164695.72,69,22585.23,49189.98,17-07-2023,06:21,Morning,Kolkata,Credit Card,ATM,Electronics,Success,13,20,50,2,1,Yes,Yes,No,37,Medium
+TXN000577,CUST3503,68,Male,335837.92,62,46628.78,37668.67,01-02-2023,10:43,Morning,Chennai,UPI,ATM,Fuel,Success,20,34,154,5,1,Yes,No,No,94,Medium
+TXN000578,CUST6247,47,Male,7187.03,129,10647.64,19710.35,13-10-2025,05:41,Morning,Ahmedabad,Wallet,POS,Shopping,Success,15,9,188,3,4,No,Yes,Yes,62,Medium
+TXN000579,CUST2175,68,Female,370170.51,73,42082.68,5602.82,08-11-2025,08:57,Morning,Ahmedabad,Credit Card,Web,Travel,Success,15,73,265,4,3,Yes,No,No,100,High
+TXN000580,CUST7044,51,Male,47239.03,39,63834.76,17959.26,18-11-2025,05:52,Morning,Jaipur,UPI,POS,Fuel,Success,1,32,206,5,3,No,No,No,63,Medium
+TXN000581,CUST3198,44,Female,65944.23,10,27921.34,39616.84,25-04-2023,10:32,Morning,Pune,Credit Card,Mobile,Food,Success,12,75,92,6,4,No,No,No,5,Medium
+TXN000582,CUST8957,64,Male,334836.76,165,7945.82,9997.16,28-07-2025,17:08,Evening,Hyderabad,Wallet,Web,Fuel,Failed,15,17,39,1,2,Yes,No,No,88,Medium
+TXN000583,CUST5164,38,Other,257796.29,6,45099.22,824.27,13-09-2024,05:53,Morning,Hyderabad,Debit Card,ATM,Healthcare,Success,6,72,229,2,0,Yes,Yes,No,4,Medium
+TXN000584,CUST9319,49,Female,134978.82,132,97067.03,33313.64,16-08-2024,09:59,Morning,Chennai,Debit Card,Mobile,Fuel,Success,11,75,283,5,5,No,No,Yes,61,Medium
+TXN000585,CUST2145,36,Female,241900.51,170,63173.63,30504.09,29-03-2025,12:50,Afternoon,Coimbatore,Debit Card,ATM,Fuel,Success,7,12,67,1,4,Yes,No,Yes,78,High
+TXN000586,CUST1056,65,Female,426419.15,51,50549.18,8644.29,18-05-2024,18:40,Evening,Chennai,Debit Card,Mobile,Healthcare,Success,3,71,24,1,5,No,Yes,Yes,57,Medium
+TXN000587,CUST1021,37,Other,284586.38,6,76201.12,37511.24,26-07-2023,01:51,Morning,Jaipur,Credit Card,ATM,Healthcare,Success,4,41,256,6,4,No,No,No,14,Medium
+TXN000588,CUST2650,35,Female,262710.86,27,99624.28,12210.93,02-02-2025,22:54,Night,Jaipur,Credit Card,Web,Grocery,Success,20,22,277,4,1,No,Yes,No,4,Medium
+TXN000589,CUST9250,35,Male,274191.26,130,1486.86,17686.68,09-07-2023,02:38,Morning,Mumbai,Credit Card,Web,Food,Success,2,69,1,6,0,Yes,Yes,No,90,Medium
+TXN000590,CUST6017,54,Other,34136.64,7,72483.99,19567.78,05-07-2025,16:25,Afternoon,Bangalore,Wallet,Web,Electronics,Success,5,51,295,5,0,Yes,No,Yes,76,High
+TXN000591,CUST1877,44,Female,484176.01,98,61169.53,13814.99,12-07-2025,01:56,Morning,Delhi,Credit Card,ATM,Healthcare,Success,11,19,209,5,5,No,Yes,Yes,17,Medium
+TXN000592,CUST4236,63,Female,199799.91,31,77646.57,3183.04,29-05-2025,10:01,Morning,Ahmedabad,Wallet,Mobile,Shopping,Success,6,50,194,5,0,No,No,No,47,Medium
+TXN000593,CUST4710,53,Other,11219.52,48,67159.84,46855.74,27-10-2025,09:18,Morning,Kolkata,Credit Card,ATM,Fuel,Failed,5,87,88,2,5,Yes,No,Yes,92,High
+TXN000594,CUST3212,20,Female,393440.36,130,78860.16,5305.42,23-05-2025,19:50,Evening,Kolkata,Net Banking,POS,Shopping,Success,11,53,31,2,1,No,Yes,No,29,Medium
+TXN000595,CUST3677,64,Female,92394.3,9,64867.01,22847.15,30-01-2024,23:12,Night,Bangalore,Net Banking,ATM,Entertainment,Success,4,4,272,1,4,No,Yes,No,22,Medium
+TXN000596,CUST1183,44,Male,388154.75,123,2179.87,35650.76,15-04-2024,18:42,Evening,Pune,Net Banking,ATM,Entertainment,Success,11,100,92,5,4,No,Yes,No,71,Medium
+TXN000597,CUST8123,31,Female,391178.15,17,40055.61,37137.45,29-11-2025,20:00,Evening,Ahmedabad,UPI,ATM,Food,Success,3,8,14,4,2,Yes,No,Yes,13,Medium
+TXN000598,CUST1175,69,Female,263819.08,29,20722.1,1708.83,06-05-2023,07:23,Morning,Delhi,Debit Card,Web,Food,Failed,16,72,26,2,0,No,No,Yes,63,Low
+TXN000599,CUST6835,59,Other,94761.29,48,11630.55,5113.69,07-10-2025,07:09,Morning,Chennai,Wallet,Mobile,Grocery,Success,20,62,262,1,5,Yes,Yes,No,92,Medium
+TXN000600,CUST4622,32,Female,407804.78,76,12012.4,34875.77,27-03-2023,14:19,Afternoon,Kolkata,Credit Card,Mobile,Grocery,Success,2,72,82,5,2,No,Yes,No,25,Low
+TXN000601,CUST8338,20,Female,181763.77,44,26259.18,29869.3,08-09-2023,15:47,Afternoon,Hyderabad,Net Banking,Mobile,Fuel,Success,1,8,271,4,2,No,Yes,Yes,71,Medium
+TXN000602,CUST3714,25,Female,490539.51,142,99355.33,34120.52,19-01-2026,18:46,Evening,Ahmedabad,Credit Card,Web,Fuel,Success,11,36,16,1,1,Yes,Yes,No,64,Medium
+TXN000603,CUST9947,38,Other,466561,6,49856.93,11547.72,16-08-2024,20:44,Evening,Bangalore,Wallet,Mobile,Healthcare,Success,3,62,169,3,3,No,Yes,Yes,29,Medium
+TXN000604,CUST6819,25,Male,348763.82,119,91587.93,32745.68,08-05-2025,06:00,Morning,Bangalore,Net Banking,Mobile,Fuel,Success,2,95,190,4,4,Yes,Yes,No,60,High
+TXN000605,CUST6776,70,Other,331150.39,15,50926.6,6633.34,17-05-2023,04:04,Morning,Chennai,UPI,Web,Fuel,Success,8,12,75,1,4,Yes,No,Yes,11,Medium
+TXN000606,CUST9839,62,Male,197017.31,141,13703.63,2635.19,25-09-2024,15:48,Afternoon,Mumbai,Credit Card,Mobile,Grocery,Success,6,4,29,2,5,No,No,No,47,Low
+TXN000607,CUST5985,48,Female,179461.58,87,21905.84,16706.24,13-11-2024,01:12,Morning,Coimbatore,Credit Card,POS,Food,Success,18,68,30,1,5,Yes,Yes,No,33,Medium
+TXN000608,CUST9601,60,Female,71058.86,54,34175.13,1813.39,11-01-2025,22:55,Night,Ahmedabad,Wallet,ATM,Fuel,Success,15,27,33,1,4,No,No,Yes,34,Medium
+TXN000609,CUST4327,58,Female,368908.75,56,95912.85,49175.16,26-02-2026,02:01,Morning,Coimbatore,Wallet,ATM,Travel,Success,5,6,278,2,0,No,Yes,Yes,55,Medium
+TXN000610,CUST1874,40,Female,263616.91,155,98662.45,42521.02,29-11-2023,06:12,Morning,Coimbatore,Credit Card,Web,Grocery,Success,4,68,10,6,2,No,No,No,43,Medium
+TXN000611,CUST8080,67,Male,12643.85,174,66789.71,836.16,27-09-2025,13:37,Afternoon,Hyderabad,Wallet,ATM,Food,Success,20,60,197,6,0,Yes,No,Yes,6,Medium
+TXN000612,CUST1345,67,Male,66789.17,32,34689.63,3373.34,18-01-2026,23:44,Night,Delhi,Debit Card,ATM,Shopping,Success,7,10,76,4,1,No,No,No,24,Medium
+TXN000613,CUST6790,43,Female,419936.35,99,42621.45,34656.15,23-08-2023,15:39,Afternoon,Hyderabad,UPI,ATM,Food,Success,20,10,114,5,1,No,Yes,Yes,42,Medium
+TXN000614,CUST3936,64,Female,465145.24,162,92451.38,43293.39,16-09-2024,22:41,Night,Kolkata,Net Banking,Web,Fuel,Success,5,50,106,6,4,No,Yes,No,7,High
+TXN000615,CUST2422,70,Female,15359.26,74,21394.82,43200.24,05-07-2025,00:41,Morning,Delhi,Credit Card,POS,Healthcare,Success,20,14,169,6,0,No,Yes,No,20,Medium
+TXN000616,CUST3876,26,Male,356183.39,40,7164,19684.77,29-08-2025,08:19,Morning,Chennai,Wallet,ATM,Fuel,Success,20,6,231,3,1,Yes,Yes,Yes,51,Medium
+TXN000617,CUST6714,64,Female,329530.02,150,62401.39,35027.14,16-02-2024,21:21,Night,Jaipur,UPI,Mobile,Entertainment,Success,19,40,40,4,1,Yes,No,No,48,Medium
+TXN000618,CUST3202,61,Male,29108.86,164,22226.49,8308.02,04-07-2024,18:46,Evening,Jaipur,Debit Card,Mobile,Healthcare,Success,19,27,205,1,3,Yes,Yes,Yes,74,Medium
+TXN000619,CUST1778,66,Male,42180.23,76,54887.33,3839.47,13-04-2024,12:56,Afternoon,Mumbai,Net Banking,POS,Food,Success,2,45,290,3,5,Yes,Yes,Yes,97,High
+TXN000620,CUST6332,48,Female,495243.01,180,97165.01,32195.99,03-11-2025,22:42,Night,Jaipur,UPI,POS,Food,Success,20,13,6,3,3,No,No,Yes,26,Medium
+TXN000621,CUST5854,60,Female,183155.03,159,638.08,2128,24-11-2024,00:59,Morning,Kolkata,Net Banking,POS,Food,Success,6,92,124,5,4,No,No,Yes,43,Low
+TXN000622,CUST4852,60,Male,198990.14,29,3279.44,25206.16,23-01-2023,12:31,Afternoon,Chennai,UPI,ATM,Fuel,Success,11,42,185,3,1,No,No,Yes,83,Low
+TXN000623,CUST9221,36,Male,183859.62,64,33494.27,18129.69,19-08-2025,14:22,Afternoon,Kolkata,Credit Card,Web,Shopping,Failed,12,28,231,6,2,No,No,No,44,Low
+TXN000624,CUST4662,30,Female,39986.99,55,24270.21,2690.24,11-04-2026,12:05,Afternoon,Ahmedabad,UPI,Web,Entertainment,Success,16,36,71,5,4,No,Yes,No,13,Medium
+TXN000625,CUST9847,56,Other,214852.71,100,15336.4,39698.26,09-12-2024,19:07,Evening,Bangalore,UPI,ATM,Electronics,Success,2,88,246,6,2,No,Yes,Yes,62,Medium
+TXN000626,CUST3590,59,Other,130306.91,109,21992.29,11825.85,15-08-2023,02:17,Morning,Coimbatore,Debit Card,Web,Shopping,Success,15,61,265,4,2,No,Yes,No,20,Medium
+TXN000627,CUST9246,27,Male,50446.54,41,960.43,15819.97,06-05-2024,01:08,Morning,Coimbatore,Debit Card,Mobile,Entertainment,Success,1,38,290,6,1,No,Yes,Yes,99,Medium
+TXN000628,CUST3737,20,Male,200054.64,84,46188.48,11543.45,30-08-2023,09:35,Morning,Chennai,Net Banking,Mobile,Fuel,Success,15,22,114,3,1,Yes,No,Yes,32,Low
+TXN000629,CUST5381,67,Other,151015.59,54,22170.94,31296.48,01-12-2023,10:34,Morning,Kolkata,Credit Card,ATM,Electronics,Success,7,60,0,2,0,No,Yes,Yes,41,Low
+TXN000630,CUST2612,50,Female,320990.55,113,66387.82,25191.97,08-07-2024,08:04,Morning,Ahmedabad,UPI,Web,Entertainment,Success,10,24,151,1,2,No,No,Yes,70,Medium
+TXN000631,CUST3189,34,Male,367932.38,5,60487.48,18474.92,23-08-2024,18:23,Evening,Ahmedabad,Credit Card,ATM,Fuel,Success,9,29,213,4,4,Yes,Yes,Yes,91,High
+TXN000632,CUST4267,18,Female,359088.09,142,65935.45,37738.6,19-12-2025,03:19,Morning,Delhi,UPI,Mobile,Shopping,Success,8,53,18,4,1,No,No,No,31,Medium
+TXN000633,CUST7651,41,Male,399360.93,144,50593.58,6718.16,06-09-2025,15:49,Afternoon,Mumbai,Credit Card,ATM,Shopping,Success,16,19,21,6,2,No,Yes,No,90,High
+TXN000634,CUST5255,24,Female,385774.07,173,71628.48,18638.05,27-04-2026,17:40,Evening,Chennai,Net Banking,ATM,Travel,Success,15,72,40,4,4,No,Yes,No,82,High
+TXN000635,CUST3250,47,Female,225301.04,158,51698.44,18122.32,18-01-2023,17:22,Evening,Coimbatore,Net Banking,Mobile,Food,Success,9,89,224,6,2,No,No,No,77,Medium
+TXN000636,CUST6969,57,Female,263997.8,147,24878.53,9308.04,09-01-2023,03:39,Morning,Ahmedabad,UPI,Web,Electronics,Success,20,32,38,1,1,No,Yes,Yes,89,Medium
+TXN000637,CUST6793,39,Female,493017.7,179,39884.22,28281.67,21-11-2025,11:32,Morning,Coimbatore,Net Banking,Web,Healthcare,Success,4,8,273,5,2,No,Yes,Yes,100,Medium
+TXN000638,CUST4975,56,Female,283919.84,82,53648.95,22972.82,04-08-2025,14:42,Afternoon,Jaipur,Debit Card,Web,Electronics,Success,3,79,48,4,0,Yes,No,No,41,Medium
+TXN000639,CUST4715,18,Male,497788.3,97,18116.81,10197.7,09-04-2023,02:09,Morning,Bangalore,Wallet,Mobile,Electronics,Success,4,69,111,2,5,Yes,No,No,74,Medium
+TXN000640,CUST6939,37,Male,373435.09,40,87786.82,44707.01,05-08-2023,07:19,Morning,Ahmedabad,UPI,Mobile,Grocery,Success,14,33,250,5,5,Yes,No,No,11,Medium
+TXN000641,CUST3523,29,Female,291370.17,172,54717.97,33013.24,17-11-2024,22:34,Night,Pune,UPI,POS,Fuel,Success,1,81,19,2,4,No,No,Yes,84,High
+TXN000642,CUST1516,49,Female,177267.12,22,88071.97,15878.4,20-05-2025,03:33,Morning,Jaipur,UPI,Web,Travel,Success,16,89,295,1,0,No,No,Yes,82,Medium
+TXN000643,CUST2553,28,Female,444629.8,42,26976.58,16081.8,31-03-2025,00:42,Morning,Delhi,Debit Card,Web,Shopping,Success,12,12,171,5,4,Yes,No,Yes,89,High
+TXN000644,CUST4223,29,Male,409257.36,15,6744.23,14785.21,15-03-2024,04:19,Morning,Bangalore,Net Banking,POS,Electronics,Success,6,29,28,5,3,No,Yes,Yes,19,Medium
+TXN000645,CUST5934,54,Other,472880.68,112,17028.36,1683.64,27-11-2025,10:17,Morning,Ahmedabad,UPI,POS,Fuel,Success,12,7,74,1,0,No,Yes,Yes,69,Low
+TXN000646,CUST9720,52,Female,309860.53,70,33925.76,33324.98,19-10-2024,11:36,Morning,Hyderabad,Credit Card,POS,Grocery,Success,20,88,156,3,1,Yes,No,Yes,44,Low
+TXN000647,CUST8892,38,Female,499172.1,6,65132.2,21746.83,11-11-2023,06:02,Morning,Delhi,UPI,Web,Travel,Success,12,95,243,1,3,No,Yes,Yes,78,High
+TXN000648,CUST7933,20,Male,102434.46,49,60668.24,46894.3,24-09-2024,00:29,Morning,Pune,Debit Card,POS,Grocery,Success,4,55,43,6,3,Yes,No,Yes,57,High
+TXN000649,CUST6275,28,Male,133293.12,80,59199.2,27623.05,21-02-2024,01:21,Morning,Mumbai,Wallet,POS,Healthcare,Failed,13,68,18,6,2,Yes,Yes,Yes,68,High
+TXN000650,CUST4099,49,Male,318141.22,25,29543.13,48214.72,09-08-2023,21:05,Night,Hyderabad,Wallet,Web,Fuel,Success,12,86,121,5,2,No,Yes,No,10,Medium
+TXN000651,CUST6029,66,Female,136037.59,177,71546.16,607.84,22-03-2025,22:31,Night,Pune,Credit Card,Mobile,Grocery,Success,20,93,196,6,1,Yes,Yes,Yes,79,High
+TXN000652,CUST4890,69,Other,248834.22,96,86098.66,37341.78,06-10-2023,22:06,Night,Mumbai,Wallet,POS,Entertainment,Success,18,74,8,5,0,Yes,Yes,Yes,42,High
+TXN000653,CUST9957,23,Other,246515.1,141,23932.96,38397.38,14-07-2025,10:17,Morning,Chennai,UPI,ATM,Shopping,Success,12,58,20,2,5,No,No,No,97,Medium
+TXN000654,CUST6292,46,Male,244720.46,112,12473.31,16869.91,26-10-2025,09:08,Morning,Pune,Debit Card,Mobile,Entertainment,Success,12,99,61,3,5,No,No,Yes,41,Low
+TXN000655,CUST4770,69,Male,499195.74,42,5465.57,2907.7,28-01-2023,07:03,Morning,Ahmedabad,Net Banking,Web,Fuel,Success,7,24,90,4,5,No,No,No,71,Medium
+TXN000656,CUST4829,60,Other,23340.2,24,31938.22,30789.41,24-03-2024,22:29,Night,Mumbai,Credit Card,Web,Shopping,Success,15,55,137,4,1,No,No,Yes,59,Medium
+TXN000657,CUST3734,28,Male,234365.64,81,90753.13,34600.17,16-05-2025,18:16,Evening,Delhi,UPI,Web,Healthcare,Success,15,95,204,3,3,Yes,No,Yes,60,Medium
+TXN000658,CUST9394,23,Male,430800.37,45,11991.21,46755.83,11-07-2025,02:26,Morning,Hyderabad,Net Banking,Mobile,Electronics,Success,11,22,126,4,5,Yes,No,Yes,43,Medium
+TXN000659,CUST4723,27,Other,486825.72,136,22409.1,36118.15,27-02-2024,12:38,Afternoon,Coimbatore,UPI,Mobile,Shopping,Success,12,39,114,4,5,Yes,No,Yes,18,Medium
+TXN000660,CUST3769,41,Female,117817.41,180,25368.87,8563.37,14-10-2023,22:59,Night,Ahmedabad,Net Banking,Mobile,Travel,Success,8,65,127,4,4,No,Yes,No,37,Medium
+TXN000661,CUST5367,64,Male,243648.13,169,56028.5,48968.4,10-08-2025,19:08,Evening,Bangalore,Debit Card,ATM,Electronics,Failed,18,84,263,3,1,No,Yes,Yes,89,Medium
+TXN000662,CUST3026,23,Male,74260.42,40,13260.74,32379.23,20-01-2025,11:07,Morning,Mumbai,UPI,POS,Healthcare,Success,14,50,85,3,4,Yes,No,No,85,Medium
+TXN000663,CUST4703,25,Female,382744.87,29,57513.84,14888.6,30-01-2026,13:10,Afternoon,Coimbatore,Wallet,POS,Food,Success,16,58,296,1,0,Yes,No,Yes,50,Medium
+TXN000664,CUST3736,32,Other,242852.31,1,72378.39,21582.46,24-09-2025,23:20,Night,Pune,Credit Card,ATM,Food,Success,4,83,200,5,3,No,No,No,21,Medium
+TXN000665,CUST9665,20,Male,411199.68,30,73062.86,46823.55,27-06-2025,23:20,Night,Hyderabad,Wallet,ATM,Entertainment,Success,5,16,21,5,3,No,No,No,2,Medium
+TXN000666,CUST5760,34,Other,356385.8,81,20119.28,11620.76,16-04-2023,01:24,Morning,Chennai,Debit Card,Web,Food,Success,13,57,18,6,2,Yes,No,No,70,Medium
+TXN000667,CUST4212,51,Female,204457.19,83,96443.4,40517.02,28-04-2023,11:33,Morning,Kolkata,Debit Card,POS,Shopping,Success,17,38,76,1,1,No,No,Yes,50,Medium
+TXN000668,CUST2206,38,Other,80537.04,22,48787.07,13221.02,15-01-2025,13:13,Afternoon,Ahmedabad,Wallet,POS,Healthcare,Success,5,21,148,1,2,Yes,No,No,56,Medium
+TXN000669,CUST7487,61,Male,480212.61,79,88514.36,45162.52,31-01-2025,08:12,Morning,Hyderabad,Credit Card,Mobile,Electronics,Success,3,67,20,2,0,No,No,No,56,Medium
+TXN000670,CUST9578,64,Male,411342.48,155,80353.63,31992.56,04-03-2025,10:15,Morning,Mumbai,Debit Card,Web,Entertainment,Success,12,58,241,5,0,Yes,No,No,2,Medium
+TXN000671,CUST9184,19,Female,23385.43,86,14524.52,5096.75,22-06-2023,21:03,Night,Chennai,Net Banking,POS,Fuel,Success,9,96,0,6,0,Yes,No,No,91,Medium
+TXN000672,CUST2545,51,Other,151186.3,81,59675.5,3346.63,26-08-2024,00:05,Morning,Mumbai,Wallet,Web,Food,Success,10,98,93,5,0,Yes,Yes,Yes,85,High
+TXN000673,CUST2252,30,Other,427473.28,19,43105.69,25771.34,10-07-2025,13:02,Afternoon,Pune,Credit Card,Web,Entertainment,Success,1,79,85,2,2,No,Yes,Yes,82,Medium
+TXN000674,CUST7880,37,Other,484658.96,72,31429.43,36122.41,09-04-2026,16:34,Afternoon,Hyderabad,Credit Card,Mobile,Healthcare,Success,20,65,59,6,5,Yes,No,No,100,High
+TXN000675,CUST4611,65,Female,470067.39,73,97157.96,49157.19,28-05-2024,17:04,Evening,Hyderabad,UPI,Mobile,Healthcare,Success,4,37,186,5,3,Yes,Yes,Yes,95,High
+TXN000676,CUST9474,67,Male,137817.21,67,26890.17,644.78,29-01-2024,20:09,Evening,Coimbatore,Net Banking,Web,Travel,Success,17,18,237,1,0,Yes,Yes,No,8,Medium
+TXN000677,CUST7558,62,Other,216433.72,10,70528.76,5609.82,20-10-2025,19:48,Evening,Coimbatore,Wallet,POS,Fuel,Success,4,27,209,6,3,Yes,Yes,Yes,2,High
+TXN000678,CUST3844,37,Female,456922.84,49,40233.13,22521.46,12-07-2023,12:02,Afternoon,Coimbatore,Credit Card,ATM,Travel,Success,19,40,150,3,4,Yes,Yes,Yes,57,Medium
+TXN000679,CUST9766,57,Other,469568.66,31,82487.19,5644.49,29-03-2024,12:37,Afternoon,Coimbatore,Debit Card,POS,Food,Success,9,50,225,2,1,No,Yes,Yes,98,Medium
+TXN000680,CUST5974,21,Male,126564.15,85,2933.92,30705.08,16-11-2023,03:57,Morning,Kolkata,Credit Card,Mobile,Healthcare,Failed,10,95,111,6,0,Yes,No,Yes,56,Medium
+TXN000681,CUST9967,34,Male,18095.79,24,38792.82,4711.08,11-09-2025,11:16,Morning,Kolkata,Debit Card,POS,Shopping,Success,1,68,62,4,3,Yes,Yes,No,29,Medium
+TXN000682,CUST1299,18,Other,420109.77,142,72522.28,41335.75,21-02-2024,12:19,Afternoon,Mumbai,Credit Card,Mobile,Travel,Failed,2,6,4,2,4,No,Yes,Yes,14,Medium
+TXN000683,CUST4579,19,Female,306423.94,83,45467.97,27458.59,06-09-2023,17:38,Evening,Delhi,Net Banking,Web,Electronics,Success,7,3,69,2,4,Yes,Yes,No,85,High
+TXN000684,CUST4880,18,Male,192184.41,78,3890.86,33799.9,07-08-2024,07:38,Morning,Coimbatore,Debit Card,POS,Food,Success,15,66,264,3,1,Yes,Yes,Yes,20,Low
+TXN000685,CUST8678,26,Female,356128.43,22,39337.1,654.94,29-04-2023,02:49,Morning,Pune,Net Banking,ATM,Food,Success,1,28,241,1,0,Yes,Yes,Yes,76,Medium
+TXN000686,CUST4349,66,Female,416540.68,39,39686.01,47338.45,26-02-2026,15:29,Afternoon,Delhi,Debit Card,Mobile,Food,Success,7,97,157,3,4,No,Yes,No,12,Medium
+TXN000687,CUST8091,33,Male,160469.95,14,71601.64,7314.13,16-01-2025,00:38,Morning,Mumbai,Credit Card,Mobile,Entertainment,Success,9,51,39,3,1,No,Yes,Yes,30,Medium
+TXN000688,CUST6069,60,Other,114989.68,150,35321.4,24152.89,07-02-2025,22:14,Night,Kolkata,Debit Card,POS,Travel,Success,9,56,9,3,3,No,Yes,Yes,80,High
+TXN000689,CUST2607,41,Female,150575.77,144,2657.58,20212.81,24-02-2026,15:26,Afternoon,Pune,UPI,Mobile,Travel,Success,4,11,274,3,5,Yes,No,Yes,54,Medium
+TXN000690,CUST1881,24,Other,272458.64,41,70769.18,3567.55,03-09-2024,20:56,Evening,Ahmedabad,UPI,Web,Electronics,Success,1,40,249,1,1,Yes,Yes,No,9,Medium
+TXN000691,CUST5652,63,Female,400292.59,37,6263.38,28500.56,12-04-2026,04:52,Morning,Delhi,Wallet,Web,Shopping,Success,3,70,234,3,4,Yes,Yes,Yes,83,Medium
+TXN000692,CUST5296,34,Other,170127.45,128,48674.01,23471.51,04-05-2025,20:20,Evening,Ahmedabad,Credit Card,ATM,Shopping,Success,3,16,124,3,1,No,No,Yes,61,Low
+TXN000693,CUST4647,20,Female,408337.97,146,54250.06,30978.2,27-07-2025,12:45,Afternoon,Pune,Debit Card,ATM,Travel,Success,5,89,239,4,0,No,Yes,Yes,9,Medium
+TXN000694,CUST3541,29,Male,211273.31,54,11769.04,29175.7,23-04-2023,05:09,Morning,Jaipur,UPI,Mobile,Travel,Success,5,73,244,5,4,No,No,Yes,33,Low
+TXN000695,CUST5822,21,Male,69214.49,169,94969.74,8769.59,19-08-2024,06:14,Morning,Kolkata,Net Banking,ATM,Travel,Success,14,5,254,1,4,No,No,Yes,22,Medium
+TXN000696,CUST4943,34,Female,283022.99,93,21262.35,20758.84,05-04-2023,21:26,Night,Kolkata,Debit Card,POS,Grocery,Success,12,92,168,2,1,Yes,Yes,No,53,Medium
+TXN000697,CUST3615,60,Female,136957.02,38,3099.29,43171.02,20-03-2024,02:02,Morning,Coimbatore,Credit Card,Mobile,Food,Success,1,53,41,1,3,Yes,No,No,19,Low
+TXN000698,CUST4329,45,Other,161695.81,69,69494.7,27362.59,14-03-2025,08:10,Morning,Delhi,Net Banking,ATM,Food,Success,18,20,176,1,5,Yes,No,Yes,76,High
+TXN000699,CUST9944,50,Female,78750.22,87,20646.29,13880.94,31-07-2024,09:05,Morning,Kolkata,Wallet,Mobile,Fuel,Success,11,16,293,1,2,Yes,No,No,41,Low
+TXN000700,CUST5881,18,Male,223464.67,153,38035.34,33305.29,27-08-2023,10:24,Morning,Kolkata,UPI,Web,Travel,Success,19,93,225,2,5,No,Yes,No,12,Medium
+TXN000701,CUST2339,42,Other,117342.67,65,53587.51,11893.63,05-06-2024,20:12,Evening,Chennai,Debit Card,Web,Healthcare,Success,3,98,173,6,5,Yes,Yes,Yes,47,High
+TXN000702,CUST8832,22,Male,311422.79,12,61241.85,8972.39,28-01-2024,13:19,Afternoon,Pune,Wallet,Mobile,Healthcare,Success,16,36,64,4,5,Yes,Yes,Yes,84,High
+TXN000703,CUST6486,66,Male,360886.1,44,17929.72,7276.94,23-01-2023,10:00,Morning,Chennai,Credit Card,Web,Travel,Success,19,52,270,2,5,No,No,No,86,Medium
+TXN000704,CUST3533,46,Other,188171.37,174,14368.76,32255.83,30-11-2024,04:32,Morning,Ahmedabad,Debit Card,POS,Food,Success,8,52,103,3,2,No,Yes,Yes,64,Low
+TXN000705,CUST8121,40,Male,190728.19,126,60513.36,4321.48,30-09-2025,04:07,Morning,Pune,Wallet,Web,Healthcare,Success,9,15,89,6,0,Yes,Yes,Yes,97,High
+TXN000706,CUST6017,65,Other,327350.15,96,58763.44,12539.8,08-06-2024,15:10,Afternoon,Coimbatore,Net Banking,Mobile,Entertainment,Success,14,34,136,3,4,No,No,No,78,Medium
+TXN000707,CUST3648,62,Other,351483.38,55,66962.91,14745.41,22-06-2025,14:38,Afternoon,Delhi,UPI,Mobile,Food,Success,7,98,176,3,0,No,No,Yes,86,Medium
+TXN000708,CUST1771,43,Male,349332.57,146,16117.91,46878.29,07-02-2026,19:54,Evening,Kolkata,Debit Card,Web,Healthcare,Success,18,18,209,4,2,No,No,Yes,2,Low
+TXN000709,CUST5339,39,Female,172704.29,96,65788.61,10679.79,27-10-2023,11:04,Morning,Ahmedabad,Debit Card,Web,Healthcare,Success,4,79,215,6,3,No,No,No,26,Medium
+TXN000710,CUST1920,44,Female,430302.78,173,48558.07,45887.6,20-07-2024,07:12,Morning,Ahmedabad,Credit Card,POS,Fuel,Success,11,39,248,6,3,Yes,No,No,69,Medium
+TXN000711,CUST8488,39,Male,305315.21,159,9546.3,48916.8,22-04-2025,20:14,Evening,Hyderabad,UPI,POS,Electronics,Success,9,18,96,4,1,Yes,Yes,Yes,80,Medium
+TXN000712,CUST3270,39,Male,407569.06,153,62019.23,24940.35,02-01-2024,21:57,Night,Bangalore,Net Banking,Mobile,Travel,Failed,2,75,226,1,4,No,No,No,45,Medium
+TXN000713,CUST2245,29,Other,234491.4,20,98664.6,21165.42,21-02-2023,20:01,Evening,Jaipur,UPI,ATM,Shopping,Success,12,48,271,4,1,No,No,No,93,Medium
+TXN000714,CUST1674,38,Female,90298.33,59,46297.12,17913.14,28-01-2024,15:50,Afternoon,Kolkata,Debit Card,POS,Healthcare,Success,2,80,126,4,1,No,Yes,Yes,62,Medium
+TXN000715,CUST4124,65,Other,166905.94,93,88964.15,48336.45,30-11-2024,16:14,Afternoon,Delhi,Net Banking,Mobile,Electronics,Success,2,72,40,6,0,No,Yes,No,41,Medium
+TXN000716,CUST8163,67,Female,306141.53,80,64510.99,7285.13,07-11-2025,19:27,Evening,Delhi,Credit Card,Web,Shopping,Success,4,17,154,6,3,Yes,No,No,33,Medium
+TXN000717,CUST2171,58,Female,292571.01,107,14403.62,44227.64,31-10-2023,04:24,Morning,Bangalore,UPI,POS,Healthcare,Success,20,38,171,1,1,No,No,No,52,Low
+TXN000718,CUST8860,58,Female,385629.11,76,38302.8,35595.74,29-02-2024,00:38,Morning,Mumbai,Net Banking,POS,Grocery,Success,11,93,160,2,3,Yes,Yes,Yes,23,Medium
+TXN000719,CUST6210,41,Female,324287.65,171,99897.61,38503.38,01-08-2025,13:08,Afternoon,Coimbatore,UPI,ATM,Healthcare,Success,9,44,85,3,1,Yes,No,Yes,44,Medium
+TXN000720,CUST9225,54,Female,106364.52,129,1376.15,33622.16,18-05-2023,13:05,Afternoon,Mumbai,Wallet,ATM,Electronics,Success,9,76,184,6,4,Yes,No,No,54,Medium
+TXN000721,CUST1614,26,Female,396536.47,116,46014.55,28028.66,16-04-2024,07:45,Morning,Delhi,Credit Card,ATM,Grocery,Success,13,72,52,5,1,Yes,No,Yes,96,Medium
+TXN000722,CUST9105,23,Female,199904.74,44,26711.68,31098.21,27-02-2024,13:48,Afternoon,Coimbatore,Net Banking,POS,Travel,Success,6,46,266,4,0,No,No,No,26,Low
+TXN000723,CUST2742,53,Other,174849.32,98,62808.35,921.74,09-08-2025,18:50,Evening,Mumbai,Debit Card,POS,Food,Success,16,75,210,3,5,Yes,Yes,No,16,Medium
+TXN000724,CUST8904,61,Female,107045.89,159,69173.15,37437.37,13-04-2025,08:34,Morning,Pune,Debit Card,ATM,Entertainment,Success,20,100,210,6,5,Yes,Yes,No,56,High
+TXN000725,CUST4172,40,Female,492425.08,148,36920.79,39192.73,26-05-2023,15:58,Afternoon,Jaipur,Debit Card,Mobile,Healthcare,Success,6,60,296,4,2,Yes,No,Yes,32,Medium
+TXN000726,CUST1482,70,Female,195636.9,127,63088.99,44256.76,30-03-2024,17:10,Evening,Mumbai,UPI,ATM,Fuel,Success,13,79,191,3,3,No,Yes,Yes,96,High
+TXN000727,CUST5509,36,Male,458095.84,132,50870.39,10842.69,06-06-2024,09:41,Morning,Chennai,Wallet,Web,Fuel,Success,11,47,125,4,4,No,No,No,78,High
+TXN000728,CUST4522,48,Male,176130.32,66,74507.05,8474.03,23-12-2024,02:56,Morning,Delhi,UPI,Web,Electronics,Success,4,15,300,3,4,Yes,No,Yes,62,Medium
+TXN000729,CUST2398,67,Female,129276.46,64,3926.46,42113.3,26-04-2026,08:32,Morning,Chennai,Wallet,ATM,Healthcare,Success,5,16,285,5,3,No,No,Yes,64,Medium
+TXN000730,CUST1532,61,Female,303222.61,80,66796.28,27231.79,30-10-2024,04:05,Morning,Jaipur,Wallet,Web,Shopping,Success,8,44,238,4,1,No,No,Yes,18,Medium
+TXN000731,CUST9795,68,Other,11871.07,133,2828.64,10936.26,27-02-2024,11:35,Morning,Bangalore,Net Banking,Web,Fuel,Success,5,2,11,3,1,Yes,Yes,Yes,17,Low
+TXN000732,CUST3370,37,Female,247984.08,141,85276.32,16372.23,23-05-2025,20:10,Evening,Ahmedabad,UPI,ATM,Food,Success,11,79,165,1,4,Yes,No,No,71,Medium
+TXN000733,CUST7161,56,Female,337984.3,72,62807.04,3868.95,31-05-2025,06:43,Morning,Pune,Wallet,Web,Shopping,Success,8,85,123,2,5,Yes,Yes,Yes,67,High
+TXN000734,CUST9357,48,Male,103471.73,163,29516.6,20342.83,09-11-2023,09:21,Morning,Kolkata,UPI,POS,Electronics,Success,18,48,112,5,0,No,No,No,76,Medium
+TXN000735,CUST8121,53,Female,39215.68,78,38947.33,5538.18,10-12-2024,01:40,Morning,Pune,Wallet,Web,Grocery,Success,15,28,49,3,4,Yes,No,Yes,24,Medium
+TXN000736,CUST1391,20,Other,444482.83,91,70236.89,14178.87,21-02-2025,19:13,Evening,Ahmedabad,UPI,ATM,Grocery,Success,20,23,63,3,0,Yes,Yes,Yes,90,High
+TXN000737,CUST5997,38,Other,188435.64,121,35627.76,27191.84,25-06-2024,02:36,Morning,Kolkata,Debit Card,Mobile,Travel,Success,11,10,251,4,5,Yes,No,Yes,99,High
+TXN000738,CUST6986,47,Male,486672.02,9,55028.49,9852.27,18-02-2025,15:03,Afternoon,Mumbai,Net Banking,Mobile,Entertainment,Success,16,73,165,4,1,No,No,Yes,80,Medium
+TXN000739,CUST5986,44,Other,411168.52,16,88003.66,26847.74,31-07-2023,05:51,Morning,Jaipur,Credit Card,ATM,Entertainment,Success,20,56,290,1,2,Yes,No,No,30,Medium
+TXN000740,CUST2207,50,Male,476978.42,98,64587.46,44922.29,15-09-2025,20:35,Evening,Ahmedabad,Net Banking,POS,Travel,Success,19,100,260,3,5,No,No,No,40,Medium
+TXN000741,CUST9876,33,Other,198211.12,90,37623.83,14537.03,08-11-2025,09:57,Morning,Ahmedabad,Net Banking,ATM,Grocery,Success,7,69,218,1,1,No,No,No,12,Low
+TXN000742,CUST8245,60,Other,208758.95,103,95530.75,36184.13,06-04-2026,09:28,Morning,Bangalore,UPI,ATM,Grocery,Failed,11,88,247,3,5,No,Yes,No,92,High
+TXN000743,CUST1408,36,Other,481534.73,60,2361.36,12217.01,12-01-2024,17:32,Evening,Ahmedabad,Debit Card,POS,Entertainment,Failed,10,2,170,3,3,No,Yes,No,79,Medium
+TXN000744,CUST5445,23,Female,24900.71,41,14779.13,44831.99,23-05-2024,16:39,Afternoon,Coimbatore,Wallet,Mobile,Shopping,Success,13,81,55,6,4,Yes,Yes,No,56,Medium
+TXN000745,CUST2216,38,Other,103088.05,12,9656.39,1470.78,28-01-2024,13:43,Afternoon,Coimbatore,Wallet,ATM,Shopping,Success,14,16,258,3,2,No,No,No,95,Low
+TXN000746,CUST3904,20,Other,51313.02,135,41116.01,3158.94,15-12-2023,09:11,Morning,Jaipur,UPI,Mobile,Fuel,Failed,18,1,145,1,1,No,No,Yes,17,Low
+TXN000747,CUST6117,30,Other,376083.6,85,77882.57,40976.01,29-01-2025,03:41,Morning,Delhi,Net Banking,Mobile,Fuel,Success,4,98,228,5,0,Yes,No,Yes,68,Medium
+TXN000748,CUST5817,24,Female,329220.91,5,52921.53,28263.45,22-04-2023,00:46,Morning,Hyderabad,Debit Card,POS,Shopping,Success,9,54,163,3,3,No,No,No,96,Medium
+TXN000749,CUST1164,56,Male,470460.14,107,72497.29,15295.83,02-12-2025,02:32,Morning,Kolkata,Net Banking,Web,Electronics,Success,12,25,254,5,3,No,No,Yes,63,Medium
+TXN000750,CUST6296,54,Other,453796.51,71,84556.21,13159.55,10-10-2023,14:41,Afternoon,Jaipur,Debit Card,POS,Shopping,Success,11,1,274,2,2,Yes,No,No,17,Medium
+TXN000751,CUST7967,29,Female,371855,97,83347.61,39702.48,18-03-2023,21:17,Night,Pune,Wallet,ATM,Shopping,Success,18,24,240,4,3,Yes,No,No,68,High
+TXN000752,CUST2763,68,Male,330661.25,81,24095.02,26288.85,04-08-2024,19:20,Evening,Jaipur,Net Banking,ATM,Food,Success,16,97,191,5,1,Yes,No,Yes,63,Medium
+TXN000753,CUST1967,20,Female,29344.61,173,42872.33,34217.12,16-07-2025,13:34,Afternoon,Coimbatore,Credit Card,POS,Fuel,Success,13,28,15,3,2,No,No,No,78,Medium
+TXN000754,CUST2665,29,Male,274035.55,102,15359.23,15883.94,16-04-2026,05:10,Morning,Coimbatore,UPI,Mobile,Healthcare,Success,5,7,148,2,2,No,No,No,62,Low
+TXN000755,CUST3200,25,Other,22250.14,46,32337.66,10526.36,06-12-2025,04:55,Morning,Jaipur,Credit Card,ATM,Shopping,Success,12,31,290,5,3,Yes,Yes,Yes,41,Medium
+TXN000756,CUST1411,24,Female,426413.38,60,55134.74,23987.23,09-03-2023,00:59,Morning,Delhi,Wallet,Mobile,Entertainment,Success,18,15,7,2,4,No,No,Yes,63,Medium
+TXN000757,CUST4695,62,Female,57296.67,29,68063.64,32785.92,25-09-2025,05:00,Morning,Chennai,Credit Card,Web,Electronics,Success,5,81,242,5,4,No,No,Yes,91,High
+TXN000758,CUST2642,30,Other,260315.07,88,62783.18,1915.6,02-09-2025,19:39,Evening,Chennai,Credit Card,POS,Shopping,Success,4,99,86,2,3,Yes,No,Yes,40,Medium
+TXN000759,CUST2506,35,Female,128404.79,55,14835.02,49428.68,16-09-2024,14:40,Afternoon,Bangalore,Credit Card,ATM,Shopping,Failed,14,10,200,4,4,Yes,No,No,9,Medium
+TXN000760,CUST2326,35,Other,175552.3,102,6342,15458.33,07-07-2024,21:06,Night,Coimbatore,Debit Card,POS,Electronics,Failed,11,45,273,5,3,No,No,No,36,Medium
+TXN000761,CUST2057,52,Male,85202.15,99,83495.62,22869.29,02-04-2024,09:30,Morning,Coimbatore,UPI,Mobile,Food,Success,15,63,224,3,1,Yes,No,Yes,75,Medium
+TXN000762,CUST9858,45,Female,191329.75,4,79060.71,44618.03,01-03-2024,11:59,Morning,Chennai,Credit Card,Mobile,Travel,Success,4,41,247,1,1,Yes,Yes,No,72,Medium
+TXN000763,CUST1502,65,Male,211394.69,170,21867.47,5022.73,14-11-2025,01:56,Morning,Ahmedabad,UPI,Mobile,Healthcare,Success,15,12,19,3,4,No,No,No,49,Low
+TXN000764,CUST7894,53,Female,262741.51,33,82668.52,30886.7,28-11-2024,22:53,Night,Mumbai,UPI,Mobile,Shopping,Success,2,2,110,5,1,Yes,Yes,Yes,17,High
+TXN000765,CUST6361,41,Male,445160.16,102,14018.09,16013.36,29-11-2024,03:07,Morning,Bangalore,Debit Card,POS,Shopping,Success,15,34,77,4,0,No,Yes,No,32,Low
+TXN000766,CUST2914,45,Female,57623.52,67,12221.41,24541.51,23-10-2025,21:07,Night,Pune,Debit Card,Web,Grocery,Success,18,33,26,5,4,No,No,Yes,86,Medium
+TXN000767,CUST2716,23,Female,43197.43,167,95968.76,42682.19,07-08-2024,14:51,Afternoon,Coimbatore,UPI,Mobile,Food,Success,1,83,211,5,3,No,No,No,85,High
+TXN000768,CUST8743,25,Female,211463.39,98,65040.1,13398.76,25-03-2026,10:08,Morning,Pune,Net Banking,POS,Travel,Success,11,35,178,3,0,No,No,No,34,Low
+TXN000769,CUST4381,22,Other,350076.18,148,15744.47,23139.31,21-04-2026,04:10,Morning,Bangalore,Debit Card,Mobile,Food,Success,15,86,263,2,0,No,No,No,91,Low
+TXN000770,CUST6400,62,Male,99883.65,48,46753.94,8283.43,13-02-2023,15:17,Afternoon,Coimbatore,Wallet,Web,Healthcare,Success,8,95,285,3,0,No,No,No,95,Medium
+TXN000771,CUST8785,28,Male,37979.61,18,26421.22,1043.63,01-11-2025,15:45,Afternoon,Mumbai,Credit Card,Mobile,Electronics,Success,10,37,265,5,1,No,Yes,Yes,24,Medium
+TXN000772,CUST7589,62,Other,433137.15,13,85566.01,14532.23,11-04-2026,17:16,Evening,Jaipur,Debit Card,ATM,Grocery,Success,18,88,40,1,3,No,Yes,No,67,Medium
+TXN000773,CUST4153,39,Male,149458,84,94361.07,37536.43,30-01-2024,22:41,Night,Kolkata,Credit Card,ATM,Entertainment,Success,6,53,116,3,0,No,No,Yes,63,Medium
+TXN000774,CUST6052,20,Other,46922.75,117,21642.86,13188.25,14-02-2023,05:52,Morning,Kolkata,Net Banking,Web,Shopping,Success,15,6,129,6,2,Yes,No,No,63,Medium
+TXN000775,CUST3010,25,Female,486543.66,155,58269.18,34634.99,11-08-2024,15:57,Afternoon,Chennai,Credit Card,Mobile,Entertainment,Success,14,98,217,3,1,Yes,No,Yes,56,Medium
+TXN000776,CUST9831,29,Other,357402.27,100,74098.47,39467.89,14-11-2023,10:11,Morning,Hyderabad,Debit Card,Web,Fuel,Success,2,94,299,4,1,No,Yes,No,3,Medium
+TXN000777,CUST5076,69,Female,22251.35,9,14840.19,890.78,24-04-2023,03:33,Morning,Mumbai,Net Banking,POS,Electronics,Success,19,99,142,5,5,No,Yes,No,25,Medium
+TXN000778,CUST8923,29,Other,192003.82,89,31271.47,34269.1,12-11-2025,08:56,Morning,Delhi,Credit Card,Mobile,Electronics,Success,3,74,267,1,5,Yes,No,Yes,33,Medium
+TXN000779,CUST6477,38,Female,304244.4,83,18145.51,21039.56,23-01-2024,10:44,Morning,Hyderabad,Wallet,POS,Healthcare,Failed,19,12,191,3,4,No,Yes,Yes,37,Low
+TXN000780,CUST6628,60,Female,109115.83,89,97444.89,34355.3,14-03-2023,11:38,Morning,Coimbatore,Debit Card,ATM,Entertainment,Success,7,91,32,6,5,Yes,Yes,No,74,High
+TXN000781,CUST1526,32,Other,45316.46,90,45477.29,43971.65,29-10-2024,01:15,Morning,Kolkata,Debit Card,Web,Fuel,Success,15,92,155,2,5,No,No,Yes,3,Low
+TXN000782,CUST5689,22,Other,196430.56,113,54207.61,47536.09,02-03-2025,07:31,Morning,Pune,Credit Card,ATM,Fuel,Success,6,35,85,3,2,No,Yes,Yes,23,Medium
+TXN000783,CUST8817,58,Other,196908.17,8,30063.77,31735.48,09-07-2025,05:26,Morning,Bangalore,Net Banking,POS,Fuel,Failed,3,27,202,1,1,Yes,No,Yes,90,Medium
+TXN000784,CUST9433,35,Female,471682.19,87,12885.2,15848.58,28-01-2024,09:30,Morning,Mumbai,Credit Card,ATM,Food,Success,11,16,43,3,3,No,Yes,Yes,90,Medium
+TXN000785,CUST4075,68,Other,270953.23,122,56624.86,8022.37,02-08-2024,06:04,Morning,Delhi,Wallet,Mobile,Grocery,Success,1,62,166,5,4,No,No,Yes,28,Medium
+TXN000786,CUST5718,39,Other,193430.56,171,21681.7,6631.82,16-04-2024,19:08,Evening,Coimbatore,Wallet,Web,Grocery,Success,8,28,266,3,0,No,No,No,68,Low
+TXN000787,CUST9356,63,Other,386659.03,20,51202.03,16515.58,03-08-2023,04:55,Morning,Kolkata,UPI,Web,Travel,Success,15,84,93,5,5,Yes,Yes,No,32,High
+TXN000788,CUST6965,18,Other,348225.43,123,51993.48,31709.29,19-07-2024,00:00,Morning,Kolkata,Credit Card,ATM,Entertainment,Success,1,31,224,3,1,No,No,No,11,Low
+TXN000789,CUST2873,44,Male,150388.92,126,34505.66,23506.04,04-12-2024,07:15,Morning,Ahmedabad,Net Banking,Mobile,Healthcare,Success,3,42,101,6,2,No,Yes,No,36,Medium
+TXN000790,CUST7107,24,Female,241285.57,111,34977.17,41616.4,28-02-2025,08:48,Morning,Kolkata,UPI,ATM,Travel,Success,19,85,13,3,0,No,No,Yes,2,Low
+TXN000791,CUST1393,46,Male,231017.29,164,74566.71,7275.35,24-09-2025,16:05,Afternoon,Hyderabad,Net Banking,Web,Electronics,Success,20,14,40,4,5,Yes,Yes,Yes,97,High
+TXN000792,CUST1889,42,Other,15186.27,142,93909.56,46343.39,28-10-2025,05:16,Morning,Chennai,Wallet,Web,Fuel,Success,9,68,37,1,5,No,Yes,Yes,100,High
+TXN000793,CUST4588,59,Other,238062.14,117,44500.07,12103.84,12-07-2023,14:56,Afternoon,Pune,Debit Card,Mobile,Fuel,Success,14,32,47,3,0,Yes,No,Yes,94,Medium
+TXN000794,CUST6188,54,Other,338897.5,169,98701.74,5659.81,04-05-2025,14:05,Afternoon,Coimbatore,Debit Card,POS,Electronics,Success,3,57,198,2,5,Yes,No,Yes,94,High
+TXN000795,CUST8158,51,Other,44238.2,171,69604.76,39366.47,01-04-2023,01:05,Morning,Kolkata,UPI,ATM,Entertainment,Success,2,89,25,6,1,No,No,No,51,Medium
+TXN000796,CUST2667,23,Other,371774.88,39,34773.51,11234.52,01-01-2024,18:16,Evening,Kolkata,Debit Card,ATM,Travel,Success,1,83,231,2,0,Yes,No,No,96,Medium
+TXN000797,CUST8519,31,Male,139191.2,23,21748.41,44118.46,30-07-2023,06:13,Morning,Pune,Credit Card,POS,Shopping,Success,20,16,107,1,2,Yes,No,Yes,65,Medium
+TXN000798,CUST5475,51,Other,18532.11,167,27910.89,9757.17,26-05-2023,07:19,Morning,Pune,Net Banking,POS,Electronics,Success,20,91,27,1,4,No,No,No,8,Low
+TXN000799,CUST8393,28,Female,366454.58,152,2680.98,49655.98,10-08-2024,22:39,Night,Coimbatore,UPI,Web,Travel,Success,13,98,277,4,1,No,No,No,40,Low
+TXN000800,CUST9480,69,Female,41065.95,129,27180.17,44390.83,23-02-2026,23:09,Night,Ahmedabad,Net Banking,POS,Healthcare,Success,14,69,200,5,0,No,No,No,34,Medium
+TXN000801,CUST2597,48,Male,355080.07,170,39023.93,35404.6,16-07-2024,20:39,Evening,Ahmedabad,Wallet,ATM,Fuel,Success,16,17,246,6,0,No,No,Yes,93,Medium
+TXN000802,CUST3214,63,Female,445421.22,85,29148.77,18265.26,12-09-2023,14:15,Afternoon,Bangalore,Wallet,POS,Fuel,Success,8,33,223,1,2,No,Yes,No,88,Medium
+TXN000803,CUST3857,69,Female,5867.93,171,7510.01,37194.18,29-01-2025,02:17,Morning,Kolkata,UPI,Web,Healthcare,Success,7,5,74,2,1,No,No,Yes,40,Low
+TXN000804,CUST1993,62,Other,307860.41,20,11196.61,45988.96,27-02-2023,12:34,Afternoon,Kolkata,Net Banking,POS,Grocery,Success,13,18,215,5,2,Yes,Yes,No,87,Medium
+TXN000805,CUST8038,18,Female,367077.2,66,45142.85,25896.57,26-03-2025,17:06,Evening,Ahmedabad,Wallet,Web,Fuel,Success,7,11,21,2,3,No,No,Yes,54,Medium
+TXN000806,CUST2782,35,Female,229622.7,70,31990.62,40034.49,23-04-2023,20:23,Evening,Delhi,Net Banking,Web,Healthcare,Success,8,89,181,1,2,Yes,No,Yes,23,Low
+TXN000807,CUST6914,36,Other,453207.02,111,65883.58,46936.9,17-09-2023,10:20,Morning,Pune,UPI,Mobile,Travel,Success,6,64,161,2,2,No,Yes,No,95,Medium
+TXN000808,CUST8841,60,Male,226113.82,68,83000.83,34022.43,15-06-2024,06:15,Morning,Jaipur,Net Banking,Web,Healthcare,Success,12,57,276,2,2,Yes,No,No,42,Medium
+TXN000809,CUST6738,29,Female,230505.79,6,56102.07,49502.22,05-02-2025,13:48,Afternoon,Mumbai,Wallet,ATM,Grocery,Success,12,72,72,4,2,No,Yes,Yes,89,High
+TXN000810,CUST6111,45,Female,270615.61,54,60239.97,21047.49,05-10-2024,18:55,Evening,Hyderabad,Wallet,ATM,Food,Success,2,38,39,5,0,No,No,Yes,91,Medium
+TXN000811,CUST1800,60,Other,192077.9,114,23947.87,34803.49,23-07-2024,02:57,Morning,Kolkata,Debit Card,POS,Fuel,Success,14,71,125,1,2,No,Yes,No,73,Medium
+TXN000812,CUST5004,50,Male,113723.05,24,24695.64,40984.58,18-08-2025,14:19,Afternoon,Hyderabad,Debit Card,Mobile,Travel,Success,3,41,18,4,2,No,No,Yes,44,Low
+TXN000813,CUST5383,67,Other,350130.06,82,35828.61,14476.47,12-03-2025,05:48,Morning,Kolkata,UPI,ATM,Healthcare,Success,5,60,175,4,1,Yes,No,Yes,32,Medium
+TXN000814,CUST3740,54,Male,418254.95,130,78235.89,7116,30-03-2023,15:42,Afternoon,Jaipur,Wallet,POS,Grocery,Success,10,89,46,6,4,Yes,No,Yes,43,Medium
+TXN000815,CUST6370,43,Female,429579.03,10,87085.71,5632.61,04-07-2024,21:10,Night,Ahmedabad,Wallet,Web,Travel,Success,11,4,24,4,4,No,Yes,Yes,74,High
+TXN000816,CUST4037,18,Other,362291,26,31559.7,6525.49,19-03-2024,14:23,Afternoon,Coimbatore,Debit Card,Mobile,Shopping,Success,15,57,114,3,0,Yes,No,No,59,Medium
+TXN000817,CUST4554,41,Female,16223.43,12,63490.55,26003.67,11-10-2024,15:42,Afternoon,Ahmedabad,Wallet,Mobile,Healthcare,Success,16,58,23,1,2,No,Yes,No,22,Medium
+TXN000818,CUST5289,50,Female,160979.56,160,23336.88,3345.31,17-12-2023,20:24,Evening,Chennai,Credit Card,Mobile,Shopping,Success,2,10,85,5,0,Yes,No,Yes,34,Medium
+TXN000819,CUST5693,61,Other,408473.16,152,51307.61,12335.53,27-09-2025,04:48,Morning,Ahmedabad,Debit Card,Web,Electronics,Success,11,75,18,6,0,No,No,Yes,78,Medium
+TXN000820,CUST3914,47,Other,261941.74,150,15862.75,41524.17,07-05-2024,09:49,Morning,Ahmedabad,Debit Card,Mobile,Entertainment,Success,12,65,65,2,2,No,Yes,No,58,Low
+TXN000821,CUST9718,62,Female,144181.79,139,12568.24,32293,21-03-2023,20:34,Evening,Chennai,UPI,POS,Shopping,Success,5,90,272,1,4,Yes,No,No,10,Low
+TXN000822,CUST2429,48,Male,69075.35,50,87177.51,15222.25,21-11-2025,19:53,Evening,Ahmedabad,Debit Card,ATM,Fuel,Success,2,57,272,6,5,Yes,Yes,Yes,95,High
+TXN000823,CUST8216,69,Male,49126.26,40,66185.63,27882.78,29-07-2024,18:49,Evening,Ahmedabad,Net Banking,Mobile,Entertainment,Success,16,69,195,4,4,No,No,No,69,Medium
+TXN000824,CUST6663,19,Male,262862.19,173,84556.27,26523.37,22-10-2024,19:31,Evening,Kolkata,Debit Card,Web,Entertainment,Success,8,26,26,1,4,Yes,No,No,9,Medium
+TXN000825,CUST6504,42,Male,360936.86,106,40190.33,22532.17,23-10-2024,21:36,Night,Coimbatore,UPI,ATM,Travel,Success,17,92,288,4,2,No,No,No,41,Medium
+TXN000826,CUST5205,53,Other,65565.51,23,48576.27,21987.86,14-03-2025,16:21,Afternoon,Chennai,Net Banking,POS,Travel,Success,15,32,159,4,2,Yes,No,No,2,Medium
+TXN000827,CUST1817,33,Male,236776.17,77,12197.64,34993.03,23-06-2024,02:43,Morning,Jaipur,Credit Card,Web,Shopping,Success,17,19,275,3,5,Yes,Yes,No,49,Medium
+TXN000828,CUST6373,49,Male,358241.53,78,47799.71,13538.33,01-11-2023,05:35,Morning,Chennai,UPI,Web,Fuel,Success,17,11,187,3,0,Yes,No,No,31,Low
+TXN000829,CUST6894,66,Male,22563.5,33,10182.68,34557.35,25-02-2024,00:19,Morning,Delhi,UPI,ATM,Travel,Success,13,58,198,3,4,Yes,Yes,Yes,26,Medium
+TXN000830,CUST8356,70,Male,393913.37,35,3427.15,36252.59,13-06-2023,18:41,Evening,Bangalore,Wallet,POS,Food,Failed,17,81,229,4,3,Yes,Yes,Yes,8,Medium
+TXN000831,CUST9556,18,Male,447177.29,139,76491.61,49829.02,13-09-2024,16:28,Afternoon,Kolkata,Credit Card,Web,Travel,Success,2,63,35,3,0,Yes,Yes,Yes,2,Medium
+TXN000832,CUST2334,63,Female,424777.58,47,6585.43,43451.07,17-06-2023,01:29,Morning,Coimbatore,Credit Card,POS,Entertainment,Success,17,3,147,3,1,No,No,No,96,Low
+TXN000833,CUST6978,22,Male,147470.16,122,29257.05,40177.8,29-03-2025,19:36,Evening,Delhi,Net Banking,ATM,Travel,Success,12,32,62,5,1,No,Yes,Yes,91,Medium
+TXN000834,CUST3959,18,Male,112436.12,109,22404.08,3364.18,05-12-2025,22:30,Night,Ahmedabad,Net Banking,Mobile,Shopping,Success,3,10,97,1,4,No,Yes,Yes,19,Medium
+TXN000835,CUST5627,21,Female,381612.89,174,44356.7,37884.82,12-11-2024,15:58,Afternoon,Kolkata,Debit Card,POS,Fuel,Success,3,79,249,3,3,No,No,No,58,Medium
+TXN000836,CUST1418,54,Male,167281.87,21,84222.33,40100.92,22-06-2024,00:00,Morning,Mumbai,Wallet,ATM,Shopping,Success,11,21,238,4,0,No,Yes,No,51,Medium
+TXN000837,CUST7875,58,Female,327433.62,14,14712.6,7804.11,06-05-2025,04:46,Morning,Mumbai,UPI,ATM,Fuel,Success,3,39,73,5,0,Yes,No,Yes,89,Medium
+TXN000838,CUST9590,63,Male,169006.17,175,26847.09,33595.17,07-02-2023,17:50,Evening,Jaipur,Wallet,Mobile,Shopping,Success,17,17,15,6,2,Yes,Yes,No,28,Medium
+TXN000839,CUST8279,51,Male,232307.65,124,5842.25,21872.92,01-11-2024,01:39,Morning,Delhi,UPI,Mobile,Travel,Success,3,53,275,4,2,Yes,Yes,Yes,11,Medium
+TXN000840,CUST8677,45,Female,494278.2,63,48843.8,3643.36,16-05-2023,15:23,Afternoon,Mumbai,UPI,Web,Travel,Success,5,28,85,4,4,Yes,No,No,43,Medium
+TXN000841,CUST5118,46,Female,495670.94,128,47955.84,9518.71,18-08-2023,09:42,Morning,Delhi,Debit Card,ATM,Grocery,Success,17,54,228,3,3,No,Yes,No,22,Medium
+TXN000842,CUST8026,26,Other,482701.81,167,45811.12,18691.75,31-10-2023,14:29,Afternoon,Jaipur,Credit Card,Web,Grocery,Success,14,46,200,4,2,No,No,Yes,14,Low
+TXN000843,CUST1457,22,Other,411188.61,40,2388.38,35318.22,06-06-2023,13:32,Afternoon,Mumbai,Net Banking,ATM,Healthcare,Success,8,70,41,5,4,No,No,No,75,Medium
+TXN000844,CUST9990,62,Male,163936.55,177,30851.46,13710.52,14-08-2024,14:23,Afternoon,Bangalore,Net Banking,Web,Travel,Success,12,4,226,5,5,Yes,Yes,No,9,Medium
+TXN000845,CUST5734,61,Other,223374.55,109,76953.05,29443.8,17-01-2024,23:01,Night,Pune,Net Banking,POS,Electronics,Success,6,68,129,6,2,Yes,No,Yes,49,Medium
+TXN000846,CUST2578,46,Female,213935.61,17,7130.41,18340.56,29-08-2025,19:38,Evening,Ahmedabad,Net Banking,POS,Grocery,Success,8,32,34,5,0,Yes,No,Yes,83,Medium
+TXN000847,CUST4657,44,Male,340456.09,87,27053.42,6342.34,15-04-2026,02:21,Morning,Bangalore,UPI,Mobile,Shopping,Success,7,31,232,6,5,Yes,No,Yes,61,Medium
+TXN000848,CUST3169,36,Other,438460.58,98,70515.89,18412.34,10-08-2025,18:39,Evening,Coimbatore,Wallet,Web,Travel,Failed,10,59,57,2,0,No,Yes,No,66,Medium
+TXN000849,CUST2116,70,Female,290111.5,23,11313.34,33844.67,15-01-2026,10:08,Morning,Ahmedabad,Net Banking,POS,Healthcare,Success,11,95,181,3,1,No,Yes,Yes,91,Medium
+TXN000850,CUST8241,52,Male,286926.63,161,58401.38,13114.32,08-06-2025,21:12,Night,Chennai,Credit Card,ATM,Travel,Success,14,25,166,1,1,No,No,No,78,Medium
+TXN000851,CUST8114,50,Other,90355.3,174,17135.16,13719.59,16-05-2023,02:13,Morning,Mumbai,Debit Card,Mobile,Fuel,Success,12,27,292,4,5,No,No,Yes,13,Low
+TXN000852,CUST2248,50,Other,140739.48,16,13510.29,12787.45,26-12-2023,01:51,Morning,Bangalore,UPI,POS,Grocery,Success,8,12,79,2,0,No,Yes,No,47,Low
+TXN000853,CUST5931,23,Female,114236.13,159,7954.11,47436.31,08-06-2025,02:04,Morning,Mumbai,Net Banking,Web,Travel,Success,17,99,15,4,3,No,Yes,No,53,Medium
+TXN000854,CUST3129,68,Male,342018.63,5,63982.64,19829.45,09-01-2025,05:14,Morning,Kolkata,Debit Card,Mobile,Shopping,Success,3,24,49,5,4,No,Yes,No,88,High
+TXN000855,CUST6461,47,Male,383250.81,87,82223.07,42854.44,20-04-2023,12:43,Afternoon,Kolkata,Credit Card,Web,Fuel,Failed,7,14,200,6,1,Yes,No,Yes,57,Medium
+TXN000856,CUST7377,36,Other,201550.86,49,75002.21,18347.03,02-07-2024,02:52,Morning,Chennai,UPI,Mobile,Shopping,Success,19,26,70,6,4,No,No,Yes,13,Medium
+TXN000857,CUST8342,68,Female,59550.83,125,10959.18,9065.89,26-07-2023,12:00,Afternoon,Chennai,Net Banking,ATM,Shopping,Success,1,92,158,2,5,Yes,No,No,60,Medium
+TXN000858,CUST5693,53,Female,46299.2,79,60982.08,18577.5,16-07-2023,03:44,Morning,Ahmedabad,Credit Card,POS,Grocery,Success,10,46,104,2,4,No,Yes,Yes,37,Medium
+TXN000859,CUST6685,55,Male,31113.4,163,10228.05,35376.82,22-11-2023,16:28,Afternoon,Ahmedabad,Debit Card,Mobile,Grocery,Success,10,63,157,5,3,Yes,Yes,Yes,67,Medium
+TXN000860,CUST5319,28,Female,425303.33,49,49189.59,15762.58,26-02-2026,07:48,Morning,Chennai,Credit Card,POS,Fuel,Success,19,27,278,6,5,No,No,Yes,81,Medium
+TXN000861,CUST5361,20,Female,361639.83,113,17399.39,28800.76,26-10-2024,09:34,Morning,Delhi,Wallet,Mobile,Food,Success,18,98,175,1,3,Yes,Yes,No,81,Medium
+TXN000862,CUST5614,63,Female,295089.93,171,32206.32,8746,02-06-2023,21:56,Night,Ahmedabad,Credit Card,ATM,Food,Success,20,87,25,4,3,No,No,Yes,70,Medium
+TXN000863,CUST6673,49,Other,294917.3,155,10511.15,25681.09,10-07-2025,00:49,Morning,Jaipur,Net Banking,POS,Fuel,Success,18,37,69,3,4,Yes,No,Yes,90,Medium
+TXN000864,CUST4618,39,Male,286039.05,148,84789.9,36928.58,17-09-2023,22:59,Night,Jaipur,Wallet,ATM,Healthcare,Success,17,43,202,5,0,No,No,No,47,Medium
+TXN000865,CUST4414,44,Other,97342.56,85,37285.24,10642.75,01-07-2024,13:52,Afternoon,Chennai,Wallet,ATM,Entertainment,Failed,2,54,126,2,4,No,No,No,22,Low
+TXN000866,CUST4128,65,Male,118906.62,139,4363.29,17571.07,03-04-2026,03:13,Morning,Mumbai,Net Banking,ATM,Travel,Success,16,3,81,2,2,Yes,No,No,23,Low
+TXN000867,CUST2704,28,Other,202815.44,83,19559.8,18783.65,27-03-2025,02:25,Morning,Kolkata,Credit Card,POS,Food,Success,20,1,57,3,3,No,Yes,No,44,Low
+TXN000868,CUST6330,51,Other,488582.03,33,66991.99,23148.1,06-05-2025,18:46,Evening,Bangalore,Credit Card,ATM,Fuel,Success,15,1,141,3,0,No,No,No,19,Low
+TXN000869,CUST1851,45,Female,397900.96,132,77603.9,23745.14,28-04-2023,12:16,Afternoon,Pune,Net Banking,POS,Grocery,Success,9,48,65,1,0,No,Yes,Yes,35,Medium
+TXN000870,CUST4087,23,Other,203436.53,141,75619.65,10154.13,17-01-2024,21:01,Night,Bangalore,Credit Card,POS,Grocery,Success,12,100,282,1,4,No,No,Yes,47,Medium
+TXN000871,CUST8167,52,Male,19420.81,83,40836.09,28127.71,30-11-2023,19:51,Evening,Chennai,Wallet,Mobile,Healthcare,Success,4,72,98,1,1,Yes,No,No,8,Low
+TXN000872,CUST9054,22,Female,223069.59,140,516,26232.61,09-06-2023,05:47,Morning,Mumbai,Wallet,POS,Electronics,Success,9,27,146,1,2,No,Yes,No,61,Low
+TXN000873,CUST3241,63,Male,198001.93,101,54198.79,34645.75,06-09-2023,03:37,Morning,Hyderabad,UPI,Mobile,Food,Success,3,49,135,4,1,Yes,No,Yes,97,High
+TXN000874,CUST3333,20,Other,469169.53,21,12831.01,36499.38,05-07-2024,22:36,Night,Delhi,UPI,POS,Fuel,Success,1,29,206,5,4,Yes,Yes,Yes,32,Medium
+TXN000875,CUST8978,56,Other,147087.27,159,80620.76,25396.33,28-12-2023,16:22,Afternoon,Coimbatore,Net Banking,Web,Shopping,Success,18,83,23,2,3,No,No,Yes,59,Medium
+TXN000876,CUST5259,69,Female,110931.15,57,54715.09,28969.3,07-03-2026,01:49,Morning,Jaipur,UPI,Web,Fuel,Success,15,32,108,1,5,Yes,Yes,Yes,32,Medium
+TXN000877,CUST6413,23,Male,58730.7,29,84358.61,38455.11,16-12-2025,20:05,Evening,Ahmedabad,UPI,POS,Travel,Success,6,88,263,4,2,Yes,No,Yes,85,High
+TXN000878,CUST9027,52,Female,433146.29,68,86461.43,6158.95,04-01-2024,22:33,Night,Mumbai,Credit Card,POS,Entertainment,Success,1,88,193,5,4,Yes,Yes,Yes,91,High
+TXN000879,CUST5463,58,Female,310928.79,34,24314.14,26215.76,22-06-2024,23:13,Night,Jaipur,Credit Card,Mobile,Food,Success,20,53,224,4,5,Yes,No,No,100,High
+TXN000880,CUST1273,61,Other,70269.2,73,99838.83,14855.29,06-11-2024,17:07,Evening,Mumbai,Credit Card,ATM,Shopping,Success,4,14,125,4,2,No,Yes,Yes,86,High
+TXN000881,CUST9004,59,Female,276395.22,157,97610.46,43702.52,11-01-2023,09:17,Morning,Jaipur,Net Banking,Mobile,Healthcare,Success,12,54,102,6,0,Yes,Yes,Yes,28,Medium
+TXN000882,CUST7838,48,Male,24600.91,139,54386.41,45732.83,27-02-2024,20:19,Evening,Coimbatore,Net Banking,ATM,Grocery,Success,13,62,55,3,2,No,Yes,Yes,85,Medium
+TXN000883,CUST9438,37,Male,449234.33,126,94373.79,43664.76,24-04-2025,21:09,Night,Coimbatore,Credit Card,ATM,Electronics,Success,2,82,177,1,3,No,Yes,Yes,28,Medium
+TXN000884,CUST1719,19,Male,10647.19,60,57388.92,39364.29,28-01-2025,20:19,Evening,Hyderabad,Net Banking,POS,Electronics,Success,15,50,203,5,1,Yes,No,Yes,77,High
+TXN000885,CUST9504,41,Female,5522.87,148,38172.5,38830.04,26-10-2024,17:12,Evening,Delhi,Debit Card,POS,Fuel,Success,5,5,247,6,2,No,Yes,No,37,Medium
+TXN000886,CUST7023,42,Male,390104.75,167,28702.96,14368.58,03-11-2025,05:40,Morning,Mumbai,UPI,Mobile,Healthcare,Success,3,89,68,3,2,No,Yes,Yes,82,Medium
+TXN000887,CUST2423,18,Male,290933.9,163,90726.05,29921.72,12-08-2025,04:05,Morning,Bangalore,Net Banking,POS,Entertainment,Success,5,93,135,3,2,No,Yes,Yes,31,Medium
+TXN000888,CUST6658,49,Other,371268.54,16,57299.63,4861.83,04-02-2026,13:44,Afternoon,Chennai,Wallet,Web,Grocery,Success,2,72,298,5,1,Yes,No,Yes,37,Medium
+TXN000889,CUST8052,56,Female,410677.7,103,43647.79,8039.84,21-06-2025,07:19,Morning,Delhi,Net Banking,POS,Food,Success,9,51,300,6,4,No,No,Yes,43,Medium
+TXN000890,CUST9907,39,Other,414388.42,147,46485.17,38178.66,05-01-2023,04:36,Morning,Delhi,Credit Card,ATM,Healthcare,Success,18,61,74,4,5,No,No,Yes,95,Medium
+TXN000891,CUST4344,48,Male,215425.45,116,78361.23,42675.92,20-07-2024,04:38,Morning,Mumbai,Net Banking,POS,Shopping,Success,2,74,289,6,1,No,No,No,5,Medium
+TXN000892,CUST9750,31,Female,18883.08,138,89085.12,6547.4,19-04-2024,03:49,Morning,Coimbatore,UPI,Mobile,Shopping,Success,8,82,26,4,5,No,Yes,Yes,63,High
+TXN000893,CUST4046,41,Female,465080.76,169,86312.83,11590.41,15-02-2025,11:45,Morning,Jaipur,UPI,ATM,Electronics,Success,12,36,123,4,3,No,Yes,No,13,Medium
+TXN000894,CUST9956,44,Other,126250.22,98,54522.85,41528.01,10-01-2025,03:23,Morning,Mumbai,Wallet,Mobile,Entertainment,Success,5,92,133,1,0,Yes,Yes,No,19,Medium
+TXN000895,CUST2147,41,Other,89326.83,38,5174.39,28771.92,04-02-2023,04:34,Morning,Kolkata,UPI,Web,Entertainment,Success,10,34,126,4,1,No,Yes,Yes,94,Medium
+TXN000896,CUST4226,65,Other,336682.05,155,72373.99,5786.86,08-06-2024,08:15,Morning,Mumbai,Wallet,Mobile,Food,Success,8,12,232,5,5,No,No,Yes,41,Medium
+TXN000897,CUST1404,41,Male,139624.23,142,10001.64,35682.82,07-02-2025,09:05,Morning,Hyderabad,Wallet,POS,Shopping,Success,6,23,183,4,2,Yes,No,No,81,Medium
+TXN000898,CUST5733,64,Other,137213.64,73,16398.18,8374.74,20-03-2026,10:00,Morning,Pune,Wallet,Mobile,Grocery,Success,17,42,189,1,1,Yes,No,No,43,Low
+TXN000899,CUST9500,35,Other,441162.03,136,12647.43,25783.48,29-05-2024,09:27,Morning,Chennai,Debit Card,POS,Shopping,Success,1,48,155,5,2,No,No,Yes,57,Low
+TXN000900,CUST7077,50,Female,393176.83,123,8330.29,4583.09,28-09-2024,04:03,Morning,Bangalore,UPI,Web,Entertainment,Success,20,99,16,3,0,No,No,No,89,Low
+TXN000901,CUST4549,22,Female,265823.77,10,93797.02,42832.2,02-02-2023,07:15,Morning,Hyderabad,Net Banking,Mobile,Fuel,Success,1,67,300,2,3,Yes,Yes,Yes,38,Medium
+TXN000902,CUST7962,39,Other,135326.12,134,88358.25,10711.75,26-05-2023,15:19,Afternoon,Ahmedabad,Credit Card,POS,Grocery,Success,8,91,217,1,1,Yes,No,Yes,69,Medium
+TXN000903,CUST5540,45,Male,84096.68,1,33457.55,30806.98,31-10-2023,09:04,Morning,Delhi,Credit Card,ATM,Entertainment,Success,11,8,140,3,2,No,No,Yes,94,Medium
+TXN000904,CUST2718,62,Male,456756.56,71,13843.47,29280.34,09-09-2024,23:05,Night,Jaipur,Wallet,Mobile,Travel,Success,19,94,174,5,5,Yes,Yes,Yes,79,High
+TXN000905,CUST2199,60,Female,10317.43,96,49212.89,22021.39,15-08-2024,05:30,Morning,Coimbatore,Net Banking,ATM,Grocery,Success,7,33,116,1,2,Yes,No,Yes,93,Medium
+TXN000906,CUST2533,61,Female,78889.9,86,12005.91,27334.14,03-08-2024,02:13,Morning,Coimbatore,Net Banking,Web,Food,Success,15,93,150,3,5,No,No,Yes,31,Low
+TXN000907,CUST2429,40,Female,184954.95,55,2344.44,25009.24,14-12-2024,08:12,Morning,Bangalore,Credit Card,ATM,Travel,Success,17,29,87,2,1,Yes,No,No,97,Medium
+TXN000908,CUST7792,36,Female,175520.26,140,6506.75,20966.72,03-03-2023,05:42,Morning,Hyderabad,UPI,ATM,Electronics,Success,1,64,279,4,0,Yes,Yes,No,77,Medium
+TXN000909,CUST2684,40,Male,130701.57,11,29287.69,23161.81,06-10-2025,07:35,Morning,Mumbai,Debit Card,Web,Electronics,Success,18,55,113,5,2,No,Yes,Yes,36,Medium
+TXN000910,CUST5896,36,Male,335251.96,131,44445.21,10162.95,11-06-2025,07:51,Morning,Mumbai,Wallet,Web,Food,Success,9,68,120,3,0,Yes,Yes,No,26,Medium
+TXN000911,CUST8344,60,Other,13394.45,35,60823.45,3215.42,24-12-2025,03:29,Morning,Hyderabad,Credit Card,ATM,Travel,Success,11,60,35,1,0,Yes,No,Yes,30,Medium
+TXN000912,CUST8957,45,Female,320748.42,18,61744.27,15374.3,14-09-2023,05:08,Morning,Bangalore,Wallet,Mobile,Electronics,Success,8,39,34,6,2,No,No,No,20,Medium
+TXN000913,CUST6981,18,Female,332053.18,20,58256.79,43684.39,09-01-2024,23:17,Night,Coimbatore,Credit Card,Web,Fuel,Success,11,80,227,5,3,No,No,Yes,75,High
+TXN000914,CUST9491,70,Other,452654.15,89,90664.92,20196.91,24-10-2023,21:57,Night,Bangalore,UPI,ATM,Fuel,Success,9,12,244,4,5,Yes,Yes,Yes,58,High
+TXN000915,CUST5702,67,Other,498615.4,147,42485.68,31120.21,10-08-2025,13:06,Afternoon,Pune,Credit Card,ATM,Electronics,Success,6,58,243,1,4,Yes,No,Yes,85,Medium
+TXN000916,CUST9491,64,Other,162768.97,170,22674.36,27710.48,13-04-2025,17:23,Evening,Pune,Credit Card,Web,Travel,Success,11,90,120,3,4,No,Yes,Yes,98,Medium
+TXN000917,CUST6269,58,Male,20858.87,122,8415.5,10530.38,03-02-2026,03:53,Morning,Chennai,Debit Card,Web,Healthcare,Success,3,73,207,1,1,No,Yes,Yes,90,Medium
+TXN000918,CUST3846,59,Other,471805.37,39,51977.43,17221,21-10-2024,12:41,Afternoon,Coimbatore,Debit Card,Web,Entertainment,Success,14,46,37,4,2,Yes,Yes,No,25,Medium
+TXN000919,CUST9538,40,Other,263621.72,20,88676.27,11971.46,17-10-2025,12:59,Afternoon,Chennai,Wallet,POS,Food,Success,13,30,257,2,2,Yes,Yes,Yes,39,Medium
+TXN000920,CUST9569,41,Other,22909.14,53,85874.69,1621.36,22-08-2024,18:00,Evening,Pune,Credit Card,POS,Grocery,Success,4,44,288,4,4,No,No,No,68,Medium
+TXN000921,CUST5585,42,Female,128822.27,180,18321.82,32039.68,14-11-2025,11:23,Morning,Jaipur,Wallet,Mobile,Fuel,Success,12,41,85,4,4,No,No,No,55,Medium
+TXN000922,CUST5250,55,Male,418276.5,60,37048.37,14436.85,13-02-2024,14:57,Afternoon,Kolkata,Credit Card,Web,Entertainment,Failed,15,84,277,1,0,Yes,No,Yes,58,Medium
+TXN000923,CUST4028,44,Other,359983.11,15,86502.63,16895.61,17-04-2024,14:48,Afternoon,Hyderabad,Net Banking,ATM,Fuel,Success,3,32,247,6,2,No,Yes,Yes,70,Medium
+TXN000924,CUST2632,36,Female,80176.46,132,30937.82,47074.65,03-11-2024,15:04,Afternoon,Delhi,Net Banking,POS,Healthcare,Success,1,55,152,6,3,Yes,No,Yes,100,High
+TXN000925,CUST6662,20,Other,128073.34,15,99314.97,35309.23,20-01-2026,09:59,Morning,Ahmedabad,Debit Card,Mobile,Fuel,Failed,14,85,285,1,1,Yes,Yes,Yes,19,Medium
+TXN000926,CUST3743,35,Male,85133.89,107,22248.28,5017.33,15-05-2023,06:24,Morning,Kolkata,UPI,Web,Healthcare,Success,7,15,214,2,0,No,Yes,Yes,8,Low
+TXN000927,CUST5091,54,Other,7902.33,179,58926.76,8957.82,19-08-2023,01:39,Morning,Ahmedabad,Debit Card,POS,Food,Success,9,61,36,3,5,No,Yes,No,8,Medium
+TXN000928,CUST2711,52,Female,172203.34,8,58873.35,11963.44,26-04-2025,01:45,Morning,Chennai,Debit Card,POS,Shopping,Success,17,88,177,4,1,Yes,No,Yes,13,Medium
+TXN000929,CUST9020,26,Female,56130.65,174,44508.62,44462.3,28-11-2025,12:25,Afternoon,Hyderabad,Credit Card,POS,Shopping,Success,15,18,171,6,3,Yes,Yes,Yes,47,Medium
+TXN000930,CUST7264,60,Other,325790.58,147,38905.49,26073.16,31-01-2024,08:52,Morning,Chennai,Net Banking,Web,Grocery,Success,4,99,132,6,0,No,Yes,Yes,20,Medium
+TXN000931,CUST7318,29,Female,440074.98,175,71201.59,12906.38,03-01-2023,04:37,Morning,Delhi,Wallet,Mobile,Grocery,Success,13,37,133,3,1,Yes,Yes,No,66,Medium
+TXN000932,CUST9698,57,Other,24136.64,98,4744.41,43604.48,08-12-2024,13:11,Afternoon,Ahmedabad,UPI,ATM,Fuel,Success,11,63,35,2,4,No,No,No,7,Low
+TXN000933,CUST9628,32,Male,407168.46,168,68628.38,9619.64,12-09-2023,03:25,Morning,Hyderabad,Credit Card,Web,Food,Success,10,6,112,1,3,Yes,Yes,Yes,65,High
+TXN000934,CUST7420,33,Male,437543.41,174,62243.14,28182.99,24-05-2024,16:04,Afternoon,Hyderabad,Debit Card,POS,Shopping,Success,1,3,161,3,5,Yes,No,Yes,61,Medium
+TXN000935,CUST9143,27,Other,96896.17,129,86648.3,30497.66,07-04-2023,05:45,Morning,Mumbai,Debit Card,Mobile,Healthcare,Failed,2,81,147,2,5,Yes,No,No,29,Medium
+TXN000936,CUST7437,37,Male,267887.55,145,27411.67,25925.28,28-11-2025,10:41,Morning,Ahmedabad,Net Banking,Web,Grocery,Success,5,26,31,1,2,Yes,Yes,Yes,46,Medium
+TXN000937,CUST1711,65,Male,463196.23,83,45713.76,11929.39,03-04-2024,18:33,Evening,Hyderabad,Net Banking,POS,Grocery,Success,8,65,201,2,4,Yes,No,Yes,76,Medium
+TXN000938,CUST9463,56,Other,244841.04,64,79286.33,49153.57,22-10-2024,12:42,Afternoon,Kolkata,Credit Card,ATM,Electronics,Success,5,89,109,4,3,Yes,No,Yes,13,Medium
+TXN000939,CUST1471,39,Male,226394.79,42,43050.7,33118.16,23-09-2024,14:43,Afternoon,Hyderabad,Debit Card,Web,Healthcare,Success,2,42,6,2,4,Yes,No,Yes,21,Medium
+TXN000940,CUST1045,42,Male,17613.66,146,69746.26,12570.56,12-08-2025,05:30,Morning,Ahmedabad,Wallet,Web,Grocery,Success,18,6,222,6,3,No,No,Yes,46,Medium
+TXN000941,CUST5345,54,Other,360642.73,24,12461.83,13389.42,01-04-2026,03:42,Morning,Pune,Debit Card,ATM,Fuel,Success,5,15,10,5,2,Yes,Yes,No,88,Medium
+TXN000942,CUST3569,63,Female,486974.45,99,47549.77,9100.72,17-03-2023,00:55,Morning,Coimbatore,Credit Card,Mobile,Food,Failed,1,45,66,5,4,Yes,Yes,No,27,Medium
+TXN000943,CUST2359,57,Female,243078.94,149,75082.42,36602.09,28-09-2023,10:22,Morning,Jaipur,Credit Card,POS,Electronics,Success,9,62,16,2,2,Yes,No,Yes,59,Medium
+TXN000944,CUST5058,20,Female,464448.92,14,62198.52,28497.78,15-04-2026,00:55,Morning,Kolkata,Wallet,Web,Fuel,Success,4,64,190,5,1,Yes,Yes,No,38,Medium
+TXN000945,CUST7741,18,Female,21207.9,100,66313.74,17994.72,19-09-2023,15:18,Afternoon,Coimbatore,Net Banking,ATM,Entertainment,Success,11,60,124,2,3,No,No,No,68,Medium
+TXN000946,CUST9704,61,Female,321408.83,28,89854.64,38720.95,26-10-2025,01:59,Morning,Coimbatore,Debit Card,POS,Fuel,Success,7,16,96,6,0,No,No,No,85,Medium
+TXN000947,CUST5144,30,Other,5054.1,151,90104.54,26783.55,13-07-2025,02:25,Morning,Pune,Net Banking,POS,Healthcare,Success,7,3,68,4,0,Yes,Yes,Yes,82,High
+TXN000948,CUST7346,65,Other,262197.02,88,65887.65,36417.11,28-03-2026,00:09,Morning,Chennai,Debit Card,Web,Entertainment,Success,1,89,32,6,5,No,Yes,Yes,64,High
+TXN000949,CUST3357,43,Male,270347.86,89,90545.44,43219.16,06-01-2024,00:18,Morning,Coimbatore,Credit Card,ATM,Grocery,Success,3,40,182,5,0,No,Yes,No,32,Medium
+TXN000950,CUST9826,55,Male,124668.84,101,33353.29,25791.6,15-03-2025,10:47,Morning,Pune,UPI,Web,Grocery,Success,14,43,102,3,4,No,No,Yes,13,Low
+TXN000951,CUST6905,31,Male,118324.76,47,73242.35,23815.13,10-03-2026,19:43,Evening,Ahmedabad,Credit Card,ATM,Shopping,Success,18,98,35,5,2,Yes,Yes,Yes,65,High
+TXN000952,CUST2589,31,Female,383271.07,47,81568.55,39087.96,25-06-2024,09:12,Morning,Jaipur,UPI,Web,Travel,Success,17,47,9,1,4,No,Yes,Yes,66,Medium
+TXN000953,CUST7469,23,Female,198217.66,36,42962.83,34371.8,26-07-2025,13:18,Afternoon,Jaipur,UPI,Web,Electronics,Success,10,87,65,2,4,Yes,Yes,Yes,57,Medium
+TXN000954,CUST9232,37,Other,328071.6,134,46159.44,799.77,09-03-2024,02:31,Morning,Chennai,Debit Card,POS,Grocery,Success,20,35,79,4,5,Yes,No,Yes,77,High
+TXN000955,CUST1174,69,Female,37889.73,163,61527.52,8876.64,18-08-2024,05:30,Morning,Pune,Debit Card,Web,Electronics,Success,4,79,207,6,5,Yes,Yes,No,34,High
+TXN000956,CUST5728,42,Female,239645.6,99,21908.99,3228.28,15-08-2023,20:07,Evening,Kolkata,Wallet,ATM,Healthcare,Success,19,72,185,2,0,No,No,Yes,60,Low
+TXN000957,CUST1510,61,Female,245977.51,45,42772.14,38628.47,04-06-2023,15:53,Afternoon,Coimbatore,UPI,ATM,Entertainment,Success,19,52,206,2,2,No,No,No,53,Low
+TXN000958,CUST4794,25,Female,192489.67,90,96173.55,48820.62,31-01-2024,09:02,Morning,Coimbatore,Debit Card,Web,Healthcare,Success,19,9,26,4,0,No,Yes,Yes,86,High
+TXN000959,CUST8487,36,Female,37285.04,118,22389.92,43037.24,16-07-2025,12:39,Afternoon,Kolkata,UPI,ATM,Grocery,Success,4,23,1,5,0,Yes,Yes,No,58,Medium
+TXN000960,CUST2365,54,Other,261773.39,23,47750.09,7887.29,03-07-2025,15:57,Afternoon,Coimbatore,Wallet,ATM,Entertainment,Success,11,76,175,2,0,No,Yes,No,53,Medium
+TXN000961,CUST8733,69,Other,420261.98,48,34042.1,33486.11,03-05-2024,22:44,Night,Jaipur,Wallet,Mobile,Fuel,Failed,8,88,44,3,3,Yes,No,No,93,High
+TXN000962,CUST4458,54,Other,133174.77,157,91768.16,10753.8,30-04-2025,19:53,Evening,Hyderabad,Credit Card,POS,Electronics,Success,6,60,134,1,5,Yes,Yes,No,58,High
+TXN000963,CUST7150,39,Male,154652.01,54,97295.82,9234.31,19-08-2023,08:56,Morning,Jaipur,Credit Card,Mobile,Shopping,Success,19,26,113,4,2,Yes,Yes,No,70,High
+TXN000964,CUST8254,32,Female,28654.85,106,53500.45,2995.93,15-07-2024,16:46,Afternoon,Jaipur,Net Banking,Web,Healthcare,Failed,12,18,279,5,4,No,No,No,38,Medium
+TXN000965,CUST9469,19,Other,307529.55,79,30627.73,7381.77,18-10-2024,13:13,Afternoon,Chennai,UPI,ATM,Fuel,Success,13,53,61,3,5,No,No,Yes,37,Low
+TXN000966,CUST7576,39,Other,243454.65,83,80389.35,19816.34,17-04-2025,11:52,Morning,Mumbai,Wallet,Mobile,Shopping,Success,19,33,249,3,3,Yes,No,No,38,Medium
+TXN000967,CUST4547,70,Other,263271.7,128,45549.05,7054.75,22-07-2024,17:24,Evening,Chennai,UPI,POS,Food,Success,16,17,242,2,5,No,Yes,No,41,Medium
+TXN000968,CUST5304,43,Male,350551.35,131,33627.19,43606.5,18-11-2025,16:34,Afternoon,Jaipur,Net Banking,Mobile,Electronics,Success,8,90,194,3,0,No,Yes,No,23,Low
+TXN000969,CUST5726,19,Male,67563.58,23,85673.21,38991.82,19-07-2025,11:18,Morning,Kolkata,Debit Card,Mobile,Grocery,Success,11,10,254,1,5,No,Yes,No,99,High
+TXN000970,CUST1322,34,Female,461356.21,165,69814.27,14574.9,10-02-2024,02:45,Morning,Pune,Credit Card,POS,Travel,Success,20,15,298,6,2,Yes,No,Yes,94,High
+TXN000971,CUST3988,32,Male,63839.32,137,34385.37,39520.24,22-07-2025,23:36,Night,Delhi,Debit Card,POS,Shopping,Success,4,71,224,2,4,Yes,Yes,Yes,35,Medium
+TXN000972,CUST1765,52,Female,25090.25,38,97031.2,46338.04,31-03-2024,03:07,Morning,Chennai,Debit Card,Mobile,Healthcare,Success,20,85,104,3,5,Yes,No,Yes,30,Medium
+TXN000973,CUST6426,49,Other,312063.1,112,93940.04,25710.98,15-03-2025,14:14,Afternoon,Chennai,Debit Card,ATM,Grocery,Success,4,96,156,4,3,Yes,No,No,87,High
+TXN000974,CUST3019,62,Male,376237.78,45,98335.1,34223.13,20-12-2023,23:19,Night,Hyderabad,Wallet,POS,Healthcare,Failed,4,80,279,5,2,Yes,Yes,Yes,7,High
+TXN000975,CUST6947,18,Male,165651.2,105,48672.18,38828.33,15-02-2023,09:49,Morning,Coimbatore,Debit Card,Web,Travel,Success,10,96,167,4,2,No,No,No,20,Low
+TXN000976,CUST5868,61,Other,296410.44,141,69434.81,41305.65,06-02-2025,11:24,Morning,Kolkata,Credit Card,POS,Food,Success,16,41,120,3,3,No,No,No,53,Medium
+TXN000977,CUST6290,53,Other,319423.76,170,10084.5,23877.27,25-05-2025,16:02,Afternoon,Mumbai,Net Banking,ATM,Food,Success,1,99,260,2,4,Yes,No,No,47,Low
+TXN000978,CUST3492,43,Female,138057.53,134,86271.37,23442.53,19-01-2024,19:31,Evening,Hyderabad,Wallet,POS,Travel,Success,9,15,177,4,3,Yes,No,No,93,High
+TXN000979,CUST3332,30,Other,284937.93,125,76812.05,45207.24,30-06-2025,23:19,Night,Coimbatore,Credit Card,Mobile,Healthcare,Success,11,33,190,5,0,No,No,No,69,Medium
+TXN000980,CUST2937,49,Other,12709.17,90,93991.82,22453.08,19-08-2023,09:25,Morning,Ahmedabad,UPI,Web,Electronics,Success,18,17,214,2,1,Yes,No,No,80,Medium
+TXN000981,CUST8484,34,Other,439670.34,167,23059.95,49428.43,10-01-2024,21:44,Night,Chennai,Credit Card,ATM,Healthcare,Success,18,10,279,4,1,No,No,Yes,75,Medium
+TXN000982,CUST6301,25,Other,412206.16,173,10522.37,15554.33,24-03-2025,15:27,Afternoon,Hyderabad,Credit Card,POS,Travel,Success,5,92,80,5,3,No,Yes,No,57,Medium
+TXN000983,CUST5769,47,Female,298163.44,129,86739.51,22345.57,13-03-2023,11:42,Morning,Kolkata,Credit Card,Web,Grocery,Success,17,71,249,3,0,Yes,Yes,No,60,Medium
+TXN000984,CUST5396,66,Female,201018.62,37,11855.63,5548.6,25-04-2024,06:44,Morning,Delhi,Credit Card,ATM,Fuel,Success,20,55,91,2,1,Yes,Yes,No,13,Low
+TXN000985,CUST4273,30,Male,44197.52,47,23740.15,28569.02,08-02-2024,22:42,Night,Pune,Debit Card,Mobile,Fuel,Success,8,8,157,3,4,No,Yes,No,28,Medium
+TXN000986,CUST3000,47,Male,208022.49,155,68571.19,19199.76,15-01-2026,11:13,Morning,Chennai,Wallet,Mobile,Electronics,Success,1,42,162,4,4,No,No,Yes,1,Medium
+TXN000987,CUST9212,60,Other,490233.24,98,10513.54,18616.77,29-01-2024,08:53,Morning,Delhi,Wallet,Mobile,Healthcare,Success,17,40,68,1,1,No,No,No,89,Low
+TXN000988,CUST7997,35,Female,435531.78,55,1274.21,48413.14,13-03-2026,17:12,Evening,Chennai,Credit Card,ATM,Electronics,Success,12,67,6,4,2,Yes,Yes,Yes,18,Medium
+TXN000989,CUST4802,37,Other,409683.17,68,1036.81,15669.37,16-09-2023,14:26,Afternoon,Chennai,Debit Card,POS,Entertainment,Success,3,69,286,2,1,No,No,Yes,16,Low
+TXN000990,CUST3652,36,Female,443206.45,38,61879,7934.45,15-06-2024,05:55,Morning,Bangalore,Debit Card,POS,Fuel,Success,9,1,255,5,1,No,No,Yes,84,Medium
+TXN000991,CUST6420,48,Other,225509.22,141,67137.02,44240,27-10-2025,17:45,Evening,Delhi,UPI,POS,Food,Success,20,63,170,4,4,Yes,No,Yes,95,High
+TXN000992,CUST8171,25,Other,272074.79,157,48633.73,35976.83,08-06-2025,03:28,Morning,Pune,UPI,ATM,Electronics,Success,2,78,43,6,4,No,No,Yes,96,Medium
+TXN000993,CUST3442,38,Other,247808.87,96,89007.58,48886.37,25-01-2024,00:56,Morning,Coimbatore,Net Banking,POS,Food,Success,2,69,184,3,5,Yes,Yes,No,28,Medium
+TXN000994,CUST5458,33,Female,303790.69,57,91974.79,49148.32,17-04-2024,16:01,Afternoon,Kolkata,Net Banking,Mobile,Shopping,Success,4,23,116,5,2,No,Yes,No,24,Medium
+TXN000995,CUST4161,65,Male,261137.16,165,94899.89,23514.93,23-10-2024,21:44,Night,Bangalore,UPI,Mobile,Entertainment,Success,18,2,200,2,5,Yes,No,Yes,73,High
+TXN000996,CUST7035,23,Female,188211.86,117,68570.57,12445.76,17-10-2024,00:40,Morning,Kolkata,UPI,Mobile,Food,Success,19,51,44,2,5,Yes,Yes,No,85,High
+TXN000997,CUST6329,37,Female,105933.83,20,76335.24,14559.92,22-02-2024,10:21,Morning,Pune,Credit Card,POS,Shopping,Success,2,35,140,5,1,Yes,No,Yes,67,Medium
+TXN000998,CUST9945,49,Male,36171.01,132,97867.3,44781.2,15-08-2023,09:03,Morning,Coimbatore,Wallet,ATM,Grocery,Success,15,67,5,5,0,Yes,No,Yes,18,Medium
+TXN000999,CUST8341,67,Female,339825.32,166,98745.36,39580.02,20-11-2025,16:14,Afternoon,Delhi,Credit Card,Web,Grocery,Success,10,4,1,6,3,No,Yes,Yes,18,Medium
+TXN001000,CUST1487,25,Male,148356.75,174,12324.1,13817.93,20-11-2023,02:24,Morning,Pune,UPI,ATM,Food,Success,11,60,244,3,0,No,No,Yes,77,Low

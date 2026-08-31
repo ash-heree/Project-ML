@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enterprise Auth - Transaction Risk Analysis</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/theme.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/login.css') }}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="login-layout">
+    <!-- Global Cyber Background from theme.css -->
+    <div class="cyber-background">
+      <div class="grid-layer"></div>
+      <div class="glow-layer"></div>
+      <div class="particles" id="particles-container"></div>
+    </div>
+
+    <!-- Centered Login Card -->
+    <div class="login-container">
+      <!-- Left Branding Panel -->
+      <div class="left-panel">
+        <div class="shield-container">
+          <i class="bx bx-check-shield shield-icon"></i>
+        </div>
+
+        <div class="branding-content">
+          <h1>Transaction Risk Analysis</h1>
+          <p>Machine Learning Based Fraud Detection System</p>
+          <div class="tagline">
+            Secure Banking • AI Detection • Real-Time Prediction
+          </div>
+
+          <div class="feature-list">
+            <div class="feature-card delay-1">
+              <i class="bx bx-brain"></i>
+              <span>AI Powered Detection</span>
+            </div>
+            <div class="feature-card delay-2">
+              <i class="bx bx-lock-alt"></i>
+              <span>Secure Authentication</span>
+            </div>
+            <div class="feature-card delay-3">
+              <i class="bx bx-line-chart"></i>
+              <span>Live Risk Prediction</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Login Panel -->
+      <div class="right-panel">
+        <div class="login-header">
+          <h2>Welcome Back</h2>
+          <p>Enter your credentials to access the secure dashboard.</p>
+        </div>
+
+        <!-- Flask Backend Integration -->
+        {% if error %}
+        <div class="error-message">
+          <i class="bx bx-error-circle"></i>
+          <span>{{ error }}</span>
+        </div>
+        {% endif %}
+
+        <form action="/login" method="POST" class="login-form">
+          <div class="input-box">
+            <input
+              type="text"
+              name="username"
+              placeholder="Employee ID / Username"
+              required
+            />
+            <i class="bx bx-user"></i>
+          </div>
+
+          <div class="input-box">
+            <input
+              type="password"
+              name="password"
+              placeholder="Secure Password"
+              required
+            />
+            <i class="bx bx-lock-alt"></i>
+          </div>
+
+          <div class="form-options">
+            <label class="remember-me">
+              <input type="checkbox" /> Remember me
+            </label>
+            <a
+              href="#"
+              class="forgot-pass"
+              onclick="
+                showToast(
+                  'Password reset link sent to registered email.',
+                  'success',
+                )
+              "
+              >Forgot Password?</a
+            >
+          </div>
+
+          <button type="submit" class="login-btn">Secure Login</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="toast-container" id="toastBox"></div>
+
+    {% with messages = get_flashed_messages(with_categories=true) %} {% if
+    messages %}
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        {% for category, message in messages %}
+          showToast({{ message|tojson }}, "{{ category }}");
+        {% endfor %}
+    </script>
+    {% endif %} {% endwith %}
+
+    <script>
+      // Particles
+      window.onload = () => {
+        const container = document.getElementById("particles-container");
+        for (let i = 0; i < 30; i++) {
+          const p = document.createElement("div");
+          p.className = "particle-dot";
+          p.style.left = Math.random() * 100 + "vw";
+          p.style.top = Math.random() * 100 + "vh";
+          p.style.animationDuration = Math.random() * 15 + 10 + "s";
+          p.style.animationDelay = Math.random() * 5 + "s";
+          container.appendChild(p);
+        }
+      };
+
+      function showToast(message, type) {
+        const box = document.getElementById("toastBox");
+        const toast = document.createElement("div");
+        toast.classList.add("toast", type);
+        let icon = "bx-info-circle";
+        if (type === "success") icon = "bx-check-circle";
+        toast.innerHTML = `<i class='bx ${icon}' style="font-size:24px;"></i> <span>${message}</span>`;
+        box.appendChild(toast);
+        setTimeout(() => {
+          toast.remove();
+        }, 4000);
+      }
+    </script>
+    <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+  </body>
+</html>

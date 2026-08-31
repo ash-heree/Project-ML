@@ -1,0 +1,137 @@
+/* ==========================================
+   DASHBOARD SPECIFIC STYLES
+========================================== */
+
+/* Dashboard KPI Grid */
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+    perspective: 1200px;
+}
+
+/* Base Card Content Tweaks for Dashboard Cards */
+.card {
+    padding: 24px;
+    height: 100%;
+}
+
+/* Card Icon & Internal Glow 
+   (The pulsing and breathing is handled by theme.css globally, 
+    but we keep layout here) */
+.card-icon {
+    width: 48px; height: 48px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    display: flex; justify-content: center; align-items: center;
+    font-size: 24px; margin-bottom: 15px;
+    position: relative;
+    z-index: 5;
+    transform: translateZ(10px); 
+}
+
+.icon-glow-bg {
+    position: absolute;
+    top: 24px; left: 24px;
+    width: 48px; height: 48px;
+    border-radius: 50%;
+    filter: blur(24px);
+    z-index: 1;
+    opacity: 0.4;
+    animation: glowBreath 4s infinite alternate;
+    transform: translateZ(0);
+}
+
+@keyframes glowBreath {
+    0% { transform: scale(1); opacity: 0.3; }
+    100% { transform: scale(1.5); opacity: 0.6; }
+}
+
+.card.blue .icon-glow-bg { background: var(--primary); }
+.card.red .icon-glow-bg { background: var(--danger); }
+.card.orange .icon-glow-bg { background: var(--warning); }
+.card.green .icon-glow-bg { background: var(--success); }
+
+/* Static Base Glow per Theme Requirement */
+.card.blue { box-shadow: 0 0 10px rgba(37, 99, 235, 0.05); }
+.card.red { box-shadow: 0 0 10px rgba(239, 68, 68, 0.05); }
+.card.orange { box-shadow: 0 0 10px rgba(245, 158, 11, 0.05); }
+.card.green { box-shadow: 0 0 10px rgba(16, 185, 129, 0.05); }
+
+/* Automated Border Beams */
+.card::before {
+    content: ""; position: absolute; top: 0; left: 0; width: 4px; height: 100%;
+    background-size: 100% 200%;
+    animation: borderLight 4s linear infinite;
+    transform: translateZ(1px);
+    z-index: 2;
+}
+
+@keyframes borderLight {
+    0% { background-position: 0% -100%; }
+    100% { background-position: 0% 100%; }
+}
+
+.card.blue::before { background-image: linear-gradient(to bottom, var(--primary) 0%, rgba(37, 99, 235, 0.3) 50%, var(--primary) 100%); }
+.card.red::before { background-image: linear-gradient(to bottom, var(--danger) 0%, rgba(239, 68, 68, 0.3) 50%, var(--danger) 100%); }
+.card.orange::before { background-image: linear-gradient(to bottom, var(--warning) 0%, rgba(245, 158, 11, 0.3) 50%, var(--warning) 100%); }
+.card.green::before { background-image: linear-gradient(to bottom, var(--success) 0%, rgba(16, 185, 129, 0.3) 50%, var(--success) 100%); }
+
+
+/* Content Typography (3D popped) */
+.card h3 { font-size: 14px; color: var(--text-muted); font-weight: 500; margin-bottom: 5px; position: relative; z-index: 5; transform: translateZ(5px); }
+.card h1 { font-size: 32px; color: var(--text-main); font-weight: 700; margin-bottom: 8px; position: relative; z-index: 5; transform: translateZ(15px); }
+
+/* Live Status */
+.status-text {
+    font-size: 12px; color: #94a3b8; 
+    display: flex; align-items: center; gap: 8px;
+    position: relative; z-index: 5;
+    transform: translateZ(5px);
+}
+
+.status-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    animation: statusPulse 1.5s infinite;
+}
+
+.card.blue .status-dot { background: var(--primary-light); animation-name: statusPulseBlue; }
+.card.red .status-dot { background: var(--danger-light); animation-name: statusPulseRed; }
+.card.orange .status-dot { background: var(--warning-light); animation-name: statusPulseOrange; }
+.card.green .status-dot { background: var(--success-light); animation-name: statusPulseGreen; }
+
+@keyframes statusPulseBlue { 0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7); } 70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(59, 130, 246, 0); } 100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); } }
+@keyframes statusPulseRed { 0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); } 70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(239, 68, 68, 0); } 100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); } }
+@keyframes statusPulseOrange { 0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.7); } 70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(245, 158, 11, 0); } 100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); } }
+@keyframes statusPulseGreen { 0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); } 70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); } 100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); } }
+
+/* Dashboard Recent Transactions Table */
+.recent-transactions {
+    padding: 25px;
+}
+
+.table-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.table-header h2 { font-size: 18px; color: var(--text-main); display: flex; align-items: center; gap: 8px; }
+
+.search-box { position: relative; }
+.search-box i { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-size: 18px; }
+.search-box input {
+    background: rgba(15, 23, 42, 0.5); border: 1px solid var(--border); border-radius: 12px;
+    padding: 10px 14px 10px 40px; color: var(--text-main); font-size: 14px; outline: none; transition: 0.3s; width: 250px;
+}
+.search-box input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15); }
+
+.table-responsive { overflow-x: auto; border-radius: var(--radius-sm); border: 1px solid var(--border); }
+table { width: 100%; border-collapse: collapse; text-align: left; white-space: nowrap; }
+thead { background: rgba(15, 23, 42, 0.9); position: sticky; top: 0; }
+th { padding: 16px 20px; color: #94a3b8; font-size: 13px; font-weight: 600; text-transform: uppercase; border-bottom: 1px solid var(--border); }
+td { padding: 16px 20px; font-size: 14px; color: #e2e8f0; border-bottom: 1px solid rgba(255, 255, 255, 0.03); transition: 0.3s; }
+tbody tr:nth-child(even) { background: rgba(255, 255, 255, 0.02); }
+tbody tr:hover { background: rgba(59, 130, 246, 0.05); }
+
+/* Responsive Dashboard */
+@media (max-width: 1200px) { .dashboard-cards { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 768px) { .dashboard-cards { grid-template-columns: 1fr; } .table-header { flex-direction: column; align-items: flex-start; gap: 15px; } .search-box input { width: 100%; } }
